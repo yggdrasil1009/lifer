@@ -438,6 +438,9 @@ h2 {
   background: #e9e8dd;
   min-height: 390px;
 }
+.detail-back {
+  margin-bottom: 22px;
+}
 .daily-photo {
   position: relative;
   min-height: 390px;
@@ -683,33 +686,22 @@ h2 {
 }
 .gallery-strip {
   display: flex;
-  align-items: center;
-  gap: 18px;
+  flex-direction: column;
+  gap: 22px;
 }
 .gallery-grid {
-  display: flex;
-  gap: 20px;
-  flex: 1;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 24px 20px;
+  width: 100%;
   min-width: 0;
-  overflow-x: auto;
-  overflow-y: hidden;
-  scroll-snap-type: x proximity;
-  scrollbar-width: none;
-  -ms-overflow-style: none;
-  padding-bottom: 8px;
-  cursor: grab;
-  touch-action: pan-x;
-}
-.gallery-grid::-webkit-scrollbar {
-  display: none;
+  overflow: hidden;
 }
 .gallery-card {
-  flex: 0 0 clamp(220px, 28vw, 280px);
-  width: clamp(220px, 28vw, 280px);
   display: flex;
   flex-direction: column;
   gap: 14px;
-  scroll-snap-align: start;
+  min-width: 0;
 }
 .gallery-image-button {
   position: relative;
@@ -747,16 +739,51 @@ h2 {
 .gallery-card-meta {
   margin-top: 0;
 }
-.gallery-card h3 {
-  margin: 0;
+.gallery-card-animal-name {
+  min-width: 0;
+  overflow: hidden;
+  color: #4a5446;
   font-family: "Manrope", sans-serif;
-  font-size: 19px;
-  font-weight: 400;
-  letter-spacing: -0.5px;
+  font-size: 13px;
+  font-weight: 500;
+  letter-spacing: -0.2px;
+  text-overflow: ellipsis;
+  text-transform: none;
+  white-space: nowrap;
 }
 .gallery-card > p {
   color: #85887b;
   font-size: 10px;
+}
+.gallery-pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  padding-top: 16px;
+  border-top: 1px solid #d5d6ca;
+  color: #5d6858;
+  font-family: var(--mono);
+  font-size: 9px;
+  letter-spacing: 1.3px;
+}
+.gallery-page-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 34px;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  color: #334b36;
+  font-family: var(--mono);
+  font-size: 9px;
+  letter-spacing: 1.3px;
+  cursor: pointer;
+}
+.gallery-page-button:disabled {
+  opacity: 0.35;
+  cursor: not-allowed;
 }
 .empty-state {
   width: 100%;
@@ -1213,22 +1240,19 @@ h2 {
     max-width: 340px;
   }
   .gallery-strip {
-    flex-wrap: nowrap;
+    gap: 18px;
   }
   .gallery-grid {
-    gap: 14px;
+    gap: 14px 12px;
   }
   .gallery-card {
-    min-width: 180px;
+    min-width: 0;
   }
   .gallery-image-button {
-    height: 250px;
-  }
-  .gallery-card h3 {
-    font-size: 16px;
+    height: 240px;
   }
   .gallery-card-meta {
-    font-size: 7px;
+    font-size: 9px;
   }
   .gallery-bottom {
     align-items: flex-start;

@@ -1,0 +1,168 @@
+[
+  {
+    "name": "Crimson sunbird",
+    "latin": "Aethopyga siparaja",
+    "habitat": "Forest edges & flowering gardens",
+    "habitatJa": "花が咲く林縁と庭園",
+    "status": "Least concern*",
+    "description": "A nectar-feeding bird with a vivid red body and a quick, darting flight through open woodland.",
+    "descriptionJa": "花が多い林縁で飛び回る、鮮やかな赤い体を持つ蜜食いの鳥。",
+    "image": "/sunbird_crimson.jpg",
+    "tag": "Bird"
+  },
+  {
+    "name": "Olive-backed sunbird",
+    "latin": "Cinnyris jugularis",
+    "habitat": "Gardens & lowland scrub",
+    "habitatJa": "庭園と低地の雑木林",
+    "status": "Least concern*",
+    "description": "A tiny bird with a metallic sheen that feeds on nectar and thrives where flowers are abundant.",
+    "descriptionJa": "光沢のある小さな羽を持ち、花が豊富な場所で蜜を食べて暮らす鳥。",
+    "image": "/sunbird_garden.jpg",
+    "tag": "Bird"
+  },
+
+  {
+    "name": "Red-shanked douc",
+    "latin": "Pygathrix nemaeus",
+    "habitat": "Upper canopy of tropical forests",
+    "habitatJa": "熱帯雨林の高い樹冠",
+    "status": "Endangered",
+    "description": "A striking arboreal primate with vivid red limbs and a pale face, moving through the forest canopy in social bands.",
+    "descriptionJa": "鮮やかな赤い脚と白い顔を持ち、群れで樹冠を移動する、目を引く樹上のサル。",
+    "image": "/redshank_douc.jpg",
+    "tag": "Mammal"
+  },
+  {
+    "name": "Plaintive cuckoo",
+    "latin": "Cacomantis merulinus",
+    "habitat": "Open woodland & tropical edges",
+    "habitatJa": "開けた森林と熱帯の境界",
+    "status": "Least concern*",
+    "description": "A soft, echoing call from the canopy and a patient watcher among the branches, often heard before it is seen.",
+    "descriptionJa": "樹冠から響く静かな声で知られ、枝の間でじっと見守る忍び寄るような鳥。",
+    "image": "/cuckoo_plaintive.jpg",
+    "tag": "Bird"
+  },
+  {
+    "name": "White wagtail",
+    "latin": "Motacilla alba",
+    "habitat": "Riversides & open lawns",
+    "habitatJa": "川辺と開けた芝生",
+    "status": "Least concern*",
+    "description": "A lively, tail-bobbing bird that follows water edges and open ground in search of insects.",
+    "descriptionJa": "水辺や広い芝生を歩きながら、尾を上下に振って昆虫を探す活発な鳥。",
+    "image": "/wagtail_white.jpg",
+    "tag": "Bird"
+  },
+  {
+    "name": "The red squirrel",
+    "latin": "Sciurus vulgaris",
+    "habitat": "Woodland canopies",
+    "habitatJa": "森林の樹冠",
+    "status": "Least concern*",
+    "description": "A nimble climber with a remarkable sense of balance, built for life among branches.",
+    "descriptionJa": "枝の上での生活に合わせた、驚くほどバランスの良い敏捷な木登り動物。",
+    "image": "/squirrel-hero.png",
+    "tag": "Mammal"
+  },
+  {
+    "name": "Siberian stonechat",
+    "latin": "Saxicola maurus",
+    "habitat": "Open scrub & field edges",
+    "habitatJa": "開けた低木地帯と畑の縁",
+    "status": "Least concern*",
+    "description": "A lively, upright songbird that perches on exposed stems and calls from the edge of open country.",
+    "descriptionJa": "露出した茎に止まり、開けた原野の縁で鳴きながら活発に動く鳥。",
+    "image": "/siberia_stonechat.jpg",
+    "tag": "Bird"
+  },
+  {
+    "name": "Chipmunk",
+    "latin": "Tamias striatus",
+    "habitat": "Woodland clearings & hedgerows",
+    "habitatJa": "森林の空き地と生け垣",
+    "status": "Least concern*",
+    "description": "A compact ground forager with striped cheeks and a quick instinct for sheltering among roots and stones.",
+    "descriptionJa": "頬に縞模様があり、根や石の間に身を隠す本能がすばやい小さな地上採食動物。",
+    "image": "/squirrel_chipmunk.jpg",
+    "tag": "Mammal"
+  },
+  {
+    "name": "Brown flycatcher",
+    "latin": "Muscicapa dauurica",
+    "habitat": "Woodland edges & shaded trails",
+    "habitatJa": "林縁と日陰の小道",
+    "status": "Least concern*",
+    "description": "A poised insect hunter that snaps up prey mid-air in quick, flickering bursts.",
+    "descriptionJa": "空中で小さな獲物を素早く捕らえる、落ち着いた昆虫食の鳥。",
+    "image": "/flycatcher_brown.jpg",
+    "tag": "Bird"
+  },
+  {
+    "name": "Stripe-throated bulbul",
+    "latin": "Pycnonotus finlaysoni",
+    "habitat": "Forest edges & scrubland",
+    "habitatJa": "林縁と低木地帯",
+    "status": "Least concern*",
+    "description": "A lively songbird with a warm olive coat and a bright throat stripe that stands out in the morning light.",
+    "descriptionJa": "明るい喉の縞模様が目立ち、朝の光に映える活発な鳴き鳥。",
+    "image": "/bulbul_stripethroat.jpg",
+    "tag": "Bird"
+  },
+  {
+    "name": "Paddyfield pipit",
+    "latin": "Anthus rufulus",
+    "habitat": "Rice paddies & grassy margins",
+    "habitatJa": "水田と草地の縁",
+    "status": "Least concern*",
+    "description": "A small, ground-feeding bird that flicks through open grasslands and wet fields with quick, running steps.",
+    "descriptionJa": "水田や草地を素早く走り回り、開けた場所を移動する小さな地上の鳥。",
+    "image": "/paddyfield_pipit.jpg",
+    "tag": "Bird"
+  },
+  {
+    "name": "Yellow-bellied prinia",
+    "latin": "Prinia flaviventris",
+    "habitat": "Tall grasslands, reedbeds & marsh edges",
+    "habitatJa": "背の高い草地、ヨシ原、湿地の縁",
+    "status": "Least concern*",
+    "description": "A small, active warbler with a yellow underside, often heard chattering as it moves through dense grass and reeds.",
+    "descriptionJa": "黄色い腹部を持つ活発な小鳥で、茂った草地やヨシ原を動き回りながらにぎやかにさえずります。",
+    "image": "/prinia_yellowbellied.jpg",
+    "tag": "Bird"
+  },
+  {
+    "name": "Dusky warbler",
+    "latin": "Phylloscopus fuscatus",
+    "habitat": "Dense scrub, thickets & woodland edges",
+    "habitatJa": "茂み、低木地、森林の縁",
+    "status": "Least concern*",
+    "description": "A small, brownish warbler that keeps low in dense vegetation, searching for insects among leaves and branches.",
+    "descriptionJa": "茂った植生の低い場所で、葉や枝の間の昆虫を探す小さな褐色のウグイス類です。",
+    "image": "/warbler_dusky.jpg",
+    "tag": "Bird"
+  },
+  {
+    "name": "Pacific golden plover",
+    "latin": "Pluvialis fulva",
+    "habitat": "Arctic tundra, mudflats & coastal wetlands",
+    "habitatJa": "北極圏のツンドラ、干潟、沿岸湿地",
+    "status": "Least concern*",
+    "description": "A migratory shorebird that breeds on Arctic tundra and winters on open coasts and wetlands across the Pacific.",
+    "descriptionJa": "北極圏のツンドラで繁殖し、太平洋各地の海岸や湿地で越冬する渡り性のシギ・チドリ類です。",
+    "image": "/plover_pacificgolden.jpg",
+    "tag": "Bird"
+  },
+  {
+    "name": "Great knot",
+    "latin": "Calidris tenuirostris",
+    "habitat": "Coastal mudflats & tidal wetlands",
+    "habitatJa": "沿岸の干潟と潮汐湿地",
+    "status": "Endangered",
+    "description": "A long-distance migratory shorebird that gathers on coastal mudflats to feed on shellfish and other invertebrates.",
+    "descriptionJa": "長距離を渡るシギで、沿岸の干潟に集まり、貝類などの無脊椎動物を食べます。",
+    "image": "/greatknot.jpg",
+    "tag": "Bird"
+  }
+]
