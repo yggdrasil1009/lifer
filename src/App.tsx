@@ -27,6 +27,17 @@ type Animal = {
 
 const animals: Animal[] = animalsData;
 
+function ConservationStatus({ status }: { status: string }) {
+  const isEndangered = status.toLowerCase().includes("endangered");
+
+  return (
+    <strong className="conservation-status">
+      {isEndangered && <span className="endangered-dot" aria-hidden="true" />}
+      {status}
+    </strong>
+  );
+}
+
 function App() {
   const [menuOpen, setMenuOpen] = useState(false);
   const [query, setQuery] = useState("");
@@ -136,7 +147,12 @@ function App() {
           </button>
           <div className="daily-card">
             <div className="daily-photo">
-              <img src={detailAnimal.image} alt={detailAnimal.name} />
+              <img
+                src={detailAnimal.image}
+                alt={detailAnimal.name}
+                decoding="async"
+                fetchPriority="high"
+              />
             </div>
             <div className="daily-content">
               <div className="daily-topline">
@@ -169,7 +185,7 @@ function App() {
                 </div>
                 <div>
                   <span>{text.conservation}</span>
-                  <strong>{detailAnimal.status}</strong>
+                  <ConservationStatus status={detailAnimal.status} />
                 </div>
               </div>
             </div>
@@ -191,7 +207,12 @@ function App() {
 
         <div className="daily-card">
           <div className="daily-photo">
-            <img src={currentAnimal.image} alt={currentAnimal.name} />
+            <img
+              src={currentAnimal.image}
+              alt={currentAnimal.name}
+              decoding="async"
+              fetchPriority="high"
+            />
             <span className="photo-chip">
               <Sprout size={13} /> {text.chip}
             </span>
@@ -227,7 +248,7 @@ function App() {
               </div>
               <div>
                 <span>{text.conservation}</span>
-                <strong>{currentAnimal.status}</strong>
+                <ConservationStatus status={currentAnimal.status} />
               </div>
             </div>
             <div className="daily-footer">
@@ -284,7 +305,12 @@ function App() {
                       }}
                       aria-label={`Explore ${animal.name}`}
                     >
-                      <img src={animal.image} alt={animal.name} />
+                      <img
+                        src={animal.image}
+                        alt={animal.name}
+                        loading="lazy"
+                        decoding="async"
+                      />
                       <span className="gallery-image-arrow">
                         <ArrowUpRight size={18} />
                       </span>

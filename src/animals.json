@@ -7,7 +7,7 @@
     "status": "Least concern*",
     "description": "A nectar-feeding bird with a vivid red body and a quick, darting flight through open woodland.",
     "descriptionJa": "花が多い林縁で飛び回る、鮮やかな赤い体を持つ蜜食いの鳥。",
-    "image": "/sunbird_crimson.jpg",
+    "image": "/sunbird_crimson.webp",
     "tag": "Bird"
   },
   {
@@ -18,7 +18,7 @@
     "status": "Least concern*",
     "description": "A tiny bird with a metallic sheen that feeds on nectar and thrives where flowers are abundant.",
     "descriptionJa": "光沢のある小さな羽を持ち、花が豊富な場所で蜜を食べて暮らす鳥。",
-    "image": "/sunbird_garden.jpg",
+    "image": "/sunbird_garden.webp",
     "tag": "Bird"
   },
 
@@ -30,7 +30,7 @@
     "status": "Endangered",
     "description": "A striking arboreal primate with vivid red limbs and a pale face, moving through the forest canopy in social bands.",
     "descriptionJa": "鮮やかな赤い脚と白い顔を持ち、群れで樹冠を移動する、目を引く樹上のサル。",
-    "image": "/redshank_douc.jpg",
+    "image": "/redshank_douc.webp",
     "tag": "Mammal"
   },
   {
@@ -41,7 +41,7 @@
     "status": "Least concern*",
     "description": "A soft, echoing call from the canopy and a patient watcher among the branches, often heard before it is seen.",
     "descriptionJa": "樹冠から響く静かな声で知られ、枝の間でじっと見守る忍び寄るような鳥。",
-    "image": "/cuckoo_plaintive.jpg",
+    "image": "/cuckoo_plaintive.webp",
     "tag": "Bird"
   },
   {
@@ -52,7 +52,7 @@
     "status": "Least concern*",
     "description": "A lively, tail-bobbing bird that follows water edges and open ground in search of insects.",
     "descriptionJa": "水辺や広い芝生を歩きながら、尾を上下に振って昆虫を探す活発な鳥。",
-    "image": "/wagtail_white.jpg",
+    "image": "/wagtail_white.webp",
     "tag": "Bird"
   },
   {
@@ -63,7 +63,7 @@
     "status": "Least concern*",
     "description": "A nimble climber with a remarkable sense of balance, built for life among branches.",
     "descriptionJa": "枝の上での生活に合わせた、驚くほどバランスの良い敏捷な木登り動物。",
-    "image": "/squirrel-hero.png",
+    "image": "/squirrel-hero.webp",
     "tag": "Mammal"
   },
   {
@@ -74,7 +74,7 @@
     "status": "Least concern*",
     "description": "A lively, upright songbird that perches on exposed stems and calls from the edge of open country.",
     "descriptionJa": "露出した茎に止まり、開けた原野の縁で鳴きながら活発に動く鳥。",
-    "image": "/siberia_stonechat.jpg",
+    "image": "/siberia_stonechat.webp",
     "tag": "Bird"
   },
   {
@@ -85,7 +85,7 @@
     "status": "Least concern*",
     "description": "A compact ground forager with striped cheeks and a quick instinct for sheltering among roots and stones.",
     "descriptionJa": "頬に縞模様があり、根や石の間に身を隠す本能がすばやい小さな地上採食動物。",
-    "image": "/squirrel_chipmunk.jpg",
+    "image": "/squirrel_chipmunk.webp",
     "tag": "Mammal"
   },
   {
@@ -96,7 +96,7 @@
     "status": "Least concern*",
     "description": "A poised insect hunter that snaps up prey mid-air in quick, flickering bursts.",
     "descriptionJa": "空中で小さな獲物を素早く捕らえる、落ち着いた昆虫食の鳥。",
-    "image": "/flycatcher_brown.jpg",
+    "image": "/flycatcher_brown.webp",
     "tag": "Bird"
   },
   {
@@ -107,7 +107,7 @@
     "status": "Least concern*",
     "description": "A lively songbird with a warm olive coat and a bright throat stripe that stands out in the morning light.",
     "descriptionJa": "明るい喉の縞模様が目立ち、朝の光に映える活発な鳴き鳥。",
-    "image": "/bulbul_stripethroat.jpg",
+    "image": "/bulbul_stripethroat.webp",
     "tag": "Bird"
   },
   {
@@ -118,7 +118,7 @@
     "status": "Least concern*",
     "description": "A small, ground-feeding bird that flicks through open grasslands and wet fields with quick, running steps.",
     "descriptionJa": "水田や草地を素早く走り回り、開けた場所を移動する小さな地上の鳥。",
-    "image": "/paddyfield_pipit.jpg",
+    "image": "/paddyfield_pipit.webp",
     "tag": "Bird"
   },
   {
@@ -129,7 +129,7 @@
     "status": "Least concern*",
     "description": "A small, active warbler with a yellow underside, often heard chattering as it moves through dense grass and reeds.",
     "descriptionJa": "黄色い腹部を持つ活発な小鳥で、茂った草地やヨシ原を動き回りながらにぎやかにさえずります。",
-    "image": "/prinia_yellowbellied.jpg",
+    "image": "/prinia_yellowbellied.webp",
     "tag": "Bird"
   },
   {
@@ -140,7 +140,7 @@
     "status": "Least concern*",
     "description": "A small, brownish warbler that keeps low in dense vegetation, searching for insects among leaves and branches.",
     "descriptionJa": "茂った植生の低い場所で、葉や枝の間の昆虫を探す小さな褐色のウグイス類です。",
-    "image": "/warbler_dusky.jpg",
+    "image": "/warbler_dusky.webp",
     "tag": "Bird"
   },
   {
@@ -151,7 +151,7 @@
     "status": "Least concern*",
     "description": "A migratory shorebird that breeds on Arctic tundra and winters on open coasts and wetlands across the Pacific.",
     "descriptionJa": "北極圏のツンドラで繁殖し、太平洋各地の海岸や湿地で越冬する渡り性のシギ・チドリ類です。",
-    "image": "/plover_pacificgolden.jpg",
+    "image": "/plover_pacificgolden.webp",
     "tag": "Bird"
   },
   {
@@ -162,7 +162,29 @@
     "status": "Endangered",
     "description": "A long-distance migratory shorebird that gathers on coastal mudflats to feed on shellfish and other invertebrates.",
     "descriptionJa": "長距離を渡るシギで、沿岸の干潟に集まり、貝類などの無脊椎動物を食べます。",
-    "image": "/greatknot.jpg",
+    "image": "/greatknot.webp",
+    "tag": "Bird"
+  },
+  {
+    "name": "White-faced plover",
+    "latin": "Charadrius dealbatus",
+    "habitat": "Sandy beaches & coastal mudflats",
+    "habitatJa": "砂浜と沿岸の干潟",
+    "status": "Least concern*",
+    "description": "A coastal shorebird with a distinctive pale face, foraging along sandy shores and tidal flats in East and Southeast Asia.",
+    "descriptionJa": "特徴的な白い顔を持つ沿岸性のシギ・チドリ類で、東アジアや東南アジアの砂浜や干潟で餌を探します。",
+    "image": "/plover_whitefaced.webp",
+    "tag": "Bird"
+  },
+  {
+    "name": "Whiskered tern",
+    "latin": "Chlidonias hybrida",
+    "habitat": "Freshwater marshes, lakes & rice fields",
+    "habitatJa": "淡水湿地、湖沼、水田",
+    "status": "Least concern*",
+    "description": "A graceful wetland tern that skims over shallow water to catch insects and small fish.",
+    "descriptionJa": "浅い水面を滑るように飛び、昆虫や小魚を捕らえる優雅な湿地のアジサシです。",
+    "image": "/tern_whiskered.webp",
     "tag": "Bird"
   }
 ]

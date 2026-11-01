@@ -528,6 +528,18 @@ h2 {
   font-weight: 500;
   color: #3d4738;
 }
+.animal-meta .conservation-status {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+.endangered-dot {
+  width: 7px;
+  height: 7px;
+  flex: 0 0 7px;
+  border-radius: 50%;
+  background: #c7473c;
+}
 .daily-footer {
   display: flex;
   justify-content: space-between;
