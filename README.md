@@ -44,6 +44,16 @@ public/
   *.png
 ```
 
+## Converting JPEG images to WebP
+
+Install the WebP command-line tools, then run `cwebp` from the project root. For example, to create a smaller WebP while preserving the JPEG's ICC color profile:
+
+```powershell
+cwebp -q 85 -metadata icc public/tern_whiskered.jpg -o public/tern_whiskered.webp
+```
+
+Adjust the input and output filenames for other images. The `-q 85` setting uses lossy compression; higher values preserve more detail but generally produce larger files.
+
 ## License
 
 This project is for educational/demo purposes.

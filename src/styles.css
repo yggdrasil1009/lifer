@@ -144,7 +144,7 @@ img {
     background 0.2s ease;
   margin-left: 1px;
 }
-.language-switch.is-vn .language-switch-thumb {
+.language-switch.is-ja .language-switch-thumb {
   transform: translateX(28px);
   background: #314d37;
 }
@@ -771,7 +771,7 @@ h2 {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 24px;
+  gap: clamp(8px, 2vw, 24px);
   padding-top: 16px;
   border-top: 1px solid #d5d6ca;
   color: #5d6858;
@@ -792,6 +792,12 @@ h2 {
   font-size: 9px;
   letter-spacing: 1.3px;
   cursor: pointer;
+}
+.gallery-page-button:first-child {
+  margin-right: 12px;
+}
+.gallery-page-button:last-child {
+  margin-left: 12px;
 }
 .gallery-page-button:disabled {
   opacity: 0.35;

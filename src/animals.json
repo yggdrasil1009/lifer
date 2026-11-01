@@ -66,6 +66,7 @@
     "image": "/squirrel-hero.webp",
     "tag": "Mammal"
   },
+
   {
     "name": "Siberian stonechat",
     "latin": "Saxicola maurus",
@@ -75,6 +76,17 @@
     "description": "A lively, upright songbird that perches on exposed stems and calls from the edge of open country.",
     "descriptionJa": "露出した茎に止まり、開けた原野の縁で鳴きながら活発に動く鳥。",
     "image": "/siberia_stonechat.webp",
+    "tag": "Bird"
+  },
+  {
+    "name": "Whiskered tern",
+    "latin": "Chlidonias hybrida",
+    "habitat": "Freshwater marshes, lakes & rice fields",
+    "habitatJa": "淡水湿地、湖沼、水田",
+    "status": "Least concern*",
+    "description": "A graceful wetland tern that skims over shallow water to catch insects and small fish.",
+    "descriptionJa": "浅い水面を滑るように飛び、昆虫や小魚を捕らえる優雅な湿地のアジサシです。",
+    "image": "/tern_whiskered.webp",
     "tag": "Bird"
   },
   {
@@ -177,14 +189,36 @@
     "tag": "Bird"
   },
   {
-    "name": "Whiskered tern",
-    "latin": "Chlidonias hybrida",
-    "habitat": "Freshwater marshes, lakes & rice fields",
-    "habitatJa": "淡水湿地、湖沼、水田",
+    "name": "Purple heron",
+    "latin": "Ardea purpurea",
+    "habitat": "Freshwater wetlands, reedbeds & marshes",
+    "habitatJa": "淡水湿地、ヨシ原、沼地",
     "status": "Least concern*",
-    "description": "A graceful wetland tern that skims over shallow water to catch insects and small fish.",
-    "descriptionJa": "浅い水面を滑るように飛び、昆虫や小魚を捕らえる優雅な湿地のアジサシです。",
-    "image": "/tern_whiskered.webp",
+    "description": "A tall, secretive heron that hunts fish and other small prey among reeds and shallow wetlands.",
+    "descriptionJa": "ヨシ原や浅い湿地で魚などの小さな獲物を狩る、背の高い警戒心の強いサギです。",
+    "image": "/heron_purple.webp",
+    "tag": "Bird"
+  },
+  {
+    "name": "Black drongo",
+    "latin": "Dicrurus macrocercus",
+    "habitat": "Open country, farmland & scrub",
+    "habitatJa": "開けた草地、農地、低木地",
+    "status": "Least concern*",
+    "description": "A glossy black songbird with a forked tail, often seen perched in open areas while hunting insects.",
+    "descriptionJa": "二股に分かれた尾を持つ光沢のある黒い鳥で、開けた場所に止まりながら昆虫を捕らえます。",
+    "image": "/drongo_black.webp",
+    "tag": "Bird"
+  },
+  {
+    "name": "Blue rock thrush",
+    "latin": "Monticola solitarius",
+    "habitat": "Rocky coasts, cliffs & mountain slopes",
+    "habitatJa": "岩の多い海岸、崖、山の斜面",
+    "status": "Least concern*",
+    "description": "A solitary songbird that perches on exposed rocks, where the male's deep blue plumage stands out.",
+    "descriptionJa": "岩場に単独で止まることが多い鳥で、オスの深い青色の羽がよく目立ちます。",
+    "image": "/thrush_bluerock.webp",
     "tag": "Bird"
   }
 ]

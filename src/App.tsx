@@ -108,10 +108,15 @@ function App() {
 
         <div className="header-actions">
           <button
-            className={`language-switch ${language === "ja" ? "is-vn" : ""}`}
+            className={`language-switch ${language === "ja" ? "is-ja" : ""}`}
             type="button"
             onClick={() => setLanguage(language === "en" ? "ja" : "en")}
-            aria-label="Toggle language"
+            aria-label={
+              language === "en"
+                ? "Switch language to Japanese"
+                : "Switch language to English"
+            }
+            aria-pressed={language === "ja"}
           >
             <span className="language-switch-track">
               <span className="language-switch-thumb">
@@ -127,7 +132,9 @@ function App() {
             <button onClick={() => navigateTo("discover")}>
               {text.navDiscover}
             </button>
-            <button onClick={() => navigateTo("gallery")}>{text.navAlbum}</button>
+            <button onClick={() => navigateTo("gallery")}>
+              {text.navAlbum}
+            </button>
             <button onClick={() => navigateTo("about")}>{text.navAbout}</button>
           </nav>
         </div>
@@ -193,186 +200,218 @@ function App() {
         </section>
       ) : (
         <>
-      <section className="daily-section page-shell section-pad" id="discover">
-        <div className="section-heading">
-          <div>
-            <p className="eyebrow">{text.dailyEyebrow}</p>
-            <h2>
-              {text.dailyTitleA}
-              <br />
-              <em>{text.dailyTitleB}</em>
-            </h2>
-          </div>
-        </div>
-
-        <div className="daily-card">
-          <div className="daily-photo">
-            <img
-              src={currentAnimal.image}
-              alt={currentAnimal.name}
-              decoding="async"
-              fetchPriority="high"
-            />
-            <span className="photo-chip">
-              <Sprout size={13} /> {text.chip}
-            </span>
-          </div>
-          <div className="daily-content">
-            <div className="daily-topline">
-              <span>
-                {currentAnimal.tag.toUpperCase()} / {text.fieldGuide}
-              </span>
-              <span>
-                {text.no}{" "}
-                {String(animals.indexOf(currentAnimal) + 1).padStart(3, "0")}
-              </span>
-            </div>
-            <h3>
-              {currentAnimal.name}
-              <br />
-              <em>{currentAnimal.latin}</em>
-            </h3>
-            <p className="daily-description">
-              {language === "ja"
-                ? (currentAnimal.descriptionJa ?? currentAnimal.description)
-                : currentAnimal.description}
-            </p>
-            <div className="animal-meta">
+          <section
+            className="daily-section page-shell section-pad"
+            id="discover"
+          >
+            <div className="section-heading">
               <div>
-                <span>{text.habitat}</span>
-                <strong>
-                  {language === "ja"
-                    ? (currentAnimal.habitatJa ?? currentAnimal.habitat)
-                    : currentAnimal.habitat}
-                </strong>
-              </div>
-              <div>
-                <span>{text.conservation}</span>
-                <ConservationStatus status={currentAnimal.status} />
+                <p className="eyebrow">{text.dailyEyebrow}</p>
+                <h2>
+                  {text.dailyTitleA}
+                  <br />
+                  <em>{text.dailyTitleB}</em>
+                </h2>
               </div>
             </div>
-            <div className="daily-footer">
-              <button
-                className="text-link"
-                type="button"
-                onClick={() => scrollTo("gallery")}
-              >
-                {text.viewAlbum} <ArrowRight size={15} />
-              </button>
-            </div>
-          </div>
-        </div>
-        <p className="fine-print">{text.finePrint}</p>
-      </section>
 
-      <section className="gallery-section page-shell section-pad" id="gallery">
-        <div className="section-heading gallery-heading">
-          <div>
-            <p className="eyebrow">{text.galleryEyebrow}</p>
-            <h2>
-              {text.galleryTitleA}
-              <br />
-              <em>{text.galleryTitleB}</em>
-            </h2>
-          </div>
-          <div className="gallery-tools">
-            <label className="search-box">
-              <Search size={15} />
-              <input
-                value={query}
-                onChange={(e) => setQuery(e.target.value)}
-                placeholder={text.searchPlaceholder}
-                aria-label="Search animals"
-              />
-            </label>
-            <span className="gallery-count">
-              {text.collection} 0{filteredAnimals.length}
-            </span>
-          </div>
-        </div>
-
-        <div className="gallery-strip">
-          {filteredAnimals.length > 0 ? (
-            <>
-              <div className="gallery-grid">
-                {visibleAnimals.map((animal, index) => (
-                  <article className="gallery-card" key={animal.name}>
-                    <button
-                      className="gallery-image-button"
-                      onClick={() => {
-                        setDetailAnimal(animal);
-                        window.scrollTo({ top: 0, behavior: "smooth" });
-                      }}
-                      aria-label={`Explore ${animal.name}`}
-                    >
-                      <img
-                        src={animal.image}
-                        alt={animal.name}
-                        loading="lazy"
-                        decoding="async"
-                      />
-                      <span className="gallery-image-arrow">
-                        <ArrowUpRight size={18} />
-                      </span>
-                    </button>
-                    <div className="gallery-card-copy">
-                      <div className="gallery-card-meta">
-                        <span>{animal.name}</span>
-                        <span>0{galleryPage * pageSize + index + 1}</span>
-                      </div>
-                    </div>
-                  </article>
-                ))}
-              </div>
-
-              <div className="gallery-pagination" aria-label="Album pagination">
-                <button
-                  type="button"
-                  className="gallery-page-button"
-                  onClick={() =>
-                    setGalleryPage((page) => Math.max(page - 1, 0))
-                  }
-                  disabled={galleryPage === 0}
-                  aria-label="Previous page"
-                >
-                  ← PREV
-                </button>
-                <span>
-                  {galleryPage + 1} / {totalPages}
+            <div className="daily-card">
+              <div className="daily-photo">
+                <img
+                  src={currentAnimal.image}
+                  alt={currentAnimal.name}
+                  decoding="async"
+                  fetchPriority="high"
+                />
+                <span className="photo-chip">
+                  <Sprout size={13} /> {text.chip}
                 </span>
-                <button
-                  type="button"
-                  className="gallery-page-button"
-                  onClick={() =>
-                    setGalleryPage((page) => Math.min(page + 1, totalPages - 1))
-                  }
-                  disabled={galleryPage >= totalPages - 1}
-                  aria-label="Next page"
-                >
-                  NEXT →
-                </button>
               </div>
-            </>
-          ) : (
-            <p className="empty-state">
-              {text.empty.replace("{query}", query)}
-            </p>
-          )}
-        </div>
-      </section>
+              <div className="daily-content">
+                <div className="daily-topline">
+                  <span>
+                    {currentAnimal.tag.toUpperCase()} / {text.fieldGuide}
+                  </span>
+                  <span>
+                    {text.no}{" "}
+                    {String(animals.indexOf(currentAnimal) + 1).padStart(
+                      3,
+                      "0",
+                    )}
+                  </span>
+                </div>
+                <h3>
+                  {currentAnimal.name}
+                  <br />
+                  <em>{currentAnimal.latin}</em>
+                </h3>
+                <p className="daily-description">
+                  {language === "ja"
+                    ? (currentAnimal.descriptionJa ?? currentAnimal.description)
+                    : currentAnimal.description}
+                </p>
+                <div className="animal-meta">
+                  <div>
+                    <span>{text.habitat}</span>
+                    <strong>
+                      {language === "ja"
+                        ? (currentAnimal.habitatJa ?? currentAnimal.habitat)
+                        : currentAnimal.habitat}
+                    </strong>
+                  </div>
+                  <div>
+                    <span>{text.conservation}</span>
+                    <ConservationStatus status={currentAnimal.status} />
+                  </div>
+                </div>
+                <div className="daily-footer">
+                  <button
+                    className="text-link"
+                    type="button"
+                    onClick={() => scrollTo("gallery")}
+                  >
+                    {text.viewAlbum} <ArrowRight size={15} />
+                  </button>
+                </div>
+              </div>
+            </div>
+            <p className="fine-print">{text.finePrint}</p>
+          </section>
 
-      <section className="journal-section page-shell" id="about">
-        <div className="journal-mark">
-          <Leaf size={27} strokeWidth={1} />
-        </div>
-        <p className="eyebrow">{text.journalEyebrow}</p>
-        <h2>
-          {text.journalTitleA}
-          <br />
-          <em>{text.journalTitleB}</em>
-        </h2>
-        <p className="journal-description">{text.journalDescription}</p>
-      </section>
+          <section
+            className="gallery-section page-shell section-pad"
+            id="gallery"
+          >
+            <div className="section-heading gallery-heading">
+              <div>
+                <p className="eyebrow">{text.galleryEyebrow}</p>
+                <h2>
+                  {text.galleryTitleA}
+                  <br />
+                  <em>{text.galleryTitleB}</em>
+                </h2>
+              </div>
+              <div className="gallery-tools">
+                <label className="search-box">
+                  <Search size={15} />
+                  <input
+                    value={query}
+                    onChange={(e) => setQuery(e.target.value)}
+                    placeholder={text.searchPlaceholder}
+                    aria-label="Search animals"
+                  />
+                </label>
+                <span className="gallery-count">
+                  {text.collection} 0{filteredAnimals.length}
+                </span>
+              </div>
+            </div>
+
+            <div className="gallery-strip">
+              {filteredAnimals.length > 0 ? (
+                <>
+                  <div className="gallery-grid">
+                    {visibleAnimals.map((animal, index) => (
+                      <article className="gallery-card" key={animal.name}>
+                        <button
+                          className="gallery-image-button"
+                          onClick={() => {
+                            setDetailAnimal(animal);
+                            window.scrollTo({ top: 0, behavior: "smooth" });
+                          }}
+                          aria-label={`Explore ${animal.name}`}
+                        >
+                          <img
+                            src={animal.image}
+                            alt={animal.name}
+                            loading="lazy"
+                            decoding="async"
+                          />
+                          <span className="gallery-image-arrow">
+                            <ArrowUpRight size={18} />
+                          </span>
+                        </button>
+                        <div className="gallery-card-copy">
+                          <div className="gallery-card-meta">
+                            <span>{animal.name}</span>
+                            <span>0{galleryPage * pageSize + index + 1}</span>
+                          </div>
+                        </div>
+                      </article>
+                    ))}
+                  </div>
+
+                  <div
+                    className="gallery-pagination"
+                    aria-label="Album pagination"
+                  >
+                    <button
+                      type="button"
+                      className="gallery-page-button"
+                      onClick={() => setGalleryPage(0)}
+                      disabled={galleryPage === 0}
+                      aria-label="First page"
+                    >
+                      «
+                    </button>
+                    <button
+                      type="button"
+                      className="gallery-page-button"
+                      onClick={() =>
+                        setGalleryPage((page) => Math.max(page - 1, 0))
+                      }
+                      disabled={galleryPage === 0}
+                      aria-label="Previous page"
+                    >
+                      PREV
+                    </button>
+                    <span>
+                      {galleryPage + 1} / {totalPages}
+                    </span>
+                    <button
+                      type="button"
+                      className="gallery-page-button"
+                      onClick={() =>
+                        setGalleryPage((page) =>
+                          Math.min(page + 1, totalPages - 1),
+                        )
+                      }
+                      disabled={galleryPage >= totalPages - 1}
+                      aria-label="Next page"
+                    >
+                      NEXT
+                    </button>
+                    <button
+                      type="button"
+                      className="gallery-page-button"
+                      onClick={() => setGalleryPage(totalPages - 1)}
+                      disabled={galleryPage >= totalPages - 1}
+                      aria-label="Last page"
+                    >
+                      »
+                    </button>
+                  </div>
+                </>
+              ) : (
+                <p className="empty-state">
+                  {text.empty.replace("{query}", query)}
+                </p>
+              )}
+            </div>
+          </section>
+
+          <section className="journal-section page-shell" id="about">
+            <div className="journal-mark">
+              <Leaf size={27} strokeWidth={1} />
+            </div>
+            <p className="eyebrow">{text.journalEyebrow}</p>
+            <h2>
+              {text.journalTitleA}
+              <br />
+              <em>{text.journalTitleB}</em>
+            </h2>
+            <p className="journal-description">{text.journalDescription}</p>
+          </section>
         </>
       )}
 
