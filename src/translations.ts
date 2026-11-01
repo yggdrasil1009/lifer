@@ -27,7 +27,7 @@ export const translations = {
     journalTitleA: "NOT  JUST  WHAT  I  SAW.",
     journalTitleB: "HOW  IT  MADE  ME  FEEL.",
     journalDescription:
-      "A collection of quiet moments, unexpected encounters, and the lessons the natural world leaves behind.",
+      "A collection of quiet moments, unexpected encounters, and the lessons the natural world leaves behind. Each frame is a reminder to slow down, look closer, and notice the wild wonders unfolding all around us.",
     footerLead: "A little closer to the living world.",
     footerBottom1: "© 2026 LIFER FIELD JOURNAL",
     footerBottom2: "MADE WITH CURIOSITY & CARE",
@@ -63,7 +63,7 @@ export const translations = {
     journalTitleA: "見たものだけではなく、",
     journalTitleB: "それが心に残したもの。",
     journalDescription:
-      "静かな瞬間、思いがけない出会い、そして自然が残してくれる教えの集まり。",
+      "静かな瞬間、思いがけない出会い、そして自然が残してくれる教えの集まり。一枚一枚の写真が、少し立ち止まり、目を凝らして、身近に広がる自然の驚きに気づくきっかけになります。",
     footerLead: "もっと自然に近づくために。",
     footerBottom1: "© 2026 LIFER FIELD JOURNAL",
     footerBottom2: "好奇心と丁寧さから生まれた作品",

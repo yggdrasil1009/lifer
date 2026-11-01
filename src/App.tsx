@@ -22,6 +22,7 @@ type Animal = {
   description: string;
   descriptionJa?: string;
   image: string;
+  image_thumb: string;
   tag: string;
 };
 
@@ -322,7 +323,7 @@ function App() {
                           aria-label={`Explore ${animal.name}`}
                         >
                           <img
-                            src={animal.image}
+                            src={animal.image_thumb}
                             alt={animal.name}
                             loading="lazy"
                             decoding="async"
@@ -436,7 +437,7 @@ function App() {
               <Facebook size={16} />
             </a>
             <a
-              href="https://www.instagram.com/quansw_10969/"
+              href="https://www.instagram.com/quan_sw10969/"
               target="_blank"
               rel="noreferrer"
               aria-label="Instagram"

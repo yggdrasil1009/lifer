@@ -534,9 +534,9 @@ h2 {
   gap: 6px;
 }
 .endangered-dot {
-  width: 7px;
-  height: 7px;
-  flex: 0 0 7px;
+  width: 9px;
+  height: 9px;
+  flex: 0 0 9px;
   border-radius: 50%;
   background: #c7473c;
 }
