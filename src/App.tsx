@@ -586,6 +586,11 @@ function App() {
               <br />
               <em>{text.journalTitleB}</em>
             </h2>
+            <img
+              className="journal-photo"
+              src="/photographer.webp"
+              alt="Photographer"
+            />
             <p className="journal-description">{text.journalDescription}</p>
           </section>
         </>
