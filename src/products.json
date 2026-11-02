@@ -1,0 +1,54 @@
+[
+  {
+    "name": {
+      "en": "Tern Shirt",
+      "ja": "アジサシTシャツ"
+    },
+    "description": {
+      "en": "A Lifer T-shirt featuring our tern illustration.",
+      "ja": "LiferのアジサシのイラストをあしらったTシャツ。"
+    },
+    "price": "$45",
+    "image": "/product/tern_shirt.webp",
+    "material": {
+      "en": "Soft cotton jersey with a printed tern illustration.",
+      "ja": "柔らかなコットンジャージー素材に、アジサシのイラストをプリント。"
+    },
+    "feeling": {
+      "en": "Light and soft against the skin, with an easy everyday feel.",
+      "ja": "肌触りが柔らかく軽やかで、毎日気軽に着られる着心地です。"
+    },
+    "sizes": [
+      { "size": "XS", "chest": 46, "length": 64, "shoulder": 41, "sleeve": 19 },
+      { "size": "S", "chest": 49, "length": 67, "shoulder": 43, "sleeve": 20 },
+      { "size": "M", "chest": 52, "length": 70, "shoulder": 46, "sleeve": 21 },
+      { "size": "L", "chest": 55, "length": 73, "shoulder": 49, "sleeve": 22 }
+    ]
+  },
+  {
+    "name": {
+      "en": "Wildlife Journal Tee",
+      "ja": "野生動物ジャーナルTシャツ"
+    },
+    "description": {
+      "en": "Field notes for wherever curiosity takes you.",
+      "ja": "好奇心の赴く場所へ、フィールドノートとともに。"
+    },
+    "price": "$50",
+    "image": "/product/heron_shirt.webp",
+    "material": {
+      "en": "Soft cotton jersey.",
+      "ja": "柔らかなコットンジャージー素材。"
+    },
+    "feeling": {
+      "en": "A relaxed, breathable tee that feels comfortable from morning to evening.",
+      "ja": "朝から夜まで快適に過ごせる、ゆったりとした通気性のよいTシャツです。"
+    },
+    "sizes": [
+      { "size": "XS", "chest": 46, "length": 64, "shoulder": 41, "sleeve": 19 },
+      { "size": "S", "chest": 49, "length": 67, "shoulder": 43, "sleeve": 20 },
+      { "size": "M", "chest": 52, "length": 70, "shoulder": 46, "sleeve": 21 },
+      { "size": "L", "chest": 55, "length": 73, "shoulder": 49, "sleeve": 22 }
+    ]
+  }
+]

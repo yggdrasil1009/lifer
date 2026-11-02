@@ -11,6 +11,7 @@ import {
   X,
 } from "lucide-react";
 import animalsData from "./animals.json";
+import productsData from "./products.json";
 import { translations, type Language } from "./translations";
 
 type Animal = {
@@ -45,6 +46,10 @@ function App() {
   const [language, setLanguage] = useState<Language>("en");
   const [galleryPage, setGalleryPage] = useState(0);
   const [detailAnimal, setDetailAnimal] = useState<Animal | null>(null);
+  const [detailProduct, setDetailProduct] = useState<
+    (typeof productsData)[number] | null
+  >(null);
+  const [showProducts, setShowProducts] = useState(false);
   const currentAnimal = animals[5];
 
   const text = translations[language];
@@ -80,8 +85,21 @@ function App() {
   };
 
   const navigateTo = (id: string) => {
+    if (detailProduct) {
+      setDetailProduct(null);
+      setShowProducts(false);
+      window.setTimeout(() => scrollTo(id), 0);
+      return;
+    }
+
     if (detailAnimal) {
       setDetailAnimal(null);
+      window.setTimeout(() => scrollTo(id), 0);
+      return;
+    }
+
+    if (showProducts) {
+      setShowProducts(false);
       window.setTimeout(() => scrollTo(id), 0);
       return;
     }
@@ -89,10 +107,31 @@ function App() {
     scrollTo(id);
   };
 
+  const openProducts = () => {
+    setMenuOpen(false);
+    setDetailAnimal(null);
+    setDetailProduct(null);
+    setShowProducts(true);
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  };
+
+  const openProduct = (product: (typeof productsData)[number]) => {
+    setDetailProduct(product);
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  };
+
   return (
     <main id="top">
       <header className="site-header">
-        <a className="brand" href="#top" aria-label="Lifer home">
+        <a
+          className="brand"
+          href="#discover"
+          aria-label="Lifer home"
+          onClick={(event) => {
+            event.preventDefault();
+            navigateTo("discover");
+          }}
+        >
           <span className="brand-mark">
             li<span>f</span>er.
           </span>
@@ -136,12 +175,92 @@ function App() {
             <button onClick={() => navigateTo("gallery")}>
               {text.navAlbum}
             </button>
+            <button onClick={openProducts}>{text.navProduct}</button>
             <button onClick={() => navigateTo("about")}>{text.navAbout}</button>
           </nav>
         </div>
       </header>
 
-      {detailAnimal ? (
+      {detailProduct ? (
+        <section className="product-detail-section page-shell section-pad">
+          <button
+            className="text-link detail-back"
+            type="button"
+            onClick={() => {
+              setDetailProduct(null);
+              window.setTimeout(() => scrollTo("products"), 0);
+            }}
+          >
+            ← {text.backToProducts}
+          </button>
+          <div className="product-detail-layout">
+            <div className="product-detail-visual">
+              <div className="product-detail-image">
+                <img
+                  src={detailProduct.image}
+                  alt={detailProduct.name[language]}
+                />
+                <div className="product-image-overlay">
+                  <div className="product-image-meta">
+                    <h2>{detailProduct.name[language]}</h2>
+                    <strong>{detailProduct.price}</strong>
+                  </div>
+                  <button
+                    className="product-order-button"
+                    type="button"
+                    disabled
+                  >
+                    {text.orderUnavailable}
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div className="product-detail-copy">
+              <p className="eyebrow">{text.productDetailEyebrow}</p>
+
+              <div className="product-info-block">
+                <h3>{text.materialLabel}</h3>
+                <p>{detailProduct.material[language]}</p>
+              </div>
+              <div className="product-info-block">
+                <h3>{text.feelingLabel}</h3>
+                <p>{detailProduct.feeling[language]}</p>
+              </div>
+
+              <div className="product-size-guide">
+                <h3>{text.sizeGuideLabel}</h3>
+                <div className="product-size-table-wrap">
+                  <table>
+                    <thead>
+                      <tr>
+                        <th scope="col">{text.sizeLabel}</th>
+                        <th scope="col">{text.chestLabel}</th>
+                        <th scope="col">{text.lengthLabel}</th>
+                        <th scope="col">{text.shoulderLabel}</th>
+                        <th scope="col">{text.sleeveLabel}</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      {detailProduct.sizes.map((size) => (
+                        <tr key={size.size}>
+                          <th scope="row">{size.size}</th>
+                          <td>{size.chest}</td>
+                          <td>{size.length}</td>
+                          <td>{size.shoulder}</td>
+                          <td>{size.sleeve}</td>
+                        </tr>
+                      ))}
+                    </tbody>
+                  </table>
+                </div>
+                <p className="product-measurement-note">
+                  {text.measurementNote}
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+      ) : detailAnimal ? (
         <section className="detail-section page-shell section-pad">
           <button
             className="text-link detail-back"
@@ -197,6 +316,62 @@ function App() {
                 </div>
               </div>
             </div>
+          </div>
+        </section>
+      ) : showProducts ? (
+        <section
+          className="products-section page-shell section-pad"
+          id="products"
+        >
+          <div className="section-heading products-heading">
+            <div>
+              <p className="eyebrow">{text.productEyebrow}</p>
+              <h2>
+                {text.productTitleA}
+                <br />
+                <em>{text.productTitleB}</em>
+              </h2>
+            </div>
+            <p className="section-intro">{text.productDescription}</p>
+          </div>
+
+          <div className="product-grid">
+            {productsData.map((product, index) => (
+              <article
+                className="product-card"
+                key={product.name.en}
+                role="button"
+                tabIndex={0}
+                onClick={() => openProduct(product)}
+                onKeyDown={(event) => {
+                  if (event.key === "Enter" || event.key === " ") {
+                    event.preventDefault();
+                    openProduct(product);
+                  }
+                }}
+                aria-label={`${product.name[language]} - ${text.productDetailEyebrow}`}
+              >
+                <div className="product-image">
+                  <img
+                    src={product.image}
+                    alt={product.name[language]}
+                    loading="lazy"
+                    decoding="async"
+                  />
+                  <span className="product-index">
+                    FIELD GOODS / 0{index + 1}
+                  </span>
+                </div>
+                <div className="product-details">
+                  <div className="product-name-price">
+                    <h3>{product.name[language]}</h3>
+                    <strong>{product.price}</strong>
+                  </div>
+                  <p>{product.description[language]}</p>
+                  <span className="product-sizes">{text.productSizes}</span>
+                </div>
+              </article>
+            ))}
           </div>
         </section>
       ) : (
@@ -418,7 +593,14 @@ function App() {
 
       <footer className="footer">
         <div className="footer-top">
-          <a className="brand footer-brand" href="#top">
+          <a
+            className="brand footer-brand"
+            href="#discover"
+            onClick={(event) => {
+              event.preventDefault();
+              navigateTo("discover");
+            }}
+          >
             <span className="brand-mark">
               li<span>f</span>er.
             </span>
