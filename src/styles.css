@@ -534,9 +534,9 @@ h2 {
   gap: 6px;
 }
 .endangered-dot {
-  width: 9px;
-  height: 9px;
-  flex: 0 0 9px;
+  width: 12px;
+  height: 12px;
+  flex: 0 0 12px;
   border-radius: 50%;
   background: #c7473c;
 }
@@ -1121,8 +1121,8 @@ h2 {
 }
 .journal-photo {
   display: block;
-  width: 280px;
-  height: 280px;
+  width: 270px;
+  height: 270px;
   margin-top: 32px;
   margin-bottom: 25px;
   border-radius: 50%;

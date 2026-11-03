@@ -12,7 +12,7 @@ export const translations = {
     fieldGuide: "FIELD GUIDE",
     no: "NO.",
     habitat: "HABITAT",
-    conservation: "CONSERVATION",
+    conservation: "CONSERVATION (IUCN)",
     viewAlbum: "VIEW ALBUM",
     backToAlbum: "BACK TO ALBUM",
     finePrint:
