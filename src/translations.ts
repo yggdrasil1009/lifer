@@ -27,7 +27,7 @@ export const translations = {
     journalTitleA: "NOT  JUST  WHAT  I  SAW.",
     journalTitleB: "HOW  IT  MADE  ME  FEEL.",
     journalDescription:
-      "A collection of quiet moments, unexpected encounters, and the lessons the natural world leaves behind. Each frame is a reminder to slow down, look closer, and notice the wild wonders unfolding all around us.",
+      "I’m a full-stack developer, and wildlife photography is simply a hobby. It gives me a reason to slow down, look closer, and appreciate the quiet moments, unexpected encounters, and lessons nature offers.",
     productEyebrow: "04 / FIELD GOODS",
     productTitleA: "WEAR THE",
     productTitleB: "WILD.",
@@ -82,7 +82,7 @@ export const translations = {
     journalTitleA: "見たものだけではなく、",
     journalTitleB: "それが心に残したもの。",
     journalDescription:
-      "静かな瞬間、思いがけない出会い、そして自然が残してくれる教えの集まり。一枚一枚の写真が、少し立ち止まり、目を凝らして、身近に広がる自然の驚きに気づくきっかけになります。",
+      "本業はフルスタック開発者で、野生動物の撮影は趣味です。自然の静かな瞬間や思いがけない出会い、その教えに目を向けることで、立ち止まり、じっくり観察するきっかけをもらっています。",
     productEyebrow: "04 / フィールドグッズ",
     productTitleA: "野生を",
     productTitleB: "身にまとう。",
