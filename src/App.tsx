@@ -78,7 +78,17 @@ function App() {
 
   const scrollTo = (id: string) => {
     setMenuOpen(false);
-    document.getElementById(id)?.scrollIntoView({
+    const target = document.getElementById(id);
+
+    if (id === "about" && target) {
+      window.scrollTo({
+        top: target.getBoundingClientRect().top + window.scrollY,
+        behavior: "smooth",
+      });
+      return;
+    }
+
+    target?.scrollIntoView({
       behavior: "smooth",
       block: "start",
     });
