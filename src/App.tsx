@@ -80,9 +80,11 @@ function App() {
     setMenuOpen(false);
     const target = document.getElementById(id);
 
-    if (id === "about" && target) {
+    if ((id === "about" || id === "gallery") && target) {
       window.scrollTo({
-        top: target.getBoundingClientRect().top + window.scrollY,
+        top:
+          target.getBoundingClientRect().top +
+          window.scrollY,
         behavior: "smooth",
       });
       return;
