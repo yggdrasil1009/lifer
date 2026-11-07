@@ -240,5 +240,53 @@
     "image": "/details/thrush_bluerock.webp",
     "image_thumb": "/thumbnails/thrush_bluerock.webp",
     "tag": "Bird"
+  },
+  {
+    "name": "Coppersmith barbet",
+    "latin": "Psilopogon haemacephalus",
+    "habitat": "Wooded areas, gardens & urban parks",
+    "habitatJa": "森林、庭園、都市公園",
+    "status": "Least concern*",
+    "description": "A compact green barbet with a bright red forehead, known for its repetitive, metallic call from leafy branches.",
+    "descriptionJa": "鮮やかな赤い額を持つ小型の緑色のゴシキドリで、茂った枝から金属音のような声を繰り返し響かせます。",
+    "image": "/details/barbet_coppersmith.webp",
+    "image_thumb": "/thumbnails/barbet_coppersmith.webp",
+    "tag": "Bird"
+  },
+  {
+    "name": "Asian green bee-eater",
+    "latin": "Merops orientalis",
+    "habitat": "Open country, scrub & cultivated fields",
+    "habitatJa": "開けた草地、低木地、農地",
+    "status": "Least concern*",
+    "description": "A slender green bird that watches from exposed perches before catching flying insects in quick, agile sallies.",
+    "descriptionJa": "見通しのよい場所から獲物を見定め、素早く飛び立って飛翔中の昆虫を捕らえる細身の緑色の鳥です。",
+    "image": "/details/beeeater_asiangreen.webp",
+    "image_thumb": "/thumbnails/beeeater_asiangreen.webp",
+    "tag": "Bird"
+  },
+  {
+    "name": "Streak-eared bulbul",
+    "latin": "Pycnonotus blanfordi",
+    "habitat": "Scrub, gardens & open woodland",
+    "habitatJa": "低木地、庭園、開けた森林",
+    "status": "Least concern*",
+    "description": "A brownish songbird with fine streaking around the ear coverts, often seen perched in shrubs and trees.",
+    "descriptionJa": "耳の周りに細かな縞模様がある褐色の鳴き鳥で、低木や木の枝に止まる姿がよく見られます。",
+    "image": "/details/bulbul_streakeared.webp",
+    "image_thumb": "/thumbnails/bulbul_streakeared.webp",
+    "tag": "Bird"
+  },
+  {
+    "name": "Brown shrike",
+    "latin": "Lanius cristatus",
+    "habitat": "Open woodland, scrub & cultivated landscapes",
+    "habitatJa": "開けた森林、低木地、農耕地",
+    "status": "Least concern*",
+    "description": "A migratory perching bird with a dark eye stripe that scans open ground for insects and other small prey.",
+    "descriptionJa": "黒い目の線が特徴の渡り鳥で、枝に止まって地面を見渡し、昆虫や小さな獲物を探します。",
+    "image": "/details/shrike_brown.webp",
+    "image_thumb": "/thumbnails/shrike_brown.webp",
+    "tag": "Bird"
   }
 ]
