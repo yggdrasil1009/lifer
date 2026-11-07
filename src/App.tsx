@@ -330,8 +330,9 @@ function App() {
               <img
                 src={detailAnimal.image}
                 alt={detailAnimal.name}
+                loading="eager"
                 decoding="async"
-                fetchPriority="high"
+                {...{ fetchpriority: "high" }}
               />
             </div>
             <div className="daily-content">
@@ -450,7 +451,7 @@ function App() {
                   src={currentAnimal.image}
                   alt={currentAnimal.name}
                   decoding="async"
-                  fetchPriority="high"
+                  {...{ fetchpriority: "high" }}
                 />
                 <span className="photo-chip">
                   <Sprout size={13} /> {text.chip}
