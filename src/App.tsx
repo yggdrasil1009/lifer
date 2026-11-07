@@ -29,6 +29,26 @@ type Animal = {
 
 const animals: Animal[] = animalsData;
 
+function animalSlug(name: string) {
+  return name.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
+}
+
+function animalFromPath(pathname: string) {
+  const segments = pathname.split("/").filter(Boolean);
+  if (segments.length !== 3 || segments[1] !== "detail") return null;
+
+  const [category, , slug] = segments;
+  const normalizedSlug = slug.replace(/_/g, "-");
+
+  return (
+    animals.find(
+      (animal) =>
+        animal.tag.toLowerCase() === category &&
+        animalSlug(animal.name) === normalizedSlug,
+    ) ?? null
+  );
+}
+
 function ConservationStatus({ status }: { status: string }) {
   const isEndangered = status.toLowerCase().includes("endangered");
 
@@ -45,14 +65,35 @@ function App() {
   const [query, setQuery] = useState("");
   const [language, setLanguage] = useState<Language>("en");
   const [galleryPage, setGalleryPage] = useState(0);
-  const [detailAnimal, setDetailAnimal] = useState<Animal | null>(null);
+  const [pathname, setPathname] = useState(() => window.location.pathname);
   const [detailProduct, setDetailProduct] = useState<
     (typeof productsData)[number] | null
   >(null);
   const [showProducts, setShowProducts] = useState(false);
+  const detailAnimal = animalFromPath(pathname);
   const currentAnimal = animals[5];
 
   const text = translations[language];
+
+  useEffect(() => {
+    const handlePopState = () => setPathname(window.location.pathname);
+    window.addEventListener("popstate", handlePopState);
+    return () => window.removeEventListener("popstate", handlePopState);
+  }, []);
+
+  const navigatePath = (path: string) => {
+    if (window.location.pathname !== path) {
+      window.history.pushState(null, "", path);
+    }
+    setPathname(path);
+  };
+
+  const openAnimal = (animal: Animal) => {
+    navigatePath(
+      `/${animal.tag.toLowerCase()}/detail/${animalSlug(animal.name)}`,
+    );
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  };
 
   const filteredAnimals = animals.filter((animal) =>
     `${animal.name} ${animal.tag} ${animal.habitat}`
@@ -105,7 +146,7 @@ function App() {
     }
 
     if (detailAnimal) {
-      setDetailAnimal(null);
+      navigatePath("/");
       window.setTimeout(() => scrollTo(id), 0);
       return;
     }
@@ -121,7 +162,7 @@ function App() {
 
   const openProducts = () => {
     setMenuOpen(false);
-    setDetailAnimal(null);
+    navigatePath("/");
     setDetailProduct(null);
     setShowProducts(true);
     window.scrollTo({ top: 0, behavior: "smooth" });
@@ -278,7 +319,7 @@ function App() {
             className="text-link detail-back"
             type="button"
             onClick={() => {
-              setDetailAnimal(null);
+              navigatePath("/");
               window.setTimeout(() => scrollTo("gallery"), 0);
             }}
           >
@@ -503,10 +544,7 @@ function App() {
                       <article className="gallery-card" key={animal.name}>
                         <button
                           className="gallery-image-button"
-                          onClick={() => {
-                            setDetailAnimal(animal);
-                            window.scrollTo({ top: 0, behavior: "smooth" });
-                          }}
+                          onClick={() => openAnimal(animal)}
                           aria-label={`Explore ${animal.name}`}
                         >
                           <img
@@ -644,7 +682,15 @@ function App() {
               <Instagram size={16} />
             </a>
           </div>
-          <a className="back-top" href="#top" aria-label="Back to top">
+          <a
+            className="back-top"
+            href="/"
+            aria-label="Back to top"
+            onClick={(event) => {
+              event.preventDefault();
+              navigateTo("discover");
+            }}
+          >
             <span>BACK TO TOP</span>
             <ArrowUpRight size={15} />
           </a>
