@@ -288,5 +288,53 @@
     "image": "/details/shrike_brown.webp",
     "image_thumb": "/thumbnails/shrike_brown.webp",
     "tag": "Bird"
+  },
+  {
+    "name": "Little ringed plover",
+    "latin": "Charadrius dubius",
+    "habitat": "River sandbars, gravel pits & muddy edges",
+    "habitatJa": "川の砂州、砕石採取地、泥の多い水辺",
+    "status": "Least concern*",
+    "description": "A small shorebird with a quick, nervous run and a bright bill, often feeding along exposed river margins.",
+    "descriptionJa": "小さなシギ類で、川辺の露出した泥や砂を素早く走り回りながら餌を探します。",
+    "image": "/details/plove_littleringed.webp",
+    "image_thumb": "/thumbnails/plove_littleringed.webp",
+    "tag": "Bird"
+  },
+  {
+    "name": "Black-winged stilt",
+    "latin": "Himantopus himantopus",
+    "habitat": "Shallow wetlands, lagoons & tidal flats",
+    "habitatJa": "浅い湿地、潟、干潟",
+    "status": "Least concern*",
+    "description": "A tall wader with impossibly long legs, balancing in shallow water while stalking small aquatic prey.",
+    "descriptionJa": "脚が非常に長く、浅い水辺で小さな水生の獲物を探す長足の水鳥です。",
+    "image": "/details/stilt_backwinged.webp",
+    "image_thumb": "/thumbnails/stilt_backwinged.webp",
+    "tag": "Bird"
+  },
+  {
+    "name": "Dark-necked tailorbird",
+    "latin": "Orthotomus atrogularis",
+    "habitat": "Gardens, scrub & secondary woodland",
+    "habitatJa": "庭園、低木地、二次林",
+    "status": "Least concern*",
+    "description": "A compact, active insectivore that threads leaves together into a sheltered nest hidden among dense foliage.",
+    "descriptionJa": "密な茂みの中で葉を縫って巣を作り、活発に昆虫を探す小さな鳥です。",
+    "image": "/details/tailorbird_darknecked.webp",
+    "image_thumb": "/thumbnails/tailorbird_darknecked.webp",
+    "tag": "Bird"
+  },
+  {
+    "name": "Whimbrel",
+    "latin": "Numenius phaeopus",
+    "habitat": "Mudflats, estuaries & coastal marshes",
+    "habitatJa": "干潟、河口、沿岸の沼地",
+    "status": "Least concern*",
+    "description": "A long-billed migratory shorebird that probes soft mud for worms and crustaceans along coastal flats.",
+    "descriptionJa": "長いくちばしで潮だまりの泥を探り、ミミズや甲殻類を食べる渡り性の鳥です。",
+    "image": "/details/whimbrel.webp",
+    "image_thumb": "/thumbnails/whimbrel.webp",
+    "tag": "Bird"
   }
 ]
