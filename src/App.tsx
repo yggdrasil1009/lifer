@@ -285,7 +285,6 @@ function App() {
       {isLearnKanji ? (
         <section className="learn-kanji-section page-shell section-pad">
           <div className="learn-kanji-heading">
-            <p className="eyebrow">{text.learnEyebrow}</p>
             <h1>{text.learnTitle}</h1>
             <p className="learn-kanji-description">{text.learnDescription}</p>
           </div>
