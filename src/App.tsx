@@ -276,8 +276,8 @@ function App() {
               {text.navAlbum}
             </button>
             <button onClick={openProducts}>{text.navProduct}</button>
-            <button onClick={() => navigateTo("about")}>{text.navAbout}</button>
             <button onClick={openLearnKanji}>{text.navLearn}</button>
+            <button onClick={() => navigateTo("about")}>{text.navAbout}</button>
           </nav>
         </div>
       </header>
