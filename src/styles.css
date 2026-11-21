@@ -410,6 +410,153 @@ h2 em,
   padding-top: 104px;
   padding-bottom: 108px;
 }
+.learn-kanji-section {
+  min-height: calc(100vh - 112px);
+}
+.learn-kanji-heading {
+  max-width: 700px;
+  margin: 0 auto 42px;
+  text-align: center;
+}
+.learn-kanji-heading .eyebrow {
+  justify-content: center;
+  margin-bottom: 18px;
+}
+.learn-kanji-heading h1 {
+  margin-bottom: 18px;
+  font-size: clamp(42px, 6vw, 72px);
+}
+.learn-kanji-description {
+  max-width: 420px;
+  margin: 0 auto;
+  color: #72766a;
+  font-size: 13px;
+  line-height: 1.8;
+}
+.kanji-study {
+  width: min(100%, 560px);
+  margin: 0 auto;
+}
+.kanji-lesson-select {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 16px;
+  margin-bottom: 26px;
+  color: #778071;
+  font-family: var(--mono);
+  font-size: 9px;
+  letter-spacing: 1.5px;
+}
+.kanji-lesson-select select {
+  min-width: 190px;
+  min-height: 40px;
+  padding: 0 34px 0 12px;
+  border: 1px solid #c8cabe;
+  border-radius: 0;
+  background: #e9e8dd;
+  color: #334b36;
+  font-family: var(--mono);
+  font-size: 9px;
+  letter-spacing: 0.6px;
+}
+.kanji-study-topline {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 12px;
+  color: #778071;
+  font-family: var(--mono);
+  font-size: 9px;
+  letter-spacing: 1.6px;
+}
+.kanji-flashcard {
+  display: flex;
+  width: 100%;
+  min-height: 350px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  padding: 32px;
+  border: 1px solid #d5d6ca;
+  border-radius: 10px;
+  background: #e9e8dd;
+  color: var(--ink);
+  transition:
+    background 0.2s ease,
+    transform 0.2s ease;
+}
+.kanji-flashcard:hover {
+  transform: translateY(-2px);
+  background: #e5e6da;
+}
+.kanji-front {
+  animation: kanji-card-reveal 180ms ease-out both;
+  font-family: "Noto Serif JP", "Yu Mincho", serif;
+  font-size: clamp(74px, 13vw, 112px);
+  line-height: 1.2;
+}
+.kanji-answer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  animation: kanji-card-reveal 180ms ease-out both;
+}
+@keyframes kanji-card-reveal {
+  from {
+    opacity: 0;
+    transform: rotateY(18deg) scale(0.97);
+  }
+  to {
+    opacity: 1;
+    transform: rotateY(0) scale(1);
+  }
+}
+.kanji-reading {
+  font-family: "Noto Serif JP", "Yu Mincho", serif;
+  font-size: clamp(40px, 8vw, 62px);
+}
+.kanji-meaning {
+  color: #52664b;
+  font-size: clamp(16px, 3vw, 21px);
+}
+.kanji-card-hint {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  color: #85887a;
+  font-family: var(--mono);
+  font-size: 8px;
+  letter-spacing: 1.2px;
+}
+.kanji-progress {
+  height: 2px;
+  margin-top: 18px;
+  background: #d7d8cc;
+}
+.kanji-progress span {
+  display: block;
+  height: 100%;
+  background: #52664b;
+  transition: width 0.2s ease;
+}
+.kanji-card-controls {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  margin-top: 22px;
+}
+.kanji-card-controls .button {
+  min-width: 138px;
+}
+.kanji-encouragement {
+  margin: 18px 0 0;
+  color: #718667;
+  font-size: 12px;
+  line-height: 1.7;
+  text-align: center;
+}
 .section-heading {
   display: flex;
   align-items: flex-end;
@@ -1441,6 +1588,26 @@ h2 {
   }
   .section-pad {
     padding-block: 70px;
+  }
+  .learn-kanji-section {
+    min-height: calc(100vh - 82px);
+    padding-block: 58px 70px;
+  }
+  .learn-kanji-heading {
+    margin-bottom: 32px;
+  }
+  .kanji-flashcard {
+    min-height: 300px;
+  }
+  .kanji-lesson-select select {
+    min-width: 0;
+    max-width: 70%;
+  }
+  .kanji-card-controls .button {
+    min-width: 0;
+    flex: 1;
+    padding-inline: 12px;
+    gap: 8px;
   }
   .section-heading {
     align-items: flex-start;

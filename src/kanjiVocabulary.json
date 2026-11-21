@@ -1,0 +1,5077 @@
+[
+  {
+    "lesson": 1,
+    "cards": [
+      {
+        "kanji": "私",
+        "hiragana": "わたし",
+        "meaningVi": "tôi"
+      },
+      {
+        "kanji": "私たち",
+        "hiragana": "わたしたち",
+        "meaningVi": "chúng tôi; chúng ta"
+      },
+      {
+        "kanji": "",
+        "hiragana": "あなた",
+        "meaningVi": "anh/chị/ông/bà (ngôi thứ 2 số ít)"
+      },
+      {
+        "kanji": "あの人",
+        "hiragana": "あのひと",
+        "meaningVi": "người kia; người đó"
+      },
+      {
+        "kanji": "あの方",
+        "hiragana": "あのかた",
+        "meaningVi": "vị kia (cách nói lịch sự của あのひと)"
+      },
+      {
+        "kanji": "皆さん",
+        "hiragana": "みなさん",
+        "meaningVi": "các anh chị; các ông bà; mọi người"
+      },
+      {
+        "kanji": "～さん",
+        "hiragana": "～さん",
+        "meaningVi": "anh/chị/ông/bà ~ (cách gọi lịch sự)"
+      },
+      {
+        "kanji": "～ちゃん",
+        "hiragana": "～ちゃん",
+        "meaningVi": "bé ~ (hậu tố gọi trẻ em hoặc người thân thiết)"
+      },
+      {
+        "kanji": "～君",
+        "hiragana": "～くん",
+        "meaningVi": "cậu ~ (hậu tố gọi bé trai)"
+      },
+      {
+        "kanji": "～人",
+        "hiragana": "～じん",
+        "meaningVi": "người nước ~ (hậu tố chỉ quốc tịch)"
+      },
+      {
+        "kanji": "先生",
+        "hiragana": "せんせい",
+        "meaningVi": "thầy; cô (không dùng khi nói về nghề nghiệp của bản thân)"
+      },
+      {
+        "kanji": "教師",
+        "hiragana": "きょうし",
+        "meaningVi": "giáo viên (dùng để nói về nghề nghiệp)"
+      },
+      {
+        "kanji": "学生",
+        "hiragana": "がくせい",
+        "meaningVi": "học sinh; sinh viên"
+      },
+      {
+        "kanji": "会社員",
+        "hiragana": "かいしゃいん",
+        "meaningVi": "nhân viên công ty"
+      },
+      {
+        "kanji": "社員",
+        "hiragana": "しゃいん",
+        "meaningVi": "nhân viên công ty ~ (dùng kèm tên công ty)"
+      },
+      {
+        "kanji": "銀行員",
+        "hiragana": "ぎんこういん",
+        "meaningVi": "nhân viên ngân hàng"
+      },
+      {
+        "kanji": "医者",
+        "hiragana": "いしゃ",
+        "meaningVi": "bác sĩ"
+      },
+      {
+        "kanji": "研究者",
+        "hiragana": "けんきゅうしゃ",
+        "meaningVi": "nhà nghiên cứu"
+      },
+      {
+        "kanji": "",
+        "hiragana": "エンジニア",
+        "meaningVi": "kỹ sư"
+      },
+      {
+        "kanji": "大学",
+        "hiragana": "だいがく",
+        "meaningVi": "trường đại học"
+      },
+      {
+        "kanji": "病院",
+        "hiragana": "びょういん",
+        "meaningVi": "bệnh viện"
+      },
+      {
+        "kanji": "電気",
+        "hiragana": "でんき",
+        "meaningVi": "điện; đèn điện"
+      },
+      {
+        "kanji": "誰",
+        "hiragana": "だれ",
+        "meaningVi": "ai"
+      },
+      {
+        "kanji": "",
+        "hiragana": "どなた",
+        "meaningVi": "vị nào (cách nói lịch sự của だれ)"
+      },
+      {
+        "kanji": "～歳",
+        "hiragana": "～さい",
+        "meaningVi": "~ tuổi"
+      },
+      {
+        "kanji": "何歳",
+        "hiragana": "なんさい",
+        "meaningVi": "mấy tuổi; bao nhiêu tuổi"
+      },
+      {
+        "kanji": "",
+        "hiragana": "おいくつ",
+        "meaningVi": "bao nhiêu tuổi (cách nói lịch sự của なんさい)"
+      },
+      {
+        "kanji": "",
+        "hiragana": "はい",
+        "meaningVi": "vâng; dạ"
+      },
+      {
+        "kanji": "",
+        "hiragana": "いいえ",
+        "meaningVi": "không"
+      },
+      {
+        "kanji": "失礼ですが",
+        "hiragana": "しつれいですが",
+        "meaningVi": "xin lỗi cho tôi hỏi (khi muốn hỏi thông tin cá nhân)"
+      },
+      {
+        "kanji": "お名前は？",
+        "hiragana": "おなまえは？",
+        "meaningVi": "tên anh/chị là gì?"
+      },
+      {
+        "kanji": "初めまして",
+        "hiragana": "はじめまして",
+        "meaningVi": "rất hân hạnh được gặp anh/chị (lời chào lần đầu gặp)"
+      },
+      {
+        "kanji": "どうぞよろしく［お願いします］",
+        "hiragana": "どうぞよろしく［おねがいします］",
+        "meaningVi": "rất mong nhận được sự giúp đỡ của anh/chị"
+      },
+      {
+        "kanji": "こちらは～さんです",
+        "hiragana": "こちらは～さんです",
+        "meaningVi": "đây là anh/chị/ông/bà ~"
+      },
+      {
+        "kanji": "～から来ました",
+        "hiragana": "～からきました",
+        "meaningVi": "tôi đến từ ~"
+      }
+    ]
+  },
+  {
+    "lesson": 2,
+    "cards": [
+      {
+        "kanji": "",
+        "hiragana": "これ",
+        "meaningVi": "cái này; đây (vật ở gần người nói)"
+      },
+      {
+        "kanji": "",
+        "hiragana": "それ",
+        "meaningVi": "cái đó; đó (vật ở gần người nghe)"
+      },
+      {
+        "kanji": "",
+        "hiragana": "あれ",
+        "meaningVi": "cái kia; kia (vật ở xa cả người nói và người nghe)"
+      },
+      {
+        "kanji": "",
+        "hiragana": "この～",
+        "meaningVi": "~ này"
+      },
+      {
+        "kanji": "",
+        "hiragana": "その～",
+        "meaningVi": "~ đó"
+      },
+      {
+        "kanji": "",
+        "hiragana": "あの～",
+        "meaningVi": "~ kia"
+      },
+      {
+        "kanji": "本",
+        "hiragana": "ほん",
+        "meaningVi": "sách"
+      },
+      {
+        "kanji": "辞書",
+        "hiragana": "じしょ",
+        "meaningVi": "từ điển"
+      },
+      {
+        "kanji": "雑誌",
+        "hiragana": "ざっし",
+        "meaningVi": "tạp chí"
+      },
+      {
+        "kanji": "新聞",
+        "hiragana": "しんぶん",
+        "meaningVi": "báo"
+      },
+      {
+        "kanji": "",
+        "hiragana": "ノート",
+        "meaningVi": "vở"
+      },
+      {
+        "kanji": "手帳",
+        "hiragana": "てちょう",
+        "meaningVi": "sổ tay"
+      },
+      {
+        "kanji": "名刺",
+        "hiragana": "めいし",
+        "meaningVi": "danh thiếp"
+      },
+      {
+        "kanji": "",
+        "hiragana": "カード",
+        "meaningVi": "thẻ; cạc"
+      },
+      {
+        "kanji": "鉛筆",
+        "hiragana": "えんぴつ",
+        "meaningVi": "bút chì"
+      },
+      {
+        "kanji": "",
+        "hiragana": "ボールペン",
+        "meaningVi": "bút bi"
+      },
+      {
+        "kanji": "",
+        "hiragana": "シャープペンシル",
+        "meaningVi": "bút chì kim"
+      },
+      {
+        "kanji": "鍵",
+        "hiragana": "かぎ",
+        "meaningVi": "chìa khóa"
+      },
+      {
+        "kanji": "時計",
+        "hiragana": "とけい",
+        "meaningVi": "đồng hồ"
+      },
+      {
+        "kanji": "傘",
+        "hiragana": "かさ",
+        "meaningVi": "ô; dù"
+      },
+      {
+        "kanji": "鞄",
+        "hiragana": "かばん",
+        "meaningVi": "cặp sách; túi xách"
+      },
+      {
+        "kanji": "",
+        "hiragana": "テレビ",
+        "meaningVi": "tivi"
+      },
+      {
+        "kanji": "",
+        "hiragana": "ラジオ",
+        "meaningVi": "ra-đi-ô; đài"
+      },
+      {
+        "kanji": "",
+        "hiragana": "カメラ",
+        "meaningVi": "máy ảnh"
+      },
+      {
+        "kanji": "",
+        "hiragana": "コンピューター",
+        "meaningVi": "máy vi tính"
+      },
+      {
+        "kanji": "自動車",
+        "hiragana": "じどうしゃ",
+        "meaningVi": "xe ô tô; xe hơi"
+      },
+      {
+        "kanji": "机",
+        "hiragana": "つくえ",
+        "meaningVi": "bàn"
+      },
+      {
+        "kanji": "椅子",
+        "hiragana": "いす",
+        "meaningVi": "ghế"
+      },
+      {
+        "kanji": "",
+        "hiragana": "チョコレート",
+        "meaningVi": "sô-cô-la"
+      },
+      {
+        "kanji": "",
+        "hiragana": "コーヒー",
+        "meaningVi": "cà phê"
+      },
+      {
+        "kanji": "英語",
+        "hiragana": "えいご",
+        "meaningVi": "tiếng Anh"
+      },
+      {
+        "kanji": "日本語",
+        "hiragana": "にほんご",
+        "meaningVi": "tiếng Nhật"
+      },
+      {
+        "kanji": "～語",
+        "hiragana": "～ご",
+        "meaningVi": "tiếng ~"
+      },
+      {
+        "kanji": "何",
+        "hiragana": "なん",
+        "meaningVi": "cái gì"
+      },
+      {
+        "kanji": "",
+        "hiragana": "そう",
+        "meaningVi": "đúng vậy"
+      },
+      {
+        "kanji": "違います",
+        "hiragana": "ちがいます",
+        "meaningVi": "không phải; sai rồi"
+      },
+      {
+        "kanji": "",
+        "hiragana": "そうですか",
+        "meaningVi": "thế à; vậy à"
+      },
+      {
+        "kanji": "",
+        "hiragana": "あのう",
+        "meaningVi": "à; ờ (từ đệm khi ngập ngừng)"
+      },
+      {
+        "kanji": "ほんの気持ちです",
+        "hiragana": "ほんのきもちです",
+        "meaningVi": "đây là chút lòng thành của tôi"
+      },
+      {
+        "kanji": "",
+        "hiragana": "どうぞ",
+        "meaningVi": "xin mời"
+      },
+      {
+        "kanji": "",
+        "hiragana": "どうも",
+        "meaningVi": "cảm ơn"
+      },
+      {
+        "kanji": "［どうも］ありがとう［ございます］",
+        "hiragana": "［どうも］ありがとう［ございます］",
+        "meaningVi": "xin chân thành cảm ơn"
+      },
+      {
+        "kanji": "これからお世話になります",
+        "hiragana": "これからおせわになります",
+        "meaningVi": "từ nay tôi sẽ nhận được nhiều sự giúp đỡ của anh/chị"
+      },
+      {
+        "kanji": "こちらこそよろしく",
+        "hiragana": "こちらこそよろしく",
+        "meaningVi": "chính tôi mới mong nhận được sự giúp đỡ của anh/chị"
+      }
+    ]
+  },
+  {
+    "lesson": 3,
+    "cards": [
+      {
+        "kanji": "",
+        "hiragana": "ここ",
+        "meaningVi": "chỗ này; đây"
+      },
+      {
+        "kanji": "",
+        "hiragana": "そこ",
+        "meaningVi": "chỗ đó; đó"
+      },
+      {
+        "kanji": "",
+        "hiragana": "あそこ",
+        "meaningVi": "chỗ kia; kia"
+      },
+      {
+        "kanji": "",
+        "hiragana": "どこ",
+        "meaningVi": "chỗ nào; đâu"
+      },
+      {
+        "kanji": "",
+        "hiragana": "こちら",
+        "meaningVi": "phía này; đằng này; chỗ này (lịch sự của ここ)"
+      },
+      {
+        "kanji": "",
+        "hiragana": "そちら",
+        "meaningVi": "phía đó; đằng đó; chỗ đó (lịch sự của そこ)"
+      },
+      {
+        "kanji": "",
+        "hiragana": "あちら",
+        "meaningVi": "phía kia; đằng kia; chỗ kia (lịch sự của あそこ)"
+      },
+      {
+        "kanji": "",
+        "hiragana": "どちら",
+        "meaningVi": "phía nào; đằng nào; chỗ nào (lịch sự của どこ)"
+      },
+      {
+        "kanji": "教室",
+        "hiragana": "きょうしつ",
+        "meaningVi": "lớp học; phòng học"
+      },
+      {
+        "kanji": "食堂",
+        "hiragana": "しょくどう",
+        "meaningVi": "nhà ăn; phòng ăn"
+      },
+      {
+        "kanji": "事務所",
+        "hiragana": "じむしょ",
+        "meaningVi": "văn phòng"
+      },
+      {
+        "kanji": "会議室",
+        "hiragana": "かいぎしつ",
+        "meaningVi": "phòng họp"
+      },
+      {
+        "kanji": "受付",
+        "hiragana": "うけつけ",
+        "meaningVi": "bộ phận tiếp tân; quầy lễ tân"
+      },
+      {
+        "kanji": "",
+        "hiragana": "ロビー",
+        "meaningVi": "hành lang; đại sảnh"
+      },
+      {
+        "kanji": "部屋",
+        "hiragana": "へや",
+        "meaningVi": "căn phòng"
+      },
+      {
+        "kanji": "お手洗い",
+        "hiragana": "おてあらい",
+        "meaningVi": "nhà vệ sinh"
+      },
+      {
+        "kanji": "",
+        "hiragana": "トイレ",
+        "meaningVi": "nhà vệ sinh; toilet"
+      },
+      {
+        "kanji": "階段",
+        "hiragana": "かいだん",
+        "meaningVi": "cầu thang"
+      },
+      {
+        "kanji": "",
+        "hiragana": "エレベーター",
+        "meaningVi": "thang máy"
+      },
+      {
+        "kanji": "",
+        "hiragana": "エスカレーター",
+        "meaningVi": "thang cuốn"
+      },
+      {
+        "kanji": "［お］国",
+        "hiragana": "［お］くに",
+        "meaningVi": "đất nước; quốc gia"
+      },
+      {
+        "kanji": "会社",
+        "hiragana": "かいしゃ",
+        "meaningVi": "công ty"
+      },
+      {
+        "kanji": "家",
+        "hiragana": "うち",
+        "meaningVi": "nhà"
+      },
+      {
+        "kanji": "電話",
+        "hiragana": "でんわ",
+        "meaningVi": "máy điện thoại; điện thoại"
+      },
+      {
+        "kanji": "靴",
+        "hiragana": "くつ",
+        "meaningVi": "giày"
+      },
+      {
+        "kanji": "",
+        "hiragana": "ネクタイ",
+        "meaningVi": "cà vạt"
+      },
+      {
+        "kanji": "",
+        "hiragana": "ワイン",
+        "meaningVi": "rượu vang"
+      },
+      {
+        "kanji": "たばこ",
+        "hiragana": "たばこ",
+        "meaningVi": "thuốc lá"
+      },
+      {
+        "kanji": "売り場",
+        "hiragana": "うりば",
+        "meaningVi": "quầy bán (trong cửa hàng bách hóa)"
+      },
+      {
+        "kanji": "地下",
+        "hiragana": "ちか",
+        "meaningVi": "tầng hầm; dưới mặt đất"
+      },
+      {
+        "kanji": "～階",
+        "hiragana": "～かい（～がい）",
+        "meaningVi": "tầng thứ ~"
+      },
+      {
+        "kanji": "何階",
+        "hiragana": "なんがい",
+        "meaningVi": "tầng mấy"
+      },
+      {
+        "kanji": "～円",
+        "hiragana": "～えん",
+        "meaningVi": "~ yên"
+      },
+      {
+        "kanji": "",
+        "hiragana": "いくら",
+        "meaningVi": "bao nhiêu tiền"
+      },
+      {
+        "kanji": "百",
+        "hiragana": "ひゃく",
+        "meaningVi": "trăm"
+      },
+      {
+        "kanji": "千",
+        "hiragana": "せん",
+        "meaningVi": "nghìn"
+      },
+      {
+        "kanji": "万",
+        "hiragana": "まん",
+        "meaningVi": "vạn (mười nghìn)"
+      },
+      {
+        "kanji": "すみません",
+        "hiragana": "すみません",
+        "meaningVi": "xin lỗi"
+      },
+      {
+        "kanji": "～でございます",
+        "hiragana": "～でございます",
+        "meaningVi": "(cách nói lịch sự của です)"
+      },
+      {
+        "kanji": "［～を］見せてください",
+        "hiragana": "［～を］みせてください",
+        "meaningVi": "cho tôi xem [~]"
+      },
+      {
+        "kanji": "",
+        "hiragana": "じゃ",
+        "meaningVi": "thế thì; vậy thì"
+      },
+      {
+        "kanji": "［～を］ください",
+        "hiragana": "［～を］ください",
+        "meaningVi": "cho tôi [~]"
+      }
+    ]
+  },
+  {
+    "lesson": 4,
+    "cards": [
+      {
+        "kanji": "起きます",
+        "hiragana": "おきます",
+        "meaningVi": "thức dậy"
+      },
+      {
+        "kanji": "寝ます",
+        "hiragana": "ねます",
+        "meaningVi": "ngủ; đi ngủ"
+      },
+      {
+        "kanji": "働きます",
+        "hiragana": "はたらきます",
+        "meaningVi": "làm việc"
+      },
+      {
+        "kanji": "休みます",
+        "hiragana": "やすみます",
+        "meaningVi": "nghỉ; nghỉ ngơi"
+      },
+      {
+        "kanji": "勉強します",
+        "hiragana": "べんきょうします",
+        "meaningVi": "học"
+      },
+      {
+        "kanji": "終わります",
+        "hiragana": "おわります",
+        "meaningVi": "kết thúc; xong"
+      },
+      {
+        "kanji": "",
+        "hiragana": "デパート",
+        "meaningVi": "bách hóa; trung tâm thương mại"
+      },
+      {
+        "kanji": "銀行",
+        "hiragana": "ぎんこう",
+        "meaningVi": "ngân hàng"
+      },
+      {
+        "kanji": "郵便局",
+        "hiragana": "ゆうびんきょく",
+        "meaningVi": "bưu điện"
+      },
+      {
+        "kanji": "図書館",
+        "hiragana": "としょかん",
+        "meaningVi": "thư viện"
+      },
+      {
+        "kanji": "美術館",
+        "hiragana": "びじゅつかん",
+        "meaningVi": "bảo tàng mỹ thuật"
+      },
+      {
+        "kanji": "今",
+        "hiragana": "いま",
+        "meaningVi": "bây giờ"
+      },
+      {
+        "kanji": "～時",
+        "hiragana": "～じ",
+        "meaningVi": "~ giờ"
+      },
+      {
+        "kanji": "～分",
+        "hiragana": "～ふん（～ぷん）",
+        "meaningVi": "~ phút"
+      },
+      {
+        "kanji": "半",
+        "hiragana": "はん",
+        "meaningVi": "rưỡi; nửa"
+      },
+      {
+        "kanji": "何時",
+        "hiragana": "なんじ",
+        "meaningVi": "mấy giờ"
+      },
+      {
+        "kanji": "何分",
+        "hiragana": "なんぷん",
+        "meaningVi": "mấy phút"
+      },
+      {
+        "kanji": "午前",
+        "hiragana": "ごぜん",
+        "meaningVi": "sáng (trước 12 giờ trưa)"
+      },
+      {
+        "kanji": "午後",
+        "hiragana": "ごご",
+        "meaningVi": "chiều (sau 12 giờ trưa)"
+      },
+      {
+        "kanji": "朝",
+        "hiragana": "あさ",
+        "meaningVi": "buổi sáng; sáng"
+      },
+      {
+        "kanji": "昼",
+        "hiragana": "ひる",
+        "meaningVi": "buổi trưa; ban ngày"
+      },
+      {
+        "kanji": "晩（夜）",
+        "hiragana": "ばん（よる）",
+        "meaningVi": "buổi tối; đêm"
+      },
+      {
+        "kanji": "一昨日",
+        "hiragana": "おととい",
+        "meaningVi": "hôm kia"
+      },
+      {
+        "kanji": "昨日",
+        "hiragana": "きのう",
+        "meaningVi": "hôm qua"
+      },
+      {
+        "kanji": "今日",
+        "hiragana": "きょう",
+        "meaningVi": "hôm nay"
+      },
+      {
+        "kanji": "明日",
+        "hiragana": "あした",
+        "meaningVi": "ngày mai"
+      },
+      {
+        "kanji": "明後日",
+        "hiragana": "あさって",
+        "meaningVi": "ngày kia"
+      },
+      {
+        "kanji": "今朝",
+        "hiragana": "けさ",
+        "meaningVi": "sáng nay"
+      },
+      {
+        "kanji": "今晩",
+        "hiragana": "こんばん",
+        "meaningVi": "tối nay"
+      },
+      {
+        "kanji": "休み",
+        "hiragana": "やすみ",
+        "meaningVi": "nghỉ; nghỉ phép; ngày nghỉ"
+      },
+      {
+        "kanji": "昼休み",
+        "hiragana": "ひるやすみ",
+        "meaningVi": "nghỉ trưa"
+      },
+      {
+        "kanji": "毎朝",
+        "hiragana": "まいあさ",
+        "meaningVi": "mỗi sáng; hàng sáng"
+      },
+      {
+        "kanji": "毎晩",
+        "hiragana": "まいばん",
+        "meaningVi": "mỗi tối; hàng tối"
+      },
+      {
+        "kanji": "毎日",
+        "hiragana": "まいにち",
+        "meaningVi": "mỗi ngày; hàng ngày"
+      },
+      {
+        "kanji": "月曜日",
+        "hiragana": "げつようび",
+        "meaningVi": "thứ Hai"
+      },
+      {
+        "kanji": "火曜日",
+        "hiragana": "かようび",
+        "meaningVi": "thứ Ba"
+      },
+      {
+        "kanji": "水曜日",
+        "hiragana": "すいようび",
+        "meaningVi": "thứ Tư"
+      },
+      {
+        "kanji": "木曜日",
+        "hiragana": "もくようび",
+        "meaningVi": "thứ Năm"
+      },
+      {
+        "kanji": "金曜日",
+        "hiragana": "きんようび",
+        "meaningVi": "thứ Sáu"
+      },
+      {
+        "kanji": "土曜日",
+        "hiragana": "どようび",
+        "meaningVi": "thứ Bảy"
+      },
+      {
+        "kanji": "日曜日",
+        "hiragana": "にちようび",
+        "meaningVi": "Chủ Nhật"
+      },
+      {
+        "kanji": "何曜日",
+        "hiragana": "なんようび",
+        "meaningVi": "thứ mấy"
+      },
+      {
+        "kanji": "番号",
+        "hiragana": "ばんごう",
+        "meaningVi": "số (số điện thoại, số phòng...)"
+      },
+      {
+        "kanji": "何番",
+        "hiragana": "なんばん",
+        "meaningVi": "số mấy; số bao nhiêu"
+      },
+      {
+        "kanji": "～から",
+        "hiragana": "～から",
+        "meaningVi": "từ ~"
+      },
+      {
+        "kanji": "～まで",
+        "hiragana": "～まで",
+        "meaningVi": "đến ~"
+      },
+      {
+        "kanji": "～と～",
+        "hiragana": "～と～",
+        "meaningVi": "~ và ~ (dùng để nối hai danh từ)"
+      },
+      {
+        "kanji": "そちら",
+        "hiragana": "そちら",
+        "meaningVi": "ông/bà; phía ông/bà; chỗ ông/bà"
+      },
+      {
+        "kanji": "大変ですね",
+        "hiragana": "たいへんですね",
+        "meaningVi": "anh/chị vất vả quá nhỉ"
+      },
+      {
+        "kanji": "",
+        "hiragana": "えーと",
+        "meaningVi": "ờ; à (từ đệm khi suy nghĩ)"
+      },
+      {
+        "kanji": "お願いします",
+        "hiragana": "おねがいします",
+        "meaningVi": "nhờ anh/chị; làm ơn"
+      },
+      {
+        "kanji": "かしこまりました",
+        "hiragana": "かしこまりました",
+        "meaningVi": "tôi hiểu rồi ạ; vâng ạ (cách nói lịch sự)"
+      },
+      {
+        "kanji": "お問い合わせの番号",
+        "hiragana": "おといあわせのばんごう",
+        "meaningVi": "số điện thoại mà quý khách muốn hỏi"
+      },
+      {
+        "kanji": "［どうも］ありがとうございました",
+        "hiragana": "［どうも］ありがとうございました",
+        "meaningVi": "xin chân thành cảm ơn"
+      }
+    ]
+  },
+  {
+    "lesson": 5,
+    "cards": [
+      {
+        "kanji": "行きます",
+        "hiragana": "いきます",
+        "meaningVi": "đi"
+      },
+      {
+        "kanji": "来ます",
+        "hiragana": "きます",
+        "meaningVi": "đến"
+      },
+      {
+        "kanji": "帰ります",
+        "hiragana": "かえります",
+        "meaningVi": "về"
+      },
+      {
+        "kanji": "学校",
+        "hiragana": "がっこう",
+        "meaningVi": "trường học"
+      },
+      {
+        "kanji": "",
+        "hiragana": "スーパー",
+        "meaningVi": "siêu thị"
+      },
+      {
+        "kanji": "駅",
+        "hiragana": "えき",
+        "meaningVi": "nhà ga"
+      },
+      {
+        "kanji": "飛行機",
+        "hiragana": "ひこうき",
+        "meaningVi": "máy bay"
+      },
+      {
+        "kanji": "船",
+        "hiragana": "ふね",
+        "meaningVi": "thuyền; tàu thủy"
+      },
+      {
+        "kanji": "電車",
+        "hiragana": "でんしゃ",
+        "meaningVi": "tàu điện"
+      },
+      {
+        "kanji": "地下鉄",
+        "hiragana": "ちかてつ",
+        "meaningVi": "tàu điện ngầm"
+      },
+      {
+        "kanji": "新幹線",
+        "hiragana": "しんかんせん",
+        "meaningVi": "tàu Shinkansen (tàu cao tốc)"
+      },
+      {
+        "kanji": "",
+        "hiragana": "バス",
+        "meaningVi": "xe buýt"
+      },
+      {
+        "kanji": "",
+        "hiragana": "タクシー",
+        "meaningVi": "xe tắc-xi"
+      },
+      {
+        "kanji": "自転車",
+        "hiragana": "じてんしゃ",
+        "meaningVi": "xe đạp"
+      },
+      {
+        "kanji": "歩いて",
+        "hiragana": "あるいて",
+        "meaningVi": "đi bộ"
+      },
+      {
+        "kanji": "人",
+        "hiragana": "ひと",
+        "meaningVi": "người"
+      },
+      {
+        "kanji": "友達",
+        "hiragana": "ともだち",
+        "meaningVi": "bạn; bạn bè"
+      },
+      {
+        "kanji": "彼",
+        "hiragana": "かれ",
+        "meaningVi": "anh ấy; bạn trai"
+      },
+      {
+        "kanji": "彼女",
+        "hiragana": "かのじょ",
+        "meaningVi": "cô ấy; bạn gái"
+      },
+      {
+        "kanji": "家族",
+        "hiragana": "かぞく",
+        "meaningVi": "gia đình"
+      },
+      {
+        "kanji": "一人で",
+        "hiragana": "ひとりで",
+        "meaningVi": "một mình"
+      },
+      {
+        "kanji": "先週",
+        "hiragana": "せんしゅう",
+        "meaningVi": "tuần trước"
+      },
+      {
+        "kanji": "今週",
+        "hiragana": "こんしゅう",
+        "meaningVi": "tuần này"
+      },
+      {
+        "kanji": "来週",
+        "hiragana": "らいしゅう",
+        "meaningVi": "tuần sau"
+      },
+      {
+        "kanji": "先月",
+        "hiragana": "せんげつ",
+        "meaningVi": "tháng trước"
+      },
+      {
+        "kanji": "今月",
+        "hiragana": "こんげつ",
+        "meaningVi": "tháng này"
+      },
+      {
+        "kanji": "来月",
+        "hiragana": "らいげつ",
+        "meaningVi": "tháng sau"
+      },
+      {
+        "kanji": "去年",
+        "hiragana": "きょねん",
+        "meaningVi": "năm ngoái"
+      },
+      {
+        "kanji": "今年",
+        "hiragana": "ことし",
+        "meaningVi": "năm nay"
+      },
+      {
+        "kanji": "来年",
+        "hiragana": "らいねん",
+        "meaningVi": "năm sau"
+      },
+      {
+        "kanji": "～月",
+        "hiragana": "～がつ",
+        "meaningVi": "tháng ~"
+      },
+      {
+        "kanji": "何月",
+        "hiragana": "なんがつ",
+        "meaningVi": "tháng mấy"
+      },
+      {
+        "kanji": "一日",
+        "hiragana": "ついたち",
+        "meaningVi": "ngày mùng 1"
+      },
+      {
+        "kanji": "二日",
+        "hiragana": "ふつか",
+        "meaningVi": "ngày mùng 2; 2 ngày"
+      },
+      {
+        "kanji": "三日",
+        "hiragana": "みっか",
+        "meaningVi": "ngày mùng 3; 3 ngày"
+      },
+      {
+        "kanji": "四日",
+        "hiragana": "よっか",
+        "meaningVi": "ngày mùng 4; 4 ngày"
+      },
+      {
+        "kanji": "五日",
+        "hiragana": "いつか",
+        "meaningVi": "ngày mùng 5; 5 ngày"
+      },
+      {
+        "kanji": "六日",
+        "hiragana": "むいか",
+        "meaningVi": "ngày mùng 6; 6 ngày"
+      },
+      {
+        "kanji": "七日",
+        "hiragana": "なのか",
+        "meaningVi": "ngày mùng 7; 7 ngày"
+      },
+      {
+        "kanji": "八日",
+        "hiragana": "ようか",
+        "meaningVi": "ngày mùng 8; 8 ngày"
+      },
+      {
+        "kanji": "九日",
+        "hiragana": "ここのか",
+        "meaningVi": "ngày mùng 9; 9 ngày"
+      },
+      {
+        "kanji": "十日",
+        "hiragana": "とおか",
+        "meaningVi": "ngày mùng 10; 10 ngày"
+      },
+      {
+        "kanji": "十四日",
+        "hiragana": "じゅうよっか",
+        "meaningVi": "ngày 14; 14 ngày"
+      },
+      {
+        "kanji": "二十日",
+        "hiragana": "はつか",
+        "meaningVi": "ngày 20; 20 ngày"
+      },
+      {
+        "kanji": "二十四日",
+        "hiragana": "にじゅうよっか",
+        "meaningVi": "ngày 24; 24 ngày"
+      },
+      {
+        "kanji": "～日",
+        "hiragana": "～にち",
+        "meaningVi": "ngày ~; ~ ngày"
+      },
+      {
+        "kanji": "何日",
+        "hiragana": "なんにち",
+        "meaningVi": "ngày mấy; bao nhiêu ngày"
+      },
+      {
+        "kanji": "",
+        "hiragana": "いつ",
+        "meaningVi": "bao giờ; khi nào"
+      },
+      {
+        "kanji": "誕生日",
+        "hiragana": "たんじょうび",
+        "meaningVi": "sinh nhật"
+      },
+      {
+        "kanji": "普通",
+        "hiragana": "ふつう",
+        "meaningVi": "tàu thường (dừng ở tất cả các ga)"
+      },
+      {
+        "kanji": "急行",
+        "hiragana": "きゅうこう",
+        "meaningVi": "tàu tốc hành"
+      },
+      {
+        "kanji": "特急",
+        "hiragana": "とっきゅう",
+        "meaningVi": "tàu tốc hành đặc biệt"
+      },
+      {
+        "kanji": "次の",
+        "hiragana": "つぎの",
+        "meaningVi": "tiếp theo"
+      },
+      {
+        "kanji": "どういたしまして",
+        "hiragana": "どういたしまして",
+        "meaningVi": "không có gì"
+      },
+      {
+        "kanji": "～番線",
+        "hiragana": "～ばんせん",
+        "meaningVi": "sân ga số ~"
+      }
+    ]
+  },
+  {
+    "lesson": 6,
+    "cards": [
+      {
+        "kanji": "食べます",
+        "hiragana": "たべます",
+        "meaningVi": "ăn"
+      },
+      {
+        "kanji": "飲みます",
+        "hiragana": "のみます",
+        "meaningVi": "uống"
+      },
+      {
+        "kanji": "吸います",
+        "hiragana": "すいます",
+        "meaningVi": "hút (thuốc lá)"
+      },
+      {
+        "kanji": "見ます",
+        "hiragana": "みます",
+        "meaningVi": "xem; nhìn; trông"
+      },
+      {
+        "kanji": "聞きます",
+        "hiragana": "ききます",
+        "meaningVi": "nghe"
+      },
+      {
+        "kanji": "読みます",
+        "hiragana": "よみます",
+        "meaningVi": "đọc"
+      },
+      {
+        "kanji": "書きます",
+        "hiragana": "かきます",
+        "meaningVi": "viết; vẽ"
+      },
+      {
+        "kanji": "買います",
+        "hiragana": "かいます",
+        "meaningVi": "mua"
+      },
+      {
+        "kanji": "撮ります",
+        "hiragana": "とります",
+        "meaningVi": "chụp (ảnh)"
+      },
+      {
+        "kanji": "",
+        "hiragana": "します",
+        "meaningVi": "làm"
+      },
+      {
+        "kanji": "会います",
+        "hiragana": "あいます",
+        "meaningVi": "gặp (bạn)"
+      },
+      {
+        "kanji": "ご飯",
+        "hiragana": "ごはん",
+        "meaningVi": "cơm; bữa ăn"
+      },
+      {
+        "kanji": "朝ご飯",
+        "hiragana": "あさごはん",
+        "meaningVi": "cơm sáng; bữa sáng"
+      },
+      {
+        "kanji": "昼ご飯",
+        "hiragana": "ひるごはん",
+        "meaningVi": "cơm trưa; bữa trưa"
+      },
+      {
+        "kanji": "晩ご飯",
+        "hiragana": "ばんごはん",
+        "meaningVi": "cơm tối; bữa tối"
+      },
+      {
+        "kanji": "",
+        "hiragana": "パン",
+        "meaningVi": "bánh mì"
+      },
+      {
+        "kanji": "卵",
+        "hiragana": "たまご",
+        "meaningVi": "trứng"
+      },
+      {
+        "kanji": "肉",
+        "hiragana": "にく",
+        "meaningVi": "thịt"
+      },
+      {
+        "kanji": "魚",
+        "hiragana": "さかな",
+        "meaningVi": "cá"
+      },
+      {
+        "kanji": "野菜",
+        "hiragana": "やさい",
+        "meaningVi": "rau"
+      },
+      {
+        "kanji": "果物",
+        "hiragana": "くだもの",
+        "meaningVi": "hoa quả; trái cây"
+      },
+      {
+        "kanji": "水",
+        "hiragana": "みず",
+        "meaningVi": "nước"
+      },
+      {
+        "kanji": "お茶",
+        "hiragana": "おちゃ",
+        "meaningVi": "trà; nước chè"
+      },
+      {
+        "kanji": "紅茶",
+        "hiragana": "こうちゃ",
+        "meaningVi": "trà đen; hồng trà"
+      },
+      {
+        "kanji": "牛乳",
+        "hiragana": "ぎゅうにゅう",
+        "meaningVi": "sữa bò"
+      },
+      {
+        "kanji": "",
+        "hiragana": "ミルク",
+        "meaningVi": "sữa"
+      },
+      {
+        "kanji": "",
+        "hiragana": "ジュース",
+        "meaningVi": "nước hoa quả"
+      },
+      {
+        "kanji": "",
+        "hiragana": "ビール",
+        "meaningVi": "bia"
+      },
+      {
+        "kanji": "［お］酒",
+        "hiragana": "［お］さけ",
+        "meaningVi": "rượu; rượu sake"
+      },
+      {
+        "kanji": "",
+        "hiragana": "ビデオ",
+        "meaningVi": "băng video; đầu video"
+      },
+      {
+        "kanji": "映画",
+        "hiragana": "えいが",
+        "meaningVi": "phim; điện ảnh"
+      },
+      {
+        "kanji": "",
+        "hiragana": "ＣＤ",
+        "meaningVi": "đĩa CD"
+      },
+      {
+        "kanji": "手紙",
+        "hiragana": "てがみ",
+        "meaningVi": "thư"
+      },
+      {
+        "kanji": "",
+        "hiragana": "レポート",
+        "meaningVi": "báo cáo"
+      },
+      {
+        "kanji": "写真",
+        "hiragana": "しゃしん",
+        "meaningVi": "ảnh"
+      },
+      {
+        "kanji": "店",
+        "hiragana": "みせ",
+        "meaningVi": "cửa hàng; tiệm"
+      },
+      {
+        "kanji": "",
+        "hiragana": "レストラン",
+        "meaningVi": "nhà hàng"
+      },
+      {
+        "kanji": "庭",
+        "hiragana": "にわ",
+        "meaningVi": "vườn"
+      },
+      {
+        "kanji": "宿題",
+        "hiragana": "しゅくだい",
+        "meaningVi": "bài tập về nhà"
+      },
+      {
+        "kanji": "",
+        "hiragana": "テニス",
+        "meaningVi": "quần vợt"
+      },
+      {
+        "kanji": "",
+        "hiragana": "サッカー",
+        "meaningVi": "bóng đá"
+      },
+      {
+        "kanji": "［お］花見",
+        "hiragana": "［お］はなみ",
+        "meaningVi": "ngắm hoa anh đào"
+      },
+      {
+        "kanji": "何",
+        "hiragana": "なに",
+        "meaningVi": "cái gì"
+      },
+      {
+        "kanji": "一緒に",
+        "hiragana": "いっしょに",
+        "meaningVi": "cùng; cùng nhau"
+      },
+      {
+        "kanji": "",
+        "hiragana": "ちょっと",
+        "meaningVi": "một chút"
+      },
+      {
+        "kanji": "",
+        "hiragana": "いつも",
+        "meaningVi": "luôn luôn; lúc nào cũng"
+      },
+      {
+        "kanji": "時々",
+        "hiragana": "ときどき",
+        "meaningVi": "thỉnh thoảng"
+      },
+      {
+        "kanji": "",
+        "hiragana": "それから",
+        "meaningVi": "sau đó; tiếp theo"
+      },
+      {
+        "kanji": "",
+        "hiragana": "ええ",
+        "meaningVi": "vâng; ừ"
+      },
+      {
+        "kanji": "",
+        "hiragana": "いいですね",
+        "meaningVi": "được đấy nhỉ; hay quá nhỉ"
+      },
+      {
+        "kanji": "分かりました",
+        "hiragana": "わかりました",
+        "meaningVi": "tôi hiểu rồi"
+      },
+      {
+        "kanji": "何ですか",
+        "hiragana": "なんですか",
+        "meaningVi": "cái gì vậy?; có chuyện gì vậy?"
+      },
+      {
+        "kanji": "じゃ、また［明日］",
+        "hiragana": "じゃ、また［あした］",
+        "meaningVi": "vậy hẹn gặp lại [ngày mai]"
+      }
+    ]
+  },
+  {
+    "lesson": 7,
+    "cards": [
+      {
+        "kanji": "切ります",
+        "hiragana": "きります",
+        "meaningVi": "cắt"
+      },
+      {
+        "kanji": "送ります",
+        "hiragana": "おくります",
+        "meaningVi": "gửi"
+      },
+      {
+        "kanji": "",
+        "hiragana": "あげます",
+        "meaningVi": "cho; tặng"
+      },
+      {
+        "kanji": "",
+        "hiragana": "もらいます",
+        "meaningVi": "nhận"
+      },
+      {
+        "kanji": "貸します",
+        "hiragana": "かします",
+        "meaningVi": "cho mượn; cho vay"
+      },
+      {
+        "kanji": "借ります",
+        "hiragana": "かります",
+        "meaningVi": "mượn; vay"
+      },
+      {
+        "kanji": "教えます",
+        "hiragana": "おしえます",
+        "meaningVi": "dạy"
+      },
+      {
+        "kanji": "習います",
+        "hiragana": "ならいます",
+        "meaningVi": "học (từ ai đó)"
+      },
+      {
+        "kanji": "かけます",
+        "hiragana": "かけます",
+        "meaningVi": "gọi (điện thoại)"
+      },
+      {
+        "kanji": "手",
+        "hiragana": "て",
+        "meaningVi": "tay"
+      },
+      {
+        "kanji": "箸",
+        "hiragana": "はし",
+        "meaningVi": "đũa"
+      },
+      {
+        "kanji": "",
+        "hiragana": "スプーン",
+        "meaningVi": "thìa"
+      },
+      {
+        "kanji": "",
+        "hiragana": "ナイフ",
+        "meaningVi": "dao"
+      },
+      {
+        "kanji": "",
+        "hiragana": "フォーク",
+        "meaningVi": "dĩa"
+      },
+      {
+        "kanji": "鋏",
+        "hiragana": "はさみ",
+        "meaningVi": "kéo"
+      },
+      {
+        "kanji": "",
+        "hiragana": "ファクス",
+        "meaningVi": "máy fax"
+      },
+      {
+        "kanji": "",
+        "hiragana": "ワープロ",
+        "meaningVi": "máy đánh chữ"
+      },
+      {
+        "kanji": "",
+        "hiragana": "パソコン",
+        "meaningVi": "máy tính cá nhân"
+      },
+      {
+        "kanji": "",
+        "hiragana": "パンチ",
+        "meaningVi": "cái đục lỗ giấy"
+      },
+      {
+        "kanji": "",
+        "hiragana": "ホッチキス",
+        "meaningVi": "cái dập ghim"
+      },
+      {
+        "kanji": "",
+        "hiragana": "セロテープ",
+        "meaningVi": "băng dính trong"
+      },
+      {
+        "kanji": "消しゴム",
+        "hiragana": "けしゴム",
+        "meaningVi": "cục tẩy"
+      },
+      {
+        "kanji": "紙",
+        "hiragana": "かみ",
+        "meaningVi": "giấy"
+      },
+      {
+        "kanji": "花",
+        "hiragana": "はな",
+        "meaningVi": "hoa"
+      },
+      {
+        "kanji": "",
+        "hiragana": "シャツ",
+        "meaningVi": "áo sơ mi"
+      },
+      {
+        "kanji": "",
+        "hiragana": "プレゼント",
+        "meaningVi": "quà tặng"
+      },
+      {
+        "kanji": "荷物",
+        "hiragana": "にもつ",
+        "meaningVi": "hành lý; đồ đạc"
+      },
+      {
+        "kanji": "お金",
+        "hiragana": "おかね",
+        "meaningVi": "tiền"
+      },
+      {
+        "kanji": "切符",
+        "hiragana": "きっぷ",
+        "meaningVi": "vé"
+      },
+      {
+        "kanji": "",
+        "hiragana": "クリスマス",
+        "meaningVi": "Giáng sinh"
+      },
+      {
+        "kanji": "父",
+        "hiragana": "ちち",
+        "meaningVi": "bố (của mình)"
+      },
+      {
+        "kanji": "母",
+        "hiragana": "はは",
+        "meaningVi": "mẹ (của mình)"
+      },
+      {
+        "kanji": "お父さん",
+        "hiragana": "おとうさん",
+        "meaningVi": "bố (của người khác)"
+      },
+      {
+        "kanji": "お母さん",
+        "hiragana": "おかあさん",
+        "meaningVi": "mẹ (của người khác)"
+      },
+      {
+        "kanji": "",
+        "hiragana": "もう",
+        "meaningVi": "đã; rồi"
+      },
+      {
+        "kanji": "",
+        "hiragana": "まだ",
+        "meaningVi": "chưa"
+      },
+      {
+        "kanji": "",
+        "hiragana": "これから",
+        "meaningVi": "từ bây giờ; sau đây"
+      },
+      {
+        "kanji": "［～、］素敵ですね",
+        "hiragana": "［～、］すてきですね",
+        "meaningVi": "[~] đẹp quá nhỉ; hay quá nhỉ"
+      },
+      {
+        "kanji": "ごめんください",
+        "hiragana": "ごめんください",
+        "meaningVi": "xin lỗi có ai ở nhà không ạ (khi đến thăm nhà)"
+      },
+      {
+        "kanji": "いらっしゃい",
+        "hiragana": "いらっしゃい",
+        "meaningVi": "hoan nghênh anh/chị đã đến chơi"
+      },
+      {
+        "kanji": "どうぞお上がりください",
+        "hiragana": "どうぞおあがりください",
+        "meaningVi": "xin mời anh/chị vào nhà"
+      },
+      {
+        "kanji": "失礼します",
+        "hiragana": "しつれいします",
+        "meaningVi": "xin phép; tôi xin thất lễ"
+      },
+      {
+        "kanji": "［～は］いかがですか",
+        "hiragana": "［～は］いかがですか",
+        "meaningVi": "anh/chị dùng [~] nhé? (mời ăn/uống)"
+      },
+      {
+        "kanji": "いただきます",
+        "hiragana": "いただきます",
+        "meaningVi": "xin mời; tôi xin phép dùng (nói trước khi ăn/uống)"
+      },
+      {
+        "kanji": "旅行",
+        "hiragana": "りょこう",
+        "meaningVi": "chuyến du lịch"
+      },
+      {
+        "kanji": "お土産",
+        "hiragana": "おみやげ",
+        "meaningVi": "quà lưu niệm"
+      }
+    ]
+  },
+  {
+    "lesson": 8,
+    "cards": [
+      {
+        "kanji": "",
+        "hiragana": "ハンサム［な］",
+        "meaningVi": "đẹp trai"
+      },
+      {
+        "kanji": "綺麗［な］",
+        "hiragana": "きれい［な］",
+        "meaningVi": "đẹp; sạch sẽ"
+      },
+      {
+        "kanji": "静か［な］",
+        "hiragana": "しずか［な］",
+        "meaningVi": "yên tĩnh"
+      },
+      {
+        "kanji": "賑やか［な］",
+        "hiragana": "にぎやか［な］",
+        "meaningVi": "náo nhiệt; nhộn nhịp"
+      },
+      {
+        "kanji": "有名［な］",
+        "hiragana": "ゆうめい［な］",
+        "meaningVi": "nổi tiếng"
+      },
+      {
+        "kanji": "親切［な］",
+        "hiragana": "しんせつ［な］",
+        "meaningVi": "tốt bụng; thân thiện"
+      },
+      {
+        "kanji": "元気［な］",
+        "hiragana": "げんき［な］",
+        "meaningVi": "khỏe mạnh"
+      },
+      {
+        "kanji": "暇［な］",
+        "hiragana": "ひま［な］",
+        "meaningVi": "rảnh rỗi"
+      },
+      {
+        "kanji": "便利［な］",
+        "hiragana": "べんり［な］",
+        "meaningVi": "tiện lợi"
+      },
+      {
+        "kanji": "素敵［な］",
+        "hiragana": "すてき［な］",
+        "meaningVi": "đẹp; tuyệt vời"
+      },
+      {
+        "kanji": "大きい",
+        "hiragana": "おおきい",
+        "meaningVi": "to; lớn"
+      },
+      {
+        "kanji": "小さい",
+        "hiragana": "ちいさい",
+        "meaningVi": "nhỏ; bé"
+      },
+      {
+        "kanji": "新しい",
+        "hiragana": "あたらしい",
+        "meaningVi": "mới"
+      },
+      {
+        "kanji": "古い",
+        "hiragana": "ふるい",
+        "meaningVi": "cũ"
+      },
+      {
+        "kanji": "いい（よい）",
+        "hiragana": "いい（よい）",
+        "meaningVi": "tốt"
+      },
+      {
+        "kanji": "悪い",
+        "hiragana": "わるい",
+        "meaningVi": "xấu"
+      },
+      {
+        "kanji": "暑い・熱い",
+        "hiragana": "あつい",
+        "meaningVi": "nóng"
+      },
+      {
+        "kanji": "寒い",
+        "hiragana": "さむい",
+        "meaningVi": "lạnh (thời tiết)"
+      },
+      {
+        "kanji": "冷たい",
+        "hiragana": "つめたい",
+        "meaningVi": "lạnh; buốt (cảm giác chạm vào)"
+      },
+      {
+        "kanji": "難しい",
+        "hiragana": "むずかしい",
+        "meaningVi": "khó"
+      },
+      {
+        "kanji": "易しい",
+        "hiragana": "やさしい",
+        "meaningVi": "dễ"
+      },
+      {
+        "kanji": "高い",
+        "hiragana": "たかい",
+        "meaningVi": "đắt; cao"
+      },
+      {
+        "kanji": "安い",
+        "hiragana": "やすい",
+        "meaningVi": "rẻ"
+      },
+      {
+        "kanji": "低い",
+        "hiragana": "ひくい",
+        "meaningVi": "thấp"
+      },
+      {
+        "kanji": "面白い",
+        "hiragana": "おもしろい",
+        "meaningVi": "thú vị; hay"
+      },
+      {
+        "kanji": "",
+        "hiragana": "おいしい",
+        "meaningVi": "ngon"
+      },
+      {
+        "kanji": "忙しい",
+        "hiragana": "いそがしい",
+        "meaningVi": "bận rộn"
+      },
+      {
+        "kanji": "楽しい",
+        "hiragana": "たのしい",
+        "meaningVi": "vui vẻ"
+      },
+      {
+        "kanji": "白い",
+        "hiragana": "しろい",
+        "meaningVi": "trắng"
+      },
+      {
+        "kanji": "黒い",
+        "hiragana": "くろい",
+        "meaningVi": "đen"
+      },
+      {
+        "kanji": "赤い",
+        "hiragana": "あかい",
+        "meaningVi": "đỏ"
+      },
+      {
+        "kanji": "青い",
+        "hiragana": "あおい",
+        "meaningVi": "xanh da trời"
+      },
+      {
+        "kanji": "桜",
+        "hiragana": "さくら",
+        "meaningVi": "hoa anh đào"
+      },
+      {
+        "kanji": "山",
+        "hiragana": "やま",
+        "meaningVi": "núi"
+      },
+      {
+        "kanji": "町",
+        "hiragana": "まち",
+        "meaningVi": "thị trấn; thành phố"
+      },
+      {
+        "kanji": "食べ物",
+        "hiragana": "たべもの",
+        "meaningVi": "đồ ăn"
+      },
+      {
+        "kanji": "車",
+        "hiragana": "くるま",
+        "meaningVi": "xe ô tô"
+      },
+      {
+        "kanji": "所",
+        "hiragana": "ところ",
+        "meaningVi": "nơi; chỗ"
+      },
+      {
+        "kanji": "寮",
+        "hiragana": "りょう",
+        "meaningVi": "ký túc xá"
+      },
+      {
+        "kanji": "勉強",
+        "hiragana": "べんきょう",
+        "meaningVi": "việc học"
+      },
+      {
+        "kanji": "生活",
+        "hiragana": "せいかつ",
+        "meaningVi": "cuộc sống; sinh hoạt"
+      },
+      {
+        "kanji": "［お］仕事",
+        "hiragana": "［お］しごと",
+        "meaningVi": "công việc"
+      },
+      {
+        "kanji": "",
+        "hiragana": "どう",
+        "meaningVi": "thế nào"
+      },
+      {
+        "kanji": "",
+        "hiragana": "どんな～",
+        "meaningVi": "~ như thế nào"
+      },
+      {
+        "kanji": "",
+        "hiragana": "どれ",
+        "meaningVi": "cái nào"
+      },
+      {
+        "kanji": "",
+        "hiragana": "とても",
+        "meaningVi": "rất"
+      },
+      {
+        "kanji": "",
+        "hiragana": "あまり",
+        "meaningVi": "không ~ lắm (dùng với phủ định)"
+      },
+      {
+        "kanji": "",
+        "hiragana": "そして",
+        "meaningVi": "và; thêm vào đó"
+      },
+      {
+        "kanji": "",
+        "hiragana": "～が、～",
+        "meaningVi": "~ nhưng ~"
+      },
+      {
+        "kanji": "お元気ですか",
+        "hiragana": "おげんきですか",
+        "meaningVi": "anh/chị có khỏe không?"
+      },
+      {
+        "kanji": "",
+        "hiragana": "そうですね",
+        "meaningVi": "để xem nào; đúng vậy nhỉ"
+      },
+      {
+        "kanji": "日本の生活に慣れましたか",
+        "hiragana": "にほんのせいかつになれましたか",
+        "meaningVi": "anh/chị đã quen với cuộc sống ở Nhật chưa?"
+      },
+      {
+        "kanji": "［～、］もう一杯いかがですか",
+        "hiragana": "［～、］もういっぱいいかがですか",
+        "meaningVi": "anh/chị dùng thêm một chén/cốc [~] nữa nhé?"
+      },
+      {
+        "kanji": "いいえ、結構です",
+        "hiragana": "いいえ、けっこうです",
+        "meaningVi": "không, đủ rồi ạ"
+      },
+      {
+        "kanji": "もう～です［ね］",
+        "hiragana": "もう～です［ね］",
+        "meaningVi": "đã ~ rồi [nhỉ]"
+      },
+      {
+        "kanji": "そろそろ失礼します",
+        "hiragana": "そろそろしつれいします",
+        "meaningVi": "đã đến lúc tôi xin phép ra về"
+      },
+      {
+        "kanji": "またいらっしゃってください",
+        "hiragana": "またいらっしゃってください",
+        "meaningVi": "lần sau anh/chị lại đến chơi nhé"
+      }
+    ]
+  },
+  {
+    "lesson": 9,
+    "cards": [
+      {
+        "kanji": "分かります",
+        "hiragana": "わかります",
+        "meaningVi": "hiểu; nắm được"
+      },
+      {
+        "kanji": "",
+        "hiragana": "あります",
+        "meaningVi": "có (sở hữu)"
+      },
+      {
+        "kanji": "好き［な］",
+        "hiragana": "すき［な］",
+        "meaningVi": "thích"
+      },
+      {
+        "kanji": "嫌い［な］",
+        "hiragana": "きらい［な］",
+        "meaningVi": "ghét"
+      },
+      {
+        "kanji": "上手［な］",
+        "hiragana": "じょうず［な］",
+        "meaningVi": "giỏi; khéo"
+      },
+      {
+        "kanji": "下手［な］",
+        "hiragana": "へた［な］",
+        "meaningVi": "kém; dở"
+      },
+      {
+        "kanji": "料理",
+        "hiragana": "りょうり",
+        "meaningVi": "món ăn; việc nấu ăn"
+      },
+      {
+        "kanji": "飲み物",
+        "hiragana": "のみもの",
+        "meaningVi": "đồ uống"
+      },
+      {
+        "kanji": "",
+        "hiragana": "スポーツ",
+        "meaningVi": "thể thao"
+      },
+      {
+        "kanji": "野球",
+        "hiragana": "やきゅう",
+        "meaningVi": "bóng chày"
+      },
+      {
+        "kanji": "",
+        "hiragana": "ダンス",
+        "meaningVi": "nhảy; khiêu vũ"
+      },
+      {
+        "kanji": "音楽",
+        "hiragana": "おんがく",
+        "meaningVi": "âm nhạc"
+      },
+      {
+        "kanji": "歌",
+        "hiragana": "うた",
+        "meaningVi": "bài hát"
+      },
+      {
+        "kanji": "",
+        "hiragana": "クラシック",
+        "meaningVi": "nhạc cổ điển"
+      },
+      {
+        "kanji": "",
+        "hiragana": "ジャズ",
+        "meaningVi": "nhạc jazz"
+      },
+      {
+        "kanji": "",
+        "hiragana": "コンサート",
+        "meaningVi": "buổi hòa nhạc"
+      },
+      {
+        "kanji": "",
+        "hiragana": "カラオケ",
+        "meaningVi": "karaoke"
+      },
+      {
+        "kanji": "歌舞伎",
+        "hiragana": "かぶき",
+        "meaningVi": "kịch Kabuki (kịch truyền thống Nhật Bản)"
+      },
+      {
+        "kanji": "絵",
+        "hiragana": "え",
+        "meaningVi": "tranh; hội họa"
+      },
+      {
+        "kanji": "字",
+        "hiragana": "じ",
+        "meaningVi": "chữ"
+      },
+      {
+        "kanji": "漢字",
+        "hiragana": "かんじ",
+        "meaningVi": "chữ Hán"
+      },
+      {
+        "kanji": "",
+        "hiragana": "ひらがな",
+        "meaningVi": "chữ Hiragana"
+      },
+      {
+        "kanji": "",
+        "hiragana": "かたかな",
+        "meaningVi": "chữ Katakana"
+      },
+      {
+        "kanji": "ローマ字",
+        "hiragana": "ローマじ",
+        "meaningVi": "chữ La-tinh"
+      },
+      {
+        "kanji": "細かいお金",
+        "hiragana": "こまかいおかね",
+        "meaningVi": "tiền lẻ"
+      },
+      {
+        "kanji": "",
+        "hiragana": "チケット",
+        "meaningVi": "vé (xem hòa nhạc, phim...)"
+      },
+      {
+        "kanji": "時間",
+        "hiragana": "じかん",
+        "meaningVi": "thời gian"
+      },
+      {
+        "kanji": "用事",
+        "hiragana": "ようじ",
+        "meaningVi": "việc bận; công việc riêng"
+      },
+      {
+        "kanji": "約束",
+        "hiragana": "やくそく",
+        "meaningVi": "cuộc hẹn; lời hứa"
+      },
+      {
+        "kanji": "ご主人",
+        "hiragana": "ごしゅじん",
+        "meaningVi": "chồng (của người khác)"
+      },
+      {
+        "kanji": "夫／主人",
+        "hiragana": "おっと／しゅじん",
+        "meaningVi": "chồng (của mình)"
+      },
+      {
+        "kanji": "奥さん",
+        "hiragana": "おくさん",
+        "meaningVi": "vợ (của người khác)"
+      },
+      {
+        "kanji": "妻／家内",
+        "hiragana": "つま／かない",
+        "meaningVi": "vợ (của mình)"
+      },
+      {
+        "kanji": "子ども",
+        "hiragana": "こども",
+        "meaningVi": "con cái; trẻ em"
+      },
+      {
+        "kanji": "",
+        "hiragana": "よく",
+        "meaningVi": "tốt; rõ; thường xuyên"
+      },
+      {
+        "kanji": "",
+        "hiragana": "だいたい",
+        "meaningVi": "đại khái; hầu hết"
+      },
+      {
+        "kanji": "",
+        "hiragana": "たくさん",
+        "meaningVi": "nhiều"
+      },
+      {
+        "kanji": "少し",
+        "hiragana": "すこし",
+        "meaningVi": "một ít"
+      },
+      {
+        "kanji": "全然",
+        "hiragana": "ぜんぜん",
+        "meaningVi": "hoàn toàn không (dùng với phủ định)"
+      },
+      {
+        "kanji": "早く・速く",
+        "hiragana": "はやく",
+        "meaningVi": "sớm; nhanh"
+      },
+      {
+        "kanji": "～から",
+        "hiragana": "～から",
+        "meaningVi": "vì ~"
+      },
+      {
+        "kanji": "",
+        "hiragana": "どうして",
+        "meaningVi": "tại sao"
+      },
+      {
+        "kanji": "残念です［ね］",
+        "hiragana": "ざんねんです［ね］",
+        "meaningVi": "đáng tiếc quá [nhỉ]"
+      },
+      {
+        "kanji": "",
+        "hiragana": "すみません",
+        "meaningVi": "xin lỗi"
+      },
+      {
+        "kanji": "",
+        "hiragana": "もしもし",
+        "meaningVi": "a-lô (khi gọi điện thoại)"
+      },
+      {
+        "kanji": "",
+        "hiragana": "ああ",
+        "meaningVi": "a; ồ"
+      },
+      {
+        "kanji": "一緒にいかがですか",
+        "hiragana": "いっしょにいかがですか",
+        "meaningVi": "anh/chị cùng đi/làm với tôi nhé?"
+      },
+      {
+        "kanji": "［～は］ちょっと……",
+        "hiragana": "［～は］ちょっと……",
+        "meaningVi": "[~ thì] hơi... (cách từ chối khéo)"
+      },
+      {
+        "kanji": "だめですか",
+        "hiragana": "だめですか",
+        "meaningVi": "không được à?"
+      },
+      {
+        "kanji": "また今度お願いします",
+        "hiragana": "またこんどおねがいします",
+        "meaningVi": "hẹn lần sau vậy nhé"
+      }
+    ]
+  },
+  {
+    "lesson": 10,
+    "cards": [
+      {
+        "kanji": "",
+        "hiragana": "います",
+        "meaningVi": "có; ở (dùng cho người và động vật)"
+      },
+      {
+        "kanji": "",
+        "hiragana": "あります",
+        "meaningVi": "có (dùng cho đồ vật, thực vật)"
+      },
+      {
+        "kanji": "色々［な］",
+        "hiragana": "いろいろ［な］",
+        "meaningVi": "nhiều; đa dạng"
+      },
+      {
+        "kanji": "男の人",
+        "hiragana": "おとこのひと",
+        "meaningVi": "người đàn ông"
+      },
+      {
+        "kanji": "女の人",
+        "hiragana": "おんなのひと",
+        "meaningVi": "người phụ nữ"
+      },
+      {
+        "kanji": "男の子",
+        "hiragana": "おとこのこ",
+        "meaningVi": "cậu bé; bé trai"
+      },
+      {
+        "kanji": "女の子",
+        "hiragana": "おんなのこ",
+        "meaningVi": "cô bé; bé gái"
+      },
+      {
+        "kanji": "犬",
+        "hiragana": "いぬ",
+        "meaningVi": "con chó"
+      },
+      {
+        "kanji": "猫",
+        "hiragana": "ねこ",
+        "meaningVi": "con mèo"
+      },
+      {
+        "kanji": "木",
+        "hiragana": "き",
+        "meaningVi": "cây; gỗ"
+      },
+      {
+        "kanji": "物",
+        "hiragana": "もの",
+        "meaningVi": "vật; đồ vật"
+      },
+      {
+        "kanji": "",
+        "hiragana": "フィルム",
+        "meaningVi": "phim (chụp ảnh)"
+      },
+      {
+        "kanji": "電池",
+        "hiragana": "でんち",
+        "meaningVi": "pin"
+      },
+      {
+        "kanji": "箱",
+        "hiragana": "はこ",
+        "meaningVi": "cái hộp"
+      },
+      {
+        "kanji": "",
+        "hiragana": "スイッチ",
+        "meaningVi": "công tắc"
+      },
+      {
+        "kanji": "冷蔵庫",
+        "hiragana": "れいぞうこ",
+        "meaningVi": "tủ lạnh"
+      },
+      {
+        "kanji": "",
+        "hiragana": "テーブル",
+        "meaningVi": "bàn ăn"
+      },
+      {
+        "kanji": "",
+        "hiragana": "ベッド",
+        "meaningVi": "giường"
+      },
+      {
+        "kanji": "棚",
+        "hiragana": "たな",
+        "meaningVi": "giá; kệ"
+      },
+      {
+        "kanji": "",
+        "hiragana": "ドア",
+        "meaningVi": "cửa ra vào"
+      },
+      {
+        "kanji": "窓",
+        "hiragana": "まど",
+        "meaningVi": "cửa sổ"
+      },
+      {
+        "kanji": "",
+        "hiragana": "ポスト",
+        "meaningVi": "hòm thư; bưu điện"
+      },
+      {
+        "kanji": "",
+        "hiragana": "ビル",
+        "meaningVi": "tòa nhà"
+      },
+      {
+        "kanji": "公園",
+        "hiragana": "こうえん",
+        "meaningVi": "công viên"
+      },
+      {
+        "kanji": "喫茶店",
+        "hiragana": "きっさてん",
+        "meaningVi": "quán giải khát; quán cà phê"
+      },
+      {
+        "kanji": "本屋",
+        "hiragana": "ほんや",
+        "meaningVi": "hiệu sách"
+      },
+      {
+        "kanji": "～屋",
+        "hiragana": "～や",
+        "meaningVi": "cửa hàng ~; hiệu ~"
+      },
+      {
+        "kanji": "乗り場",
+        "hiragana": "のりば",
+        "meaningVi": "bến; trạm lên xe"
+      },
+      {
+        "kanji": "県",
+        "hiragana": "けん",
+        "meaningVi": "tỉnh"
+      },
+      {
+        "kanji": "上",
+        "hiragana": "うえ",
+        "meaningVi": "trên"
+      },
+      {
+        "kanji": "下",
+        "hiragana": "した",
+        "meaningVi": "dưới"
+      },
+      {
+        "kanji": "前",
+        "hiragana": "まえ",
+        "meaningVi": "trước"
+      },
+      {
+        "kanji": "後ろ",
+        "hiragana": "うしろ",
+        "meaningVi": "sau"
+      },
+      {
+        "kanji": "右",
+        "hiragana": "みぎ",
+        "meaningVi": "phải"
+      },
+      {
+        "kanji": "左",
+        "hiragana": "ひだり",
+        "meaningVi": "trái"
+      },
+      {
+        "kanji": "中",
+        "hiragana": "なか",
+        "meaningVi": "trong; ở giữa"
+      },
+      {
+        "kanji": "外",
+        "hiragana": "そと",
+        "meaningVi": "ngoài"
+      },
+      {
+        "kanji": "隣",
+        "hiragana": "となり",
+        "meaningVi": "bên cạnh"
+      },
+      {
+        "kanji": "近く",
+        "hiragana": "ちかく",
+        "meaningVi": "gần"
+      },
+      {
+        "kanji": "間",
+        "hiragana": "あいだ",
+        "meaningVi": "ở giữa"
+      },
+      {
+        "kanji": "～や～［など］",
+        "hiragana": "～や～［など］",
+        "meaningVi": "~ và ~ [v.v.]"
+      },
+      {
+        "kanji": "一番～",
+        "hiragana": "いちばん～",
+        "meaningVi": "~ nhất (ví dụ: 一番上: trên cùng)"
+      },
+      {
+        "kanji": "～段目",
+        "hiragana": "～だんめ",
+        "meaningVi": "tầng/ngăn thứ ~"
+      },
+      {
+        "kanji": "［どうも］すみません",
+        "hiragana": "［どうも］すみません",
+        "meaningVi": "xin chân thành cảm ơn"
+      },
+      {
+        "kanji": "",
+        "hiragana": "チリソース",
+        "meaningVi": "tương ớt"
+      },
+      {
+        "kanji": "奥",
+        "hiragana": "おく",
+        "meaningVi": "bên trong cùng"
+      },
+      {
+        "kanji": "",
+        "hiragana": "スパイス・コーナー",
+        "meaningVi": "góc bán gia vị"
+      }
+    ]
+  },
+  {
+    "lesson": 11,
+    "cards": [
+      {
+        "kanji": "います［子どもが～］",
+        "hiragana": "います［こどもが～］",
+        "meaningVi": "có [con]"
+      },
+      {
+        "kanji": "います［日本に～］",
+        "hiragana": "います［にほんに～］",
+        "meaningVi": "ở [Nhật]"
+      },
+      {
+        "kanji": "かかります",
+        "hiragana": "かかります",
+        "meaningVi": "mất; tốn (thời gian, tiền bạc)"
+      },
+      {
+        "kanji": "休みます［会社を～］",
+        "hiragana": "やすみます［かいしゃを～］",
+        "meaningVi": "nghỉ [làm ở công ty]"
+      },
+      {
+        "kanji": "一つ",
+        "hiragana": "ひとつ",
+        "meaningVi": "một cái"
+      },
+      {
+        "kanji": "二つ",
+        "hiragana": "ふたつ",
+        "meaningVi": "hai cái"
+      },
+      {
+        "kanji": "三つ",
+        "hiragana": "みっつ",
+        "meaningVi": "ba cái"
+      },
+      {
+        "kanji": "四つ",
+        "hiragana": "よっつ",
+        "meaningVi": "bốn cái"
+      },
+      {
+        "kanji": "五つ",
+        "hiragana": "いつつ",
+        "meaningVi": "năm cái"
+      },
+      {
+        "kanji": "六つ",
+        "hiragana": "むっつ",
+        "meaningVi": "sáu cái"
+      },
+      {
+        "kanji": "七つ",
+        "hiragana": "ななつ",
+        "meaningVi": "bảy cái"
+      },
+      {
+        "kanji": "八つ",
+        "hiragana": "やっつ",
+        "meaningVi": "tám cái"
+      },
+      {
+        "kanji": "九つ",
+        "hiragana": "ここのつ",
+        "meaningVi": "chín cái"
+      },
+      {
+        "kanji": "十",
+        "hiragana": "とお",
+        "meaningVi": "mười cái"
+      },
+      {
+        "kanji": "",
+        "hiragana": "いくつ",
+        "meaningVi": "mấy cái; bao nhiêu cái"
+      },
+      {
+        "kanji": "一人",
+        "hiragana": "ひとり",
+        "meaningVi": "một người"
+      },
+      {
+        "kanji": "二人",
+        "hiragana": "ふたり",
+        "meaningVi": "hai người"
+      },
+      {
+        "kanji": "～人",
+        "hiragana": "～にん",
+        "meaningVi": "~ người"
+      },
+      {
+        "kanji": "～台",
+        "hiragana": "～だい",
+        "meaningVi": "~ cái/chiếc (máy móc, xe cộ)"
+      },
+      {
+        "kanji": "～枚",
+        "hiragana": "～まい",
+        "meaningVi": "~ tờ/tấm/chiếc (vật mỏng như giấy, áo sơ mi)"
+      },
+      {
+        "kanji": "～回",
+        "hiragana": "～かい",
+        "meaningVi": "~ lần"
+      },
+      {
+        "kanji": "",
+        "hiragana": "りんご",
+        "meaningVi": "quả táo"
+      },
+      {
+        "kanji": "",
+        "hiragana": "みかん",
+        "meaningVi": "quả quýt"
+      },
+      {
+        "kanji": "",
+        "hiragana": "サンドイッチ",
+        "meaningVi": "bánh mì kẹp sandwich"
+      },
+      {
+        "kanji": "",
+        "hiragana": "カレー［ライス］",
+        "meaningVi": "cơm cà ri"
+      },
+      {
+        "kanji": "",
+        "hiragana": "アイスクリーム",
+        "meaningVi": "kem"
+      },
+      {
+        "kanji": "切手",
+        "hiragana": "きって",
+        "meaningVi": "tem"
+      },
+      {
+        "kanji": "葉書",
+        "hiragana": "はがき",
+        "meaningVi": "bưu thiếp"
+      },
+      {
+        "kanji": "封筒",
+        "hiragana": "ふうとう",
+        "meaningVi": "phong bì"
+      },
+      {
+        "kanji": "速達",
+        "hiragana": "そくたつ",
+        "meaningVi": "chuyển phát nhanh"
+      },
+      {
+        "kanji": "書留",
+        "hiragana": "かきとめ",
+        "meaningVi": "gửi bảo đảm"
+      },
+      {
+        "kanji": "航空便",
+        "hiragana": "こうくうびん",
+        "meaningVi": "gửi đường hàng không"
+      },
+      {
+        "kanji": "",
+        "hiragana": "エアメール",
+        "meaningVi": "thư gửi đường hàng không"
+      },
+      {
+        "kanji": "船便",
+        "hiragana": "ふなびん",
+        "meaningVi": "gửi đường biển"
+      },
+      {
+        "kanji": "両親",
+        "hiragana": "りょうしん",
+        "meaningVi": "bố mẹ"
+      },
+      {
+        "kanji": "兄弟",
+        "hiragana": "きょうだい",
+        "meaningVi": "anh chị em"
+      },
+      {
+        "kanji": "兄",
+        "hiragana": "あに",
+        "meaningVi": "anh trai (của mình)"
+      },
+      {
+        "kanji": "お兄さん",
+        "hiragana": "おにいさん",
+        "meaningVi": "anh trai (của người khác)"
+      },
+      {
+        "kanji": "姉",
+        "hiragana": "あね",
+        "meaningVi": "chị gái (của mình)"
+      },
+      {
+        "kanji": "お姉さん",
+        "hiragana": "おねえさん",
+        "meaningVi": "chị gái (của người khác)"
+      },
+      {
+        "kanji": "弟",
+        "hiragana": "おとうと",
+        "meaningVi": "em trai (của mình)"
+      },
+      {
+        "kanji": "弟さん",
+        "hiragana": "おとうとさん",
+        "meaningVi": "em trai (của người khác)"
+      },
+      {
+        "kanji": "妹",
+        "hiragana": "いもうと",
+        "meaningVi": "em gái (của mình)"
+      },
+      {
+        "kanji": "妹さん",
+        "hiragana": "いもうとさん",
+        "meaningVi": "em gái (của người khác)"
+      },
+      {
+        "kanji": "外国",
+        "hiragana": "がいこく",
+        "meaningVi": "nước ngoài"
+      },
+      {
+        "kanji": "～時間",
+        "hiragana": "～じかん",
+        "meaningVi": "~ tiếng đồng hồ"
+      },
+      {
+        "kanji": "～週間",
+        "hiragana": "～しゅうかん",
+        "meaningVi": "~ tuần"
+      },
+      {
+        "kanji": "～か月",
+        "hiragana": "～かげつ",
+        "meaningVi": "~ tháng"
+      },
+      {
+        "kanji": "～年",
+        "hiragana": "～ねん",
+        "meaningVi": "~ năm"
+      },
+      {
+        "kanji": "～ぐらい",
+        "hiragana": "～ぐらい",
+        "meaningVi": "khoảng ~"
+      },
+      {
+        "kanji": "どのくらい",
+        "hiragana": "どのくらい",
+        "meaningVi": "bao lâu"
+      },
+      {
+        "kanji": "全部で",
+        "hiragana": "ぜんぶで",
+        "meaningVi": "tổng cộng"
+      },
+      {
+        "kanji": "",
+        "hiragana": "みんな",
+        "meaningVi": "tất cả; mọi người"
+      },
+      {
+        "kanji": "",
+        "hiragana": "～だけ",
+        "meaningVi": "chỉ ~"
+      },
+      {
+        "kanji": "いらっしゃいませ",
+        "hiragana": "いらっしゃいませ",
+        "meaningVi": "xin chào quý khách"
+      },
+      {
+        "kanji": "いい［お］天気ですね",
+        "hiragana": "いい［お］てんきですね",
+        "meaningVi": "trời đẹp quá nhỉ"
+      },
+      {
+        "kanji": "お出かけですか",
+        "hiragana": "おでかけですか",
+        "meaningVi": "anh/chị đi ra ngoài đấy à?"
+      },
+      {
+        "kanji": "ちょっと～まで",
+        "hiragana": "ちょっと～まで",
+        "meaningVi": "tôi đi ra ~ một chút"
+      },
+      {
+        "kanji": "行っていらっしゃい",
+        "hiragana": "いっていらっしゃい",
+        "meaningVi": "anh/chị đi nhé (lời chào người đi ra ngoài)"
+      },
+      {
+        "kanji": "行ってまいります",
+        "hiragana": "いってまいります",
+        "meaningVi": "tôi đi đây (lời chào trước khi ra khỏi nhà)"
+      },
+      {
+        "kanji": "",
+        "hiragana": "それから",
+        "meaningVi": "ngoài ra; thêm nữa"
+      }
+    ]
+  },
+  {
+    "lesson": 12,
+    "cards": [
+      {
+        "kanji": "簡単［な］",
+        "hiragana": "かんたん［な］",
+        "meaningVi": "đơn giản; dễ"
+      },
+      {
+        "kanji": "近い",
+        "hiragana": "ちかい",
+        "meaningVi": "gần"
+      },
+      {
+        "kanji": "遠い",
+        "hiragana": "とおい",
+        "meaningVi": "xa"
+      },
+      {
+        "kanji": "速い・早い",
+        "hiragana": "はやい",
+        "meaningVi": "nhanh; sớm"
+      },
+      {
+        "kanji": "遅い",
+        "hiragana": "おそい",
+        "meaningVi": "chậm; muộn"
+      },
+      {
+        "kanji": "多い［人が～］",
+        "hiragana": "おおい［ひとが～］",
+        "meaningVi": "nhiều; đông [người]"
+      },
+      {
+        "kanji": "少ない［人が～］",
+        "hiragana": "すくない［ひとが～］",
+        "meaningVi": "ít; vắng [người]"
+      },
+      {
+        "kanji": "暖かい・温かい",
+        "hiragana": "あたたかい",
+        "meaningVi": "ấm áp"
+      },
+      {
+        "kanji": "涼しい",
+        "hiragana": "すずしい",
+        "meaningVi": "mát mẻ"
+      },
+      {
+        "kanji": "甘い",
+        "hiragana": "あまい",
+        "meaningVi": "ngọt"
+      },
+      {
+        "kanji": "辛い",
+        "hiragana": "からい",
+        "meaningVi": "cay"
+      },
+      {
+        "kanji": "重い",
+        "hiragana": "おもい",
+        "meaningVi": "nặng"
+      },
+      {
+        "kanji": "軽い",
+        "hiragana": "かるい",
+        "meaningVi": "nhẹ"
+      },
+      {
+        "kanji": "いい［コーヒーが～］",
+        "hiragana": "いい［コーヒーが～］",
+        "meaningVi": "thích; chọn [cà phê]"
+      },
+      {
+        "kanji": "季節",
+        "hiragana": "きせつ",
+        "meaningVi": "mùa"
+      },
+      {
+        "kanji": "春",
+        "hiragana": "はる",
+        "meaningVi": "mùa xuân"
+      },
+      {
+        "kanji": "夏",
+        "hiragana": "なつ",
+        "meaningVi": "mùa hạ; mùa hè"
+      },
+      {
+        "kanji": "秋",
+        "hiragana": "あき",
+        "meaningVi": "mùa thu"
+      },
+      {
+        "kanji": "冬",
+        "hiragana": "ふゆ",
+        "meaningVi": "mùa đông"
+      },
+      {
+        "kanji": "天気",
+        "hiragana": "てんき",
+        "meaningVi": "thời tiết"
+      },
+      {
+        "kanji": "雨",
+        "hiragana": "あめ",
+        "meaningVi": "mưa"
+      },
+      {
+        "kanji": "雪",
+        "hiragana": "ゆき",
+        "meaningVi": "tuyết"
+      },
+      {
+        "kanji": "曇り",
+        "hiragana": "くもり",
+        "meaningVi": "trời nhiều mây; âm u"
+      },
+      {
+        "kanji": "",
+        "hiragana": "ホテル",
+        "meaningVi": "khách sạn"
+      },
+      {
+        "kanji": "空港",
+        "hiragana": "くうこう",
+        "meaningVi": "sân bay"
+      },
+      {
+        "kanji": "海",
+        "hiragana": "うみ",
+        "meaningVi": "biển"
+      },
+      {
+        "kanji": "世界",
+        "hiragana": "せかい",
+        "meaningVi": "thế giới"
+      },
+      {
+        "kanji": "",
+        "hiragana": "パーティー",
+        "meaningVi": "bữa tiệc"
+      },
+      {
+        "kanji": "［お］祭り",
+        "hiragana": "［お］まつり",
+        "meaningVi": "lễ hội"
+      },
+      {
+        "kanji": "試験",
+        "hiragana": "しけん",
+        "meaningVi": "kỳ thi; bài kiểm tra"
+      },
+      {
+        "kanji": "すき焼き",
+        "hiragana": "すきやき",
+        "meaningVi": "món lẩu thịt bò Sukiyaki"
+      },
+      {
+        "kanji": "刺身",
+        "hiragana": "さしみ",
+        "meaningVi": "món gỏi cá sống Sashimi"
+      },
+      {
+        "kanji": "［お］寿司",
+        "hiragana": "［お］すし",
+        "meaningVi": "món Sushi"
+      },
+      {
+        "kanji": "天ぷら",
+        "hiragana": "てんぷら",
+        "meaningVi": "món chiên Tempura"
+      },
+      {
+        "kanji": "生け花",
+        "hiragana": "いけばな",
+        "meaningVi": "nghệ thuật cắm hoa"
+      },
+      {
+        "kanji": "紅葉",
+        "hiragana": "もみじ",
+        "meaningVi": "lá đỏ; cây phong"
+      },
+      {
+        "kanji": "",
+        "hiragana": "どちら",
+        "meaningVi": "cái nào (trong 2 cái)"
+      },
+      {
+        "kanji": "",
+        "hiragana": "どちらも",
+        "meaningVi": "cả hai"
+      },
+      {
+        "kanji": "",
+        "hiragana": "ずっと",
+        "meaningVi": "hơn hẳn (dùng trong câu so sánh)"
+      },
+      {
+        "kanji": "初めて",
+        "hiragana": "はじめて",
+        "meaningVi": "lần đầu tiên"
+      },
+      {
+        "kanji": "ただいま",
+        "hiragana": "ただいま",
+        "meaningVi": "tôi đã về đây (lời chào khi về tới nhà)"
+      },
+      {
+        "kanji": "お帰りなさい",
+        "hiragana": "おかえりなさい",
+        "meaningVi": "anh/chị đã về đấy à"
+      },
+      {
+        "kanji": "",
+        "hiragana": "すごいですね",
+        "meaningVi": "ghê quá nhỉ; tuyệt quá nhỉ"
+      },
+      {
+        "kanji": "",
+        "hiragana": "でも",
+        "meaningVi": "nhưng"
+      },
+      {
+        "kanji": "疲れました",
+        "hiragana": "つかれました",
+        "meaningVi": "tôi mệt rồi"
+      },
+      {
+        "kanji": "祇園祭",
+        "hiragana": "ぎおんまつり",
+        "meaningVi": "lễ hội Gion (ở Kyoto)"
+      },
+      {
+        "kanji": "香港",
+        "hiragana": "ホンコン",
+        "meaningVi": "Hồng Kông"
+      },
+      {
+        "kanji": "",
+        "hiragana": "シンガポール",
+        "meaningVi": "Singapore"
+      }
+    ]
+  },
+  {
+    "lesson": 13,
+    "cards": [
+      {
+        "kanji": "遊びます",
+        "hiragana": "あそびます",
+        "meaningVi": "chơi"
+      },
+      {
+        "kanji": "泳ぎます",
+        "hiragana": "およぎます",
+        "meaningVi": "bơi"
+      },
+      {
+        "kanji": "迎えます",
+        "hiragana": "むかえます",
+        "meaningVi": "đón"
+      },
+      {
+        "kanji": "疲れます",
+        "hiragana": "つかれます",
+        "meaningVi": "mệt"
+      },
+      {
+        "kanji": "出します［手紙を～］",
+        "hiragana": "だします［てがみを～］",
+        "meaningVi": "gửi [thư]"
+      },
+      {
+        "kanji": "入ります［喫茶店に～］",
+        "hiragana": "はいります［きっさてんに～］",
+        "meaningVi": "vào [quán cà phê]"
+      },
+      {
+        "kanji": "出ます［喫茶店を～］",
+        "hiragana": "でます［きっさてんを～］",
+        "meaningVi": "ra khỏi [quán cà phê]"
+      },
+      {
+        "kanji": "結婚します",
+        "hiragana": "けっこんします",
+        "meaningVi": "kết hôn; lập gia đình"
+      },
+      {
+        "kanji": "買い物します",
+        "hiragana": "かいものします",
+        "meaningVi": "mua sắm"
+      },
+      {
+        "kanji": "食事します",
+        "hiragana": "しょくじします",
+        "meaningVi": "ăn cơm; dùng bữa"
+      },
+      {
+        "kanji": "散歩します［公園を～］",
+        "hiragana": "さんぽします［こうえんを～］",
+        "meaningVi": "đi dạo [ở công viên]"
+      },
+      {
+        "kanji": "大変［な］",
+        "hiragana": "たいへん［な］",
+        "meaningVi": "vất vả; khó khăn; khổ"
+      },
+      {
+        "kanji": "欲しい",
+        "hiragana": "ほしい",
+        "meaningVi": "muốn có"
+      },
+      {
+        "kanji": "寂しい",
+        "hiragana": "さびしい",
+        "meaningVi": "buồn; cô đơn"
+      },
+      {
+        "kanji": "広い",
+        "hiragana": "ひろい",
+        "meaningVi": "rộng"
+      },
+      {
+        "kanji": "狭い",
+        "hiragana": "せまい",
+        "meaningVi": "hẹp; chật"
+      },
+      {
+        "kanji": "市役所",
+        "hiragana": "しやくしょ",
+        "meaningVi": "tòa thị chính; ủy ban nhân dân thành phố"
+      },
+      {
+        "kanji": "",
+        "hiragana": "プール",
+        "meaningVi": "bể bơi"
+      },
+      {
+        "kanji": "川",
+        "hiragana": "かわ",
+        "meaningVi": "sông"
+      },
+      {
+        "kanji": "経済",
+        "hiragana": "けいざい",
+        "meaningVi": "kinh tế"
+      },
+      {
+        "kanji": "美術",
+        "hiragana": "びじゅつ",
+        "meaningVi": "mỹ thuật"
+      },
+      {
+        "kanji": "釣り",
+        "hiragana": "つり",
+        "meaningVi": "việc câu cá"
+      },
+      {
+        "kanji": "",
+        "hiragana": "スキー",
+        "meaningVi": "trượt tuyết"
+      },
+      {
+        "kanji": "会議",
+        "hiragana": "かいぎ",
+        "meaningVi": "cuộc họp; hội nghị"
+      },
+      {
+        "kanji": "登録",
+        "hiragana": "とうろく",
+        "meaningVi": "việc đăng ký"
+      },
+      {
+        "kanji": "週末",
+        "hiragana": "しゅうまつ",
+        "meaningVi": "cuối tuần"
+      },
+      {
+        "kanji": "～頃",
+        "hiragana": "～ごろ",
+        "meaningVi": "khoảng ~ (dùng cho thời điểm)"
+      },
+      {
+        "kanji": "何か",
+        "hiragana": "なにか",
+        "meaningVi": "cái gì đó"
+      },
+      {
+        "kanji": "",
+        "hiragana": "どこか",
+        "meaningVi": "đâu đó; nơi nào đó"
+      },
+      {
+        "kanji": "おなかがすきました",
+        "hiragana": "おなかがすきました",
+        "meaningVi": "tôi đói bụng rồi"
+      },
+      {
+        "kanji": "おなかがいっぱいです",
+        "hiragana": "おなかがいっぱいです",
+        "meaningVi": "tôi no bụng rồi"
+      },
+      {
+        "kanji": "のどが渇きました",
+        "hiragana": "のどがかわきました",
+        "meaningVi": "tôi khát nước rồi"
+      },
+      {
+        "kanji": "",
+        "hiragana": "そうですね",
+        "meaningVi": "đúng thế nhỉ (tán thành ý kiến người nói)"
+      },
+      {
+        "kanji": "そうしましょう",
+        "hiragana": "そうしましょう",
+        "meaningVi": "chúng ta cùng làm như thế nhé"
+      },
+      {
+        "kanji": "ご注文は？",
+        "hiragana": "ごちゅうもんは？",
+        "meaningVi": "quý khách gọi món gì ạ?"
+      },
+      {
+        "kanji": "定食",
+        "hiragana": "ていしょく",
+        "meaningVi": "cơm suất"
+      },
+      {
+        "kanji": "牛丼",
+        "hiragana": "ぎゅうどん",
+        "meaningVi": "cơm thịt bò"
+      },
+      {
+        "kanji": "［少々］お待ちください",
+        "hiragana": "［しょうしょう］おまちください",
+        "meaningVi": "xin vui lòng đợi [một chút]"
+      },
+      {
+        "kanji": "別々に",
+        "hiragana": "べつべつに",
+        "meaningVi": "tính riêng; riêng rẽ"
+      }
+    ]
+  },
+  {
+    "lesson": 14,
+    "cards": [
+      {
+        "kanji": "",
+        "hiragana": "つけます",
+        "meaningVi": "bật (điện, máy điều hòa...)"
+      },
+      {
+        "kanji": "消します",
+        "hiragana": "けします",
+        "meaningVi": "tắt (điện, máy điều hòa...)"
+      },
+      {
+        "kanji": "開けます",
+        "hiragana": "あけます",
+        "meaningVi": "mở (cửa)"
+      },
+      {
+        "kanji": "閉めます",
+        "hiragana": "しめます",
+        "meaningVi": "đóng (cửa)"
+      },
+      {
+        "kanji": "急ぎます",
+        "hiragana": "いそぎます",
+        "meaningVi": "vội; gấp"
+      },
+      {
+        "kanji": "待ちます",
+        "hiragana": "まちます",
+        "meaningVi": "đợi; chờ"
+      },
+      {
+        "kanji": "止めます",
+        "hiragana": "とめます",
+        "meaningVi": "dừng; đỗ (xe)"
+      },
+      {
+        "kanji": "曲がります［右へ～］",
+        "hiragana": "まがります［みぎへ～］",
+        "meaningVi": "rẽ; quẹo [sang phải]"
+      },
+      {
+        "kanji": "持ちます",
+        "hiragana": "もちます",
+        "meaningVi": "cầm; mang"
+      },
+      {
+        "kanji": "取ります",
+        "hiragana": "とります",
+        "meaningVi": "lấy"
+      },
+      {
+        "kanji": "手伝います",
+        "hiragana": "てつだいます",
+        "meaningVi": "giúp đỡ"
+      },
+      {
+        "kanji": "呼びます",
+        "hiragana": "よびます",
+        "meaningVi": "gọi"
+      },
+      {
+        "kanji": "話します",
+        "hiragana": "はなします",
+        "meaningVi": "nói; nói chuyện"
+      },
+      {
+        "kanji": "見せます",
+        "hiragana": "みせます",
+        "meaningVi": "cho xem"
+      },
+      {
+        "kanji": "教えます［住所を～］",
+        "hiragana": "おしえます［じゅうしょを～］",
+        "meaningVi": "nói; chỉ [địa chỉ]"
+      },
+      {
+        "kanji": "始めます",
+        "hiragana": "はじめます",
+        "meaningVi": "bắt đầu"
+      },
+      {
+        "kanji": "降ります［雨が～］",
+        "hiragana": "ふります［あめが～］",
+        "meaningVi": "rơi [trời mưa]"
+      },
+      {
+        "kanji": "",
+        "hiragana": "コピーします",
+        "meaningVi": "sao chép; photocopy"
+      },
+      {
+        "kanji": "",
+        "hiragana": "エアコン",
+        "meaningVi": "máy điều hòa nhiệt độ"
+      },
+      {
+        "kanji": "",
+        "hiragana": "パスポート",
+        "meaningVi": "hộ chiếu"
+      },
+      {
+        "kanji": "名前",
+        "hiragana": "なまえ",
+        "meaningVi": "tên"
+      },
+      {
+        "kanji": "住所",
+        "hiragana": "じゅうしょ",
+        "meaningVi": "địa chỉ"
+      },
+      {
+        "kanji": "地図",
+        "hiragana": "ちず",
+        "meaningVi": "bản đồ"
+      },
+      {
+        "kanji": "塩",
+        "hiragana": "しお",
+        "meaningVi": "muối"
+      },
+      {
+        "kanji": "砂糖",
+        "hiragana": "さとう",
+        "meaningVi": "đường"
+      },
+      {
+        "kanji": "読み方",
+        "hiragana": "よみかた",
+        "meaningVi": "cách đọc"
+      },
+      {
+        "kanji": "～方",
+        "hiragana": "～かた",
+        "meaningVi": "cách ~"
+      },
+      {
+        "kanji": "",
+        "hiragana": "ゆっくり",
+        "meaningVi": "chậm; thong thả; từ từ"
+      },
+      {
+        "kanji": "",
+        "hiragana": "すぐ",
+        "meaningVi": "ngay; lập tức"
+      },
+      {
+        "kanji": "",
+        "hiragana": "また",
+        "meaningVi": "lại"
+      },
+      {
+        "kanji": "",
+        "hiragana": "あとで",
+        "meaningVi": "sau"
+      },
+      {
+        "kanji": "もう少し",
+        "hiragana": "もうすこし",
+        "meaningVi": "thêm một chút nữa"
+      },
+      {
+        "kanji": "",
+        "hiragana": "もう～",
+        "meaningVi": "thêm ~ nữa"
+      },
+      {
+        "kanji": "",
+        "hiragana": "いいですよ",
+        "meaningVi": "được chứ ạ"
+      },
+      {
+        "kanji": "",
+        "hiragana": "さあ",
+        "meaningVi": "nào; thôi nào"
+      },
+      {
+        "kanji": "",
+        "hiragana": "あれ？",
+        "meaningVi": "ơ! ủa! (thể hiện sự ngạc nhiên)"
+      },
+      {
+        "kanji": "信号を右へ曲がってください",
+        "hiragana": "しんごうをみぎへまがってください",
+        "meaningVi": "anh/chị hãy rẽ phải ở chỗ đèn tín hiệu"
+      },
+      {
+        "kanji": "",
+        "hiragana": "まっすぐ",
+        "meaningVi": "thẳng"
+      },
+      {
+        "kanji": "これでお願いします",
+        "hiragana": "これでおねがいします",
+        "meaningVi": "gửi tiền anh/chị (khi trả tiền)"
+      },
+      {
+        "kanji": "お釣り",
+        "hiragana": "おつり",
+        "meaningVi": "tiền thừa; tiền thối lại"
+      }
+    ]
+  },
+  {
+    "lesson": 15,
+    "cards": [
+      {
+        "kanji": "立ちます",
+        "hiragana": "たちます",
+        "meaningVi": "đứng"
+      },
+      {
+        "kanji": "座ります",
+        "hiragana": "すわります",
+        "meaningVi": "ngồi"
+      },
+      {
+        "kanji": "使います",
+        "hiragana": "つかいます",
+        "meaningVi": "dùng; sử dụng"
+      },
+      {
+        "kanji": "置きます",
+        "hiragana": "おきます",
+        "meaningVi": "đặt; để"
+      },
+      {
+        "kanji": "作ります・造ります",
+        "hiragana": "つくります",
+        "meaningVi": "làm; chế tạo; sản xuất"
+      },
+      {
+        "kanji": "売ります",
+        "hiragana": "うります",
+        "meaningVi": "bán"
+      },
+      {
+        "kanji": "知ります",
+        "hiragana": "しります",
+        "meaningVi": "biết"
+      },
+      {
+        "kanji": "住みます",
+        "hiragana": "すみます",
+        "meaningVi": "sống; cư trú"
+      },
+      {
+        "kanji": "研究します",
+        "hiragana": "けんきゅうします",
+        "meaningVi": "nghiên cứu"
+      },
+      {
+        "kanji": "知っています",
+        "hiragana": "しっています",
+        "meaningVi": "biết"
+      },
+      {
+        "kanji": "住んでいます［大阪に～］",
+        "hiragana": "すんでいます［おおさかに～］",
+        "meaningVi": "sống [ở Osaka]"
+      },
+      {
+        "kanji": "資料",
+        "hiragana": "しりょう",
+        "meaningVi": "tài liệu"
+      },
+      {
+        "kanji": "",
+        "hiragana": "カタログ",
+        "meaningVi": "ca-ta-lô"
+      },
+      {
+        "kanji": "時刻表",
+        "hiragana": "じこくひょう",
+        "meaningVi": "bảng giờ tàu chạy"
+      },
+      {
+        "kanji": "服",
+        "hiragana": "ふく",
+        "meaningVi": "quần áo"
+      },
+      {
+        "kanji": "製品",
+        "hiragana": "せいひん",
+        "meaningVi": "sản phẩm"
+      },
+      {
+        "kanji": "",
+        "hiragana": "ソフト",
+        "meaningVi": "phần mềm"
+      },
+      {
+        "kanji": "専門",
+        "hiragana": "せんもん",
+        "meaningVi": "chuyên môn"
+      },
+      {
+        "kanji": "歯医者",
+        "hiragana": "はいしゃ",
+        "meaningVi": "nha sĩ"
+      },
+      {
+        "kanji": "床屋",
+        "hiragana": "とこや",
+        "meaningVi": "tiệm cắt tóc"
+      },
+      {
+        "kanji": "",
+        "hiragana": "プレイガイド",
+        "meaningVi": "quầy bán vé (nhà hát, hòa nhạc...)"
+      },
+      {
+        "kanji": "独身",
+        "hiragana": "どくしん",
+        "meaningVi": "độc thân"
+      },
+      {
+        "kanji": "特に",
+        "hiragana": "とくに",
+        "meaningVi": "đặc biệt"
+      },
+      {
+        "kanji": "思い出します",
+        "hiragana": "おもいだします",
+        "meaningVi": "nhớ lại"
+      },
+      {
+        "kanji": "ご家族",
+        "hiragana": "ごかぞく",
+        "meaningVi": "gia đình (của người khác)"
+      },
+      {
+        "kanji": "",
+        "hiragana": "いらっしゃいます",
+        "meaningVi": "ở (tôn kính ngữ của います)"
+      },
+      {
+        "kanji": "高校",
+        "hiragana": "こうこう",
+        "meaningVi": "trường trung học phổ thông"
+      }
+    ]
+  },
+  {
+    "lesson": 16,
+    "cards": [
+      {
+        "kanji": "乗ります［電車に～］",
+        "hiragana": "のります［でんしゃに～］",
+        "meaningVi": "lên; đi [tàu điện]"
+      },
+      {
+        "kanji": "降ります［電車を～］",
+        "hiragana": "おります［でんしゃを～］",
+        "meaningVi": "xuống [tàu điện]"
+      },
+      {
+        "kanji": "乗り換えます",
+        "hiragana": "のりかえます",
+        "meaningVi": "chuyển (tàu, xe)"
+      },
+      {
+        "kanji": "浴びます［シャワーを～］",
+        "hiragana": "あびます［シャワーを～］",
+        "meaningVi": "tắm [vòi hoa sen]"
+      },
+      {
+        "kanji": "入れます",
+        "hiragana": "いれます",
+        "meaningVi": "cho vào; bỏ vào"
+      },
+      {
+        "kanji": "出します",
+        "hiragana": "だします",
+        "meaningVi": "lấy ra; rút (tiền)"
+      },
+      {
+        "kanji": "入ります［大学に～］",
+        "hiragana": "はいります［だいがくに～］",
+        "meaningVi": "vào [đại học]"
+      },
+      {
+        "kanji": "出ます［大学を～］",
+        "hiragana": "でます［だいがくを～］",
+        "meaningVi": "tốt nghiệp [đại học]"
+      },
+      {
+        "kanji": "辞めます［会社を～］",
+        "hiragana": "やめます［かいしゃを～］",
+        "meaningVi": "bỏ; thôi việc [ở công ty]"
+      },
+      {
+        "kanji": "押します",
+        "hiragana": "おします",
+        "meaningVi": "bấm; ấn (nút)"
+      },
+      {
+        "kanji": "若い",
+        "hiragana": "わかい",
+        "meaningVi": "trẻ"
+      },
+      {
+        "kanji": "長い",
+        "hiragana": "ながい",
+        "meaningVi": "dài"
+      },
+      {
+        "kanji": "短い",
+        "hiragana": "みじかい",
+        "meaningVi": "ngắn"
+      },
+      {
+        "kanji": "明るい",
+        "hiragana": "あかるい",
+        "meaningVi": "sáng; sáng sủa"
+      },
+      {
+        "kanji": "暗い",
+        "hiragana": "くらい",
+        "meaningVi": "tối"
+      },
+      {
+        "kanji": "背が高い",
+        "hiragana": "せがたかい",
+        "meaningVi": "cao (dùng cho người)"
+      },
+      {
+        "kanji": "頭がいい",
+        "hiragana": "あたまがいい",
+        "meaningVi": "thông minh"
+      },
+      {
+        "kanji": "体",
+        "hiragana": "からだ",
+        "meaningVi": "cơ thể; sức khỏe"
+      },
+      {
+        "kanji": "頭",
+        "hiragana": "あたま",
+        "meaningVi": "đầu"
+      },
+      {
+        "kanji": "髪",
+        "hiragana": "かみ",
+        "meaningVi": "tóc"
+      },
+      {
+        "kanji": "顔",
+        "hiragana": "かお",
+        "meaningVi": "mặt"
+      },
+      {
+        "kanji": "目",
+        "hiragana": "め",
+        "meaningVi": "mắt"
+      },
+      {
+        "kanji": "耳",
+        "hiragana": "みみ",
+        "meaningVi": "tai"
+      },
+      {
+        "kanji": "口",
+        "hiragana": "くち",
+        "meaningVi": "miệng"
+      },
+      {
+        "kanji": "歯",
+        "hiragana": "は",
+        "meaningVi": "răng"
+      },
+      {
+        "kanji": "",
+        "hiragana": "おなか",
+        "meaningVi": "bụng"
+      },
+      {
+        "kanji": "足",
+        "hiragana": "あし",
+        "meaningVi": "chân"
+      },
+      {
+        "kanji": "",
+        "hiragana": "サービス",
+        "meaningVi": "dịch vụ"
+      },
+      {
+        "kanji": "",
+        "hiragana": "ジョギング",
+        "meaningVi": "chạy bộ"
+      },
+      {
+        "kanji": "",
+        "hiragana": "シャワー",
+        "meaningVi": "vòi hoa sen"
+      },
+      {
+        "kanji": "緑",
+        "hiragana": "みどり",
+        "meaningVi": "màu xanh lá cây; cây xanh"
+      },
+      {
+        "kanji": "［お］寺",
+        "hiragana": "［お］てら",
+        "meaningVi": "chùa"
+      },
+      {
+        "kanji": "神社",
+        "hiragana": "じんじゃ",
+        "meaningVi": "đền thờ Thần đạo"
+      },
+      {
+        "kanji": "留学生",
+        "hiragana": "りゅうがくせい",
+        "meaningVi": "du học sinh"
+      },
+      {
+        "kanji": "～番",
+        "hiragana": "～ばん",
+        "meaningVi": "số ~"
+      },
+      {
+        "kanji": "",
+        "hiragana": "どうやって",
+        "meaningVi": "bằng cách nào; làm thế nào"
+      },
+      {
+        "kanji": "",
+        "hiragana": "どの～",
+        "meaningVi": "~ nào (trong số từ 3 trở lên)"
+      },
+      {
+        "kanji": "［いいえ、］まだまだです",
+        "hiragana": "［いいえ、］まだまだです",
+        "meaningVi": "[không,] tôi vẫn còn kém lắm (cách nói khiêm tốn)"
+      },
+      {
+        "kanji": "お引き出しですか",
+        "hiragana": "おひきだしですか",
+        "meaningVi": "quý khách rút tiền ạ?"
+      },
+      {
+        "kanji": "",
+        "hiragana": "まず",
+        "meaningVi": "trước tiên; đầu tiên"
+      },
+      {
+        "kanji": "",
+        "hiragana": "キャッシュカード",
+        "meaningVi": "thẻ ATM"
+      },
+      {
+        "kanji": "暗証番号",
+        "hiragana": "あんしょうばんごう",
+        "meaningVi": "mã số bí mật; mật khẩu"
+      },
+      {
+        "kanji": "次に",
+        "hiragana": "つぎに",
+        "meaningVi": "tiếp theo"
+      },
+      {
+        "kanji": "金額",
+        "hiragana": "きんがく",
+        "meaningVi": "số tiền"
+      },
+      {
+        "kanji": "確認",
+        "hiragana": "かくにん",
+        "meaningVi": "sự xác nhận"
+      },
+      {
+        "kanji": "",
+        "hiragana": "ボタン",
+        "meaningVi": "nút bấm"
+      }
+    ]
+  },
+  {
+    "lesson": 17,
+    "cards": [
+      {
+        "kanji": "覚えます",
+        "hiragana": "おぼえます",
+        "meaningVi": "nhớ"
+      },
+      {
+        "kanji": "忘れます",
+        "hiragana": "わすれます",
+        "meaningVi": "quên"
+      },
+      {
+        "kanji": "",
+        "hiragana": "なくします",
+        "meaningVi": "mất; đánh mất"
+      },
+      {
+        "kanji": "出します［レポートを～］",
+        "hiragana": "だします［レポートを～］",
+        "meaningVi": "nộp [báo cáo]"
+      },
+      {
+        "kanji": "払います",
+        "hiragana": "はらいます",
+        "meaningVi": "trả (tiền)"
+      },
+      {
+        "kanji": "返します",
+        "hiragana": "かえします",
+        "meaningVi": "trả lại"
+      },
+      {
+        "kanji": "出かけます",
+        "hiragana": "でかけます",
+        "meaningVi": "đi ra ngoài"
+      },
+      {
+        "kanji": "脱ぎます",
+        "hiragana": "ぬぎます",
+        "meaningVi": "cởi (quần áo, giày dép...)"
+      },
+      {
+        "kanji": "持って行きます",
+        "hiragana": "もっていきます",
+        "meaningVi": "mang đi"
+      },
+      {
+        "kanji": "持って来ます",
+        "hiragana": "もってきます",
+        "meaningVi": "mang đến"
+      },
+      {
+        "kanji": "心配します",
+        "hiragana": "しんぱいします",
+        "meaningVi": "lo lắng"
+      },
+      {
+        "kanji": "残業します",
+        "hiragana": "ざんぎょうします",
+        "meaningVi": "làm thêm giờ"
+      },
+      {
+        "kanji": "出張します",
+        "hiragana": "しゅっちょうします",
+        "meaningVi": "đi công tác"
+      },
+      {
+        "kanji": "飲みます［薬を～］",
+        "hiragana": "のみます［くすりを～］",
+        "meaningVi": "uống [thuốc]"
+      },
+      {
+        "kanji": "入ります［お風呂に～］",
+        "hiragana": "はいります［おふろに～］",
+        "meaningVi": "tắm [bồn]"
+      },
+      {
+        "kanji": "大切［な］",
+        "hiragana": "たいせつ［な］",
+        "meaningVi": "quan trọng; quý giá"
+      },
+      {
+        "kanji": "大丈夫［な］",
+        "hiragana": "だいじょうぶ［な］",
+        "meaningVi": "không sao; ổn"
+      },
+      {
+        "kanji": "危ない",
+        "hiragana": "あぶない",
+        "meaningVi": "nguy hiểm"
+      },
+      {
+        "kanji": "問題",
+        "hiragana": "もんだい",
+        "meaningVi": "vấn đề; câu hỏi"
+      },
+      {
+        "kanji": "答え",
+        "hiragana": "こたえ",
+        "meaningVi": "câu trả lời"
+      },
+      {
+        "kanji": "禁煙",
+        "hiragana": "きんえん",
+        "meaningVi": "cấm hút thuốc"
+      },
+      {
+        "kanji": "［健康］保険証",
+        "hiragana": "［けんこう］ほけんしょう",
+        "meaningVi": "thẻ bảo hiểm [y tế]"
+      },
+      {
+        "kanji": "風邪",
+        "hiragana": "かぜ",
+        "meaningVi": "cảm cúm"
+      },
+      {
+        "kanji": "熱",
+        "hiragana": "ねつ",
+        "meaningVi": "sốt"
+      },
+      {
+        "kanji": "病気",
+        "hiragana": "びょうき",
+        "meaningVi": "bệnh; ốm"
+      },
+      {
+        "kanji": "薬",
+        "hiragana": "くすり",
+        "meaningVi": "thuốc"
+      },
+      {
+        "kanji": "［お］風呂",
+        "hiragana": "［お］ふろ",
+        "meaningVi": "bồn tắm; nhà tắm"
+      },
+      {
+        "kanji": "上着",
+        "hiragana": "うわぎ",
+        "meaningVi": "áo khoác"
+      },
+      {
+        "kanji": "下着",
+        "hiragana": "したぎ",
+        "meaningVi": "quần áo lót"
+      },
+      {
+        "kanji": "先生",
+        "hiragana": "せんせい",
+        "meaningVi": "bác sĩ (cách gọi bác sĩ)"
+      },
+      {
+        "kanji": "",
+        "hiragana": "２、３にち",
+        "meaningVi": "2, 3 ngày"
+      },
+      {
+        "kanji": "",
+        "hiragana": "２、３～",
+        "meaningVi": "vài ~"
+      },
+      {
+        "kanji": "～までに",
+        "hiragana": "～までに",
+        "meaningVi": "trước ~ (chỉ thời hạn)"
+      },
+      {
+        "kanji": "",
+        "hiragana": "ですから",
+        "meaningVi": "vì vậy; cho nên"
+      },
+      {
+        "kanji": "どうしましたか",
+        "hiragana": "どうしましたか",
+        "meaningVi": "anh/chị bị làm sao thế?"
+      },
+      {
+        "kanji": "［～が］痛いです",
+        "hiragana": "［～が］いたいです",
+        "meaningVi": "tôi bị đau [~]"
+      },
+      {
+        "kanji": "のど",
+        "hiragana": "のど",
+        "meaningVi": "cổ họng"
+      },
+      {
+        "kanji": "お大事に",
+        "hiragana": "おだいじに",
+        "meaningVi": "anh/chị giữ gìn sức khỏe nhé (chúc người ốm mau khỏi)"
+      }
+    ]
+  },
+  {
+    "lesson": 18,
+    "cards": [
+      {
+        "kanji": "",
+        "hiragana": "できます",
+        "meaningVi": "có thể; làm được"
+      },
+      {
+        "kanji": "洗います",
+        "hiragana": "あらいます",
+        "meaningVi": "rửa; giặt"
+      },
+      {
+        "kanji": "弾きます",
+        "hiragana": "ひきます",
+        "meaningVi": "chơi (nhạc cụ)"
+      },
+      {
+        "kanji": "歌います",
+        "hiragana": "うたいます",
+        "meaningVi": "hát"
+      },
+      {
+        "kanji": "集めます",
+        "hiragana": "あつめます",
+        "meaningVi": "sưu tầm; thu thập"
+      },
+      {
+        "kanji": "捨てます",
+        "hiragana": "すてます",
+        "meaningVi": "vứt; bỏ"
+      },
+      {
+        "kanji": "換えます",
+        "hiragana": "かえます",
+        "meaningVi": "đổi"
+      },
+      {
+        "kanji": "運転します",
+        "hiragana": "うんてんします",
+        "meaningVi": "lái (xe)"
+      },
+      {
+        "kanji": "予約します",
+        "hiragana": "よやくします",
+        "meaningVi": "đặt trước"
+      },
+      {
+        "kanji": "見学します",
+        "hiragana": "けんがくします",
+        "meaningVi": "tham quan học tập"
+      },
+      {
+        "kanji": "",
+        "hiragana": "ピアノ",
+        "meaningVi": "đàn piano"
+      },
+      {
+        "kanji": "～メートル",
+        "hiragana": "～メートル",
+        "meaningVi": "~ mét"
+      },
+      {
+        "kanji": "国際～",
+        "hiragana": "こくさい～",
+        "meaningVi": "quốc tế ~"
+      },
+      {
+        "kanji": "現金",
+        "hiragana": "げんきん",
+        "meaningVi": "tiền mặt"
+      },
+      {
+        "kanji": "趣味",
+        "hiragana": "しゅみ",
+        "meaningVi": "sở thích"
+      },
+      {
+        "kanji": "日記",
+        "hiragana": "にっき",
+        "meaningVi": "nhật ký"
+      },
+      {
+        "kanji": "［お］祈り",
+        "hiragana": "［お］いのり",
+        "meaningVi": "việc cầu nguyện"
+      },
+      {
+        "kanji": "課長",
+        "hiragana": "かちょう",
+        "meaningVi": "trưởng phòng"
+      },
+      {
+        "kanji": "部長",
+        "hiragana": "ぶちょう",
+        "meaningVi": "trưởng ban; giám đốc bộ phận"
+      },
+      {
+        "kanji": "社長",
+        "hiragana": "しゃちょう",
+        "meaningVi": "giám đốc công ty"
+      },
+      {
+        "kanji": "動物",
+        "hiragana": "どうぶつ",
+        "meaningVi": "động vật"
+      },
+      {
+        "kanji": "馬",
+        "hiragana": "うま",
+        "meaningVi": "con ngựa"
+      },
+      {
+        "kanji": "",
+        "hiragana": "へえ",
+        "meaningVi": "thế à! (thể hiện sự ngạc nhiên)"
+      },
+      {
+        "kanji": "それは面白いですね",
+        "hiragana": "それはおもしろいですね",
+        "meaningVi": "điều đó thú vị quá nhỉ"
+      },
+      {
+        "kanji": "",
+        "hiragana": "なかなか",
+        "meaningVi": "mãi mà không; khó mà (dùng với phủ định)"
+      },
+      {
+        "kanji": "牧場",
+        "hiragana": "ぼくじょう",
+        "meaningVi": "trang trại chăn nuôi"
+      },
+      {
+        "kanji": "本当ですか",
+        "hiragana": "ほんとうですか",
+        "meaningVi": "thật không ạ?"
+      },
+      {
+        "kanji": "ぜひ",
+        "hiragana": "ぜひ",
+        "meaningVi": "nhất định; rất muốn"
+      }
+    ]
+  },
+  {
+    "lesson": 19,
+    "cards": [
+      {
+        "kanji": "登ります［山に～］",
+        "hiragana": "のぼります［やまに～］",
+        "meaningVi": "leo [núi]"
+      },
+      {
+        "kanji": "泊まります［ホテルに～］",
+        "hiragana": "とまります［ホテルに～］",
+        "meaningVi": "trọ; nghỉ lại [ở khách sạn]"
+      },
+      {
+        "kanji": "掃除します",
+        "hiragana": "そうじします",
+        "meaningVi": "dọn dẹp; vệ sinh"
+      },
+      {
+        "kanji": "洗濯します",
+        "hiragana": "せんたくします",
+        "meaningVi": "giặt giũ"
+      },
+      {
+        "kanji": "練習します",
+        "hiragana": "れんしゅうします",
+        "meaningVi": "luyện tập"
+      },
+      {
+        "kanji": "",
+        "hiragana": "なります",
+        "meaningVi": "trở nên; trở thành"
+      },
+      {
+        "kanji": "眠い",
+        "hiragana": "ねむい",
+        "meaningVi": "buồn ngủ"
+      },
+      {
+        "kanji": "強い",
+        "hiragana": "つよい",
+        "meaningVi": "mạnh; khỏe"
+      },
+      {
+        "kanji": "弱い",
+        "hiragana": "よわい",
+        "meaningVi": "yếu"
+      },
+      {
+        "kanji": "調子がいい",
+        "hiragana": "ちょうしがいい",
+        "meaningVi": "tình trạng tốt; máy móc chạy tốt"
+      },
+      {
+        "kanji": "調子が悪い",
+        "hiragana": "ちょうしがわるい",
+        "meaningVi": "tình trạng không tốt; trong người khó chịu"
+      },
+      {
+        "kanji": "調子",
+        "hiragana": "ちょうし",
+        "meaningVi": "tình trạng; trạng thái"
+      },
+      {
+        "kanji": "",
+        "hiragana": "ゴルフ",
+        "meaningVi": "môn đánh gôn"
+      },
+      {
+        "kanji": "相撲",
+        "hiragana": "すもう",
+        "meaningVi": "môn đấu vật Sumo"
+      },
+      {
+        "kanji": "",
+        "hiragana": "パチンコ",
+        "meaningVi": "trò chơi Pachinko"
+      },
+      {
+        "kanji": "お茶",
+        "hiragana": "おちゃ",
+        "meaningVi": "trà đạo"
+      },
+      {
+        "kanji": "日",
+        "hiragana": "ひ",
+        "meaningVi": "ngày"
+      },
+      {
+        "kanji": "一度",
+        "hiragana": "いちど",
+        "meaningVi": "một lần"
+      },
+      {
+        "kanji": "一度も",
+        "hiragana": "いちども",
+        "meaningVi": "chưa một lần nào (dùng với phủ định)"
+      },
+      {
+        "kanji": "",
+        "hiragana": "だんだん",
+        "meaningVi": "dần dần"
+      },
+      {
+        "kanji": "",
+        "hiragana": "もうすぐ",
+        "meaningVi": "sắp; sắp sửa"
+      },
+      {
+        "kanji": "",
+        "hiragana": "おかげさまで",
+        "meaningVi": "nhờ trời; nhờ có anh/chị"
+      },
+      {
+        "kanji": "乾杯",
+        "hiragana": "かんぱい",
+        "meaningVi": "cạn ly"
+      },
+      {
+        "kanji": "実は",
+        "hiragana": "じつは",
+        "meaningVi": "thật ra thì"
+      },
+      {
+        "kanji": "",
+        "hiragana": "ダイエット",
+        "meaningVi": "việc ăn kiêng"
+      },
+      {
+        "kanji": "何回も",
+        "hiragana": "なんかいも",
+        "meaningVi": "nhiều lần"
+      },
+      {
+        "kanji": "",
+        "hiragana": "しかし",
+        "meaningVi": "tuy nhiên; nhưng"
+      },
+      {
+        "kanji": "無理［な］",
+        "hiragana": "むり［な］",
+        "meaningVi": "quá sức; vô lý"
+      },
+      {
+        "kanji": "体にいい",
+        "hiragana": "からだにいい",
+        "meaningVi": "tốt cho sức khỏe"
+      },
+      {
+        "kanji": "ケーキ",
+        "hiragana": "ケーキ",
+        "meaningVi": "bánh ngọt"
+      }
+    ]
+  },
+  {
+    "lesson": 20,
+    "cards": [
+      {
+        "kanji": "要ります［ビザが～］",
+        "hiragana": "いります［ビザが～］",
+        "meaningVi": "cần [thị thực/visa]"
+      },
+      {
+        "kanji": "調べます",
+        "hiragana": "しらべます",
+        "meaningVi": "tìm hiểu; điều tra; xem xét"
+      },
+      {
+        "kanji": "直します",
+        "hiragana": "なおします",
+        "meaningVi": "sửa; chữa"
+      },
+      {
+        "kanji": "修理します",
+        "hiragana": "しゅうりします",
+        "meaningVi": "sửa chữa"
+      },
+      {
+        "kanji": "電話します",
+        "hiragana": "でんわします",
+        "meaningVi": "gọi điện thoại"
+      },
+      {
+        "kanji": "僕",
+        "hiragana": "ぼく",
+        "meaningVi": "tôi (cách xưng hô thân mật của nam giới)"
+      },
+      {
+        "kanji": "君",
+        "hiragana": "きみ",
+        "meaningVi": "cậu; bạn (cách gọi thân mật của あなた)"
+      },
+      {
+        "kanji": "～君",
+        "hiragana": "～くん",
+        "meaningVi": "~ (hậu tố gọi thân mật sau tên)"
+      },
+      {
+        "kanji": "",
+        "hiragana": "うん",
+        "meaningVi": "ừ (cách nói thân mật của はい)"
+      },
+      {
+        "kanji": "",
+        "hiragana": "ううん",
+        "meaningVi": "không (cách nói thân mật của いいえ)"
+      },
+      {
+        "kanji": "",
+        "hiragana": "サラリーマン",
+        "meaningVi": "nhân viên văn phòng; người làm công ăn lương"
+      },
+      {
+        "kanji": "言葉",
+        "hiragana": "ことば",
+        "meaningVi": "từ ngữ; ngôn ngữ"
+      },
+      {
+        "kanji": "物価",
+        "hiragana": "ぶっか",
+        "meaningVi": "giá cả; vật giá"
+      },
+      {
+        "kanji": "着物",
+        "hiragana": "きもの",
+        "meaningVi": "trang phục truyền thống Kimono"
+      },
+      {
+        "kanji": "",
+        "hiragana": "ビザ",
+        "meaningVi": "thị thực; visa"
+      },
+      {
+        "kanji": "初め",
+        "hiragana": "はじめ",
+        "meaningVi": "ban đầu; lúc đầu"
+      },
+      {
+        "kanji": "終わり",
+        "hiragana": "おわり",
+        "meaningVi": "kết thúc"
+      },
+      {
+        "kanji": "",
+        "hiragana": "こっち",
+        "meaningVi": "phía này; đằng này (thân mật của こちら)"
+      },
+      {
+        "kanji": "",
+        "hiragana": "そっち",
+        "meaningVi": "phía đó; đằng đó (thân mật của そちら)"
+      },
+      {
+        "kanji": "",
+        "hiragana": "あっち",
+        "meaningVi": "phía kia; đằng kia (thân mật của あちら)"
+      },
+      {
+        "kanji": "",
+        "hiragana": "どっち",
+        "meaningVi": "phía nào; cái nào (thân mật của どちら)"
+      },
+      {
+        "kanji": "この間",
+        "hiragana": "このあいだ",
+        "meaningVi": "hôm nọ; dạo trước"
+      },
+      {
+        "kanji": "",
+        "hiragana": "みんなで",
+        "meaningVi": "mọi người cùng nhau"
+      },
+      {
+        "kanji": "～けど",
+        "hiragana": "～けど",
+        "meaningVi": "~ nhưng (thân mật của ～が)"
+      },
+      {
+        "kanji": "国へ帰るの？",
+        "hiragana": "くにへかえるの？",
+        "meaningVi": "cậu về nước à?"
+      },
+      {
+        "kanji": "どうするの？",
+        "hiragana": "どうするの？",
+        "meaningVi": "cậu định làm thế nào?"
+      },
+      {
+        "kanji": "どうしようかな",
+        "hiragana": "どうしようかな",
+        "meaningVi": "làm thế nào bây giờ nhỉ"
+      },
+      {
+        "kanji": "よかったら",
+        "hiragana": "よかったら",
+        "meaningVi": "nếu được thì; nếu cậu thích thì"
+      },
+      {
+        "kanji": "色々",
+        "hiragana": "いろいろ",
+        "meaningVi": "nhiều thứ; đủ thứ"
+      }
+    ]
+  },
+  {
+    "lesson": 21,
+    "cards": [
+      {
+        "kanji": "思います",
+        "hiragana": "おもいます",
+        "meaningVi": "nghĩ; cho rằng"
+      },
+      {
+        "kanji": "言います",
+        "hiragana": "いいます",
+        "meaningVi": "nói"
+      },
+      {
+        "kanji": "足ります",
+        "hiragana": "たります",
+        "meaningVi": "đủ"
+      },
+      {
+        "kanji": "勝ちます",
+        "hiragana": "かちます",
+        "meaningVi": "thắng"
+      },
+      {
+        "kanji": "負けます",
+        "hiragana": "まけます",
+        "meaningVi": "thua"
+      },
+      {
+        "kanji": "あります［お祭りが～］",
+        "hiragana": "あります［おまつりが～］",
+        "meaningVi": "có; được tổ chức [lễ hội]"
+      },
+      {
+        "kanji": "役に立ちます",
+        "hiragana": "やくにたちます",
+        "meaningVi": "có ích; giúp ích"
+      },
+      {
+        "kanji": "無駄［な］",
+        "hiragana": "むだ［な］",
+        "meaningVi": "lãng phí; vô ích"
+      },
+      {
+        "kanji": "不便［な］",
+        "hiragana": "ふべん［な］",
+        "meaningVi": "bất tiện"
+      },
+      {
+        "kanji": "同じ",
+        "hiragana": "おなじ",
+        "meaningVi": "giống nhau"
+      },
+      {
+        "kanji": "凄い",
+        "hiragana": "すごい",
+        "meaningVi": "ghê gớm; tuyệt vời (dùng cho cả nghĩa tốt và xấu)"
+      },
+      {
+        "kanji": "首相",
+        "hiragana": "しゅしょう",
+        "meaningVi": "thủ tướng"
+      },
+      {
+        "kanji": "大統領",
+        "hiragana": "だいとうりょう",
+        "meaningVi": "tổng thống"
+      },
+      {
+        "kanji": "政治",
+        "hiragana": "せいじ",
+        "meaningVi": "chính trị"
+      },
+      {
+        "kanji": "",
+        "hiragana": "ニュース",
+        "meaningVi": "tin tức; bản tin"
+      },
+      {
+        "kanji": "",
+        "hiragana": "スピーチ",
+        "meaningVi": "bài phát biểu; diễn văn"
+      },
+      {
+        "kanji": "試合",
+        "hiragana": "しあい",
+        "meaningVi": "trận đấu"
+      },
+      {
+        "kanji": "",
+        "hiragana": "アルバイト",
+        "meaningVi": "việc làm thêm"
+      },
+      {
+        "kanji": "意見",
+        "hiragana": "いけん",
+        "meaningVi": "ý kiến"
+      },
+      {
+        "kanji": "［お］話",
+        "hiragana": "［お］はなし",
+        "meaningVi": "câu chuyện; bài nói chuyện"
+      },
+      {
+        "kanji": "",
+        "hiragana": "ユーモア",
+        "meaningVi": "sự hài hước"
+      },
+      {
+        "kanji": "無駄",
+        "hiragana": "むだ",
+        "meaningVi": "sự lãng phí"
+      },
+      {
+        "kanji": "",
+        "hiragana": "デザイン",
+        "meaningVi": "thiết kế"
+      },
+      {
+        "kanji": "交通",
+        "hiragana": "こうつう",
+        "meaningVi": "giao thông"
+      },
+      {
+        "kanji": "",
+        "hiragana": "ラッシュ",
+        "meaningVi": "giờ cao điểm"
+      },
+      {
+        "kanji": "最近",
+        "hiragana": "さいきん",
+        "meaningVi": "gần đây; dạo này"
+      },
+      {
+        "kanji": "",
+        "hiragana": "たぶん",
+        "meaningVi": "có lẽ; chắc là"
+      },
+      {
+        "kanji": "",
+        "hiragana": "きっと",
+        "meaningVi": "chắc chắn"
+      },
+      {
+        "kanji": "本当に",
+        "hiragana": "ほんとうに",
+        "meaningVi": "thật sự"
+      },
+      {
+        "kanji": "",
+        "hiragana": "そんなに",
+        "meaningVi": "đến mức đó (dùng với phủ định)"
+      },
+      {
+        "kanji": "～について",
+        "hiragana": "～について",
+        "meaningVi": "về ~"
+      },
+      {
+        "kanji": "しかたがありません",
+        "hiragana": "しかたがありません",
+        "meaningVi": "đành chịu thôi; không còn cách nào khác"
+      },
+      {
+        "kanji": "しばらくですね",
+        "hiragana": "しばらくですね",
+        "meaningVi": "lâu rồi không gặp nhỉ"
+      },
+      {
+        "kanji": "～でも飲みませんか",
+        "hiragana": "～でものみませんか",
+        "meaningVi": "anh/chị uống chút gì đó như [~] nhé?"
+      },
+      {
+        "kanji": "見ないと……",
+        "hiragana": "みないと……",
+        "meaningVi": "tôi phải xem..."
+      },
+      {
+        "kanji": "もちろん",
+        "hiragana": "もちろん",
+        "meaningVi": "tất nhiên rồi"
+      }
+    ]
+  },
+  {
+    "lesson": 22,
+    "cards": [
+      {
+        "kanji": "着ます［シャツを～］",
+        "hiragana": "きます［シャツを～］",
+        "meaningVi": "mặc [áo sơ mi] (từ thắt lưng trở lên)"
+      },
+      {
+        "kanji": "履きます［靴を～］",
+        "hiragana": "はきます［くつを～］",
+        "meaningVi": "đi; mặc [giày, quần] (từ thắt lưng trở xuống)"
+      },
+      {
+        "kanji": "被ります［帽子を～］",
+        "hiragana": "かぶります［ぼうしを～］",
+        "meaningVi": "đội [mũ]"
+      },
+      {
+        "kanji": "かけます［眼鏡を～］",
+        "hiragana": "かけます［めがねを～］",
+        "meaningVi": "đeo [kính]"
+      },
+      {
+        "kanji": "生まれます",
+        "hiragana": "うまれます",
+        "meaningVi": "sinh ra"
+      },
+      {
+        "kanji": "",
+        "hiragana": "コート",
+        "meaningVi": "áo khoác ngoài; áo măng tô"
+      },
+      {
+        "kanji": "",
+        "hiragana": "スーツ",
+        "meaningVi": "bộ com-lê; bộ vest"
+      },
+      {
+        "kanji": "",
+        "hiragana": "セーター",
+        "meaningVi": "áo len"
+      },
+      {
+        "kanji": "帽子",
+        "hiragana": "ぼうし",
+        "meaningVi": "mũ; nón"
+      },
+      {
+        "kanji": "眼鏡",
+        "hiragana": "めがね",
+        "meaningVi": "kính đeo mắt"
+      },
+      {
+        "kanji": "よく",
+        "hiragana": "よく",
+        "meaningVi": "thường; hay"
+      },
+      {
+        "kanji": "おめでとうございます",
+        "hiragana": "おめでとうございます",
+        "meaningVi": "xin chúc mừng"
+      },
+      {
+        "kanji": "こちら",
+        "hiragana": "こちら",
+        "meaningVi": "cái này; đây (cách nói lịch sự của これ)"
+      },
+      {
+        "kanji": "家賃",
+        "hiragana": "やちん",
+        "meaningVi": "tiền thuê nhà"
+      },
+      {
+        "kanji": "",
+        "hiragana": "うーん",
+        "meaningVi": "ừm... (tiếng rên khi suy nghĩ)"
+      },
+      {
+        "kanji": "",
+        "hiragana": "ダイニングキッチン",
+        "meaningVi": "phòng ăn kiêm nhà bếp"
+      },
+      {
+        "kanji": "和室",
+        "hiragana": "わしつ",
+        "meaningVi": "phòng kiểu Nhật"
+      },
+      {
+        "kanji": "押し入れ",
+        "hiragana": "おしいれ",
+        "meaningVi": "tủ âm tường kiểu Nhật (để chăn đệm)"
+      },
+      {
+        "kanji": "布団",
+        "hiragana": "ふとん",
+        "meaningVi": "chăn đệm kiểu Nhật"
+      },
+      {
+        "kanji": "",
+        "hiragana": "アパート",
+        "meaningVi": "chung cư; nhà tập thể"
+      }
+    ]
+  },
+  {
+    "lesson": 23,
+    "cards": [
+      {
+        "kanji": "聞きます［先生に～］",
+        "hiragana": "ききます［せんせいに～］",
+        "meaningVi": "hỏi [giáo viên]"
+      },
+      {
+        "kanji": "回します",
+        "hiragana": "まわします",
+        "meaningVi": "vặn; xoay"
+      },
+      {
+        "kanji": "引きます",
+        "hiragana": "ひきます",
+        "meaningVi": "kéo"
+      },
+      {
+        "kanji": "変えます",
+        "hiragana": "かえます",
+        "meaningVi": "thay đổi"
+      },
+      {
+        "kanji": "触ります［ドアに～］",
+        "hiragana": "さわります［ドアに～］",
+        "meaningVi": "sờ; chạm vào [cửa]"
+      },
+      {
+        "kanji": "出ます［お釣りが～］",
+        "hiragana": "でます［おつりが～］",
+        "meaningVi": "ra [tiền thừa]"
+      },
+      {
+        "kanji": "動きます［時計が～］",
+        "hiragana": "うごきます［とけいが～］",
+        "meaningVi": "chạy; chuyển động [đồng hồ]"
+      },
+      {
+        "kanji": "歩きます［道を～］",
+        "hiragana": "あるきます［みちを～］",
+        "meaningVi": "đi bộ [trên đường]"
+      },
+      {
+        "kanji": "渡ります［橋を～］",
+        "hiragana": "わたります［はしを～］",
+        "meaningVi": "qua; băng qua [cầu]"
+      },
+      {
+        "kanji": "気をつけます［車に～］",
+        "hiragana": "きをつけます［くるまに～］",
+        "meaningVi": "chú ý; cẩn thận [với ô tô]"
+      },
+      {
+        "kanji": "引っ越しします",
+        "hiragana": "ひっこしします",
+        "meaningVi": "chuyển nhà"
+      },
+      {
+        "kanji": "電気屋",
+        "hiragana": "でんきや",
+        "meaningVi": "cửa hàng đồ điện"
+      },
+      {
+        "kanji": "～屋",
+        "hiragana": "～や",
+        "meaningVi": "người bán hàng ~"
+      },
+      {
+        "kanji": "サイズ",
+        "hiragana": "サイズ",
+        "meaningVi": "kích cỡ; size"
+      },
+      {
+        "kanji": "音",
+        "hiragana": "おと",
+        "meaningVi": "âm thanh; tiếng động"
+      },
+      {
+        "kanji": "機械",
+        "hiragana": "きかい",
+        "meaningVi": "máy móc"
+      },
+      {
+        "kanji": "",
+        "hiragana": "つまみ",
+        "meaningVi": "núm vặn"
+      },
+      {
+        "kanji": "故障",
+        "hiragana": "こしょう",
+        "meaningVi": "sự hỏng hóc"
+      },
+      {
+        "kanji": "道",
+        "hiragana": "みち",
+        "meaningVi": "đường; con đường"
+      },
+      {
+        "kanji": "交差点",
+        "hiragana": "こうさてん",
+        "meaningVi": "ngã tư"
+      },
+      {
+        "kanji": "信号",
+        "hiragana": "しんごう",
+        "meaningVi": "đèn tín hiệu"
+      },
+      {
+        "kanji": "角",
+        "hiragana": "かど",
+        "meaningVi": "góc (đường, phố)"
+      },
+      {
+        "kanji": "橋",
+        "hiragana": "はし",
+        "meaningVi": "cây cầu"
+      },
+      {
+        "kanji": "駐車場",
+        "hiragana": "ちゅうしゃじょう",
+        "meaningVi": "bãi đỗ xe"
+      },
+      {
+        "kanji": "～目",
+        "hiragana": "～め",
+        "meaningVi": "thứ ~ (chỉ thứ tự)"
+      },
+      {
+        "kanji": "［お］正月",
+        "hiragana": "［お］しょうがつ",
+        "meaningVi": "Tết dương lịch (ở Nhật)"
+      },
+      {
+        "kanji": "ごちそうさまでした",
+        "hiragana": "ごちそうさまでした",
+        "meaningVi": "cảm ơn vì bữa ăn ngon (nói sau khi ăn xong)"
+      },
+      {
+        "kanji": "建物",
+        "hiragana": "たてもの",
+        "meaningVi": "tòa nhà"
+      },
+      {
+        "kanji": "外国人登録証",
+        "hiragana": "がいこくじんとうろくしょう",
+        "meaningVi": "thẻ đăng ký người nước ngoài"
+      }
+    ]
+  },
+  {
+    "lesson": 24,
+    "cards": [
+      {
+        "kanji": "",
+        "hiragana": "くれます",
+        "meaningVi": "cho; tặng (người khác cho mình hoặc người nhà mình)"
+      },
+      {
+        "kanji": "連れて行きます",
+        "hiragana": "つれていきます",
+        "meaningVi": "dẫn đi; đưa đi (người, động vật)"
+      },
+      {
+        "kanji": "連れて来ます",
+        "hiragana": "つれてきます",
+        "meaningVi": "dẫn đến; đưa đến (người, động vật)"
+      },
+      {
+        "kanji": "送ります［人を～］",
+        "hiragana": "おくります［ひとを～］",
+        "meaningVi": "đưa; tiễn [ai đó]"
+      },
+      {
+        "kanji": "紹介します",
+        "hiragana": "しょうかいします",
+        "meaningVi": "giới thiệu"
+      },
+      {
+        "kanji": "案内します",
+        "hiragana": "あんないします",
+        "meaningVi": "hướng dẫn; dẫn đường"
+      },
+      {
+        "kanji": "説明します",
+        "hiragana": "せつめいします",
+        "meaningVi": "giải thích"
+      },
+      {
+        "kanji": "いれます［コーヒーを～］",
+        "hiragana": "いれます［コーヒーを～］",
+        "meaningVi": "pha [cà phê]"
+      },
+      {
+        "kanji": "おじいさん／おじいちゃん",
+        "hiragana": "おじいさん／おじいちゃん",
+        "meaningVi": "ông; ông nội; ông ngoại"
+      },
+      {
+        "kanji": "おばあさん／おばあちゃん",
+        "hiragana": "おばあさん／おばあちゃん",
+        "meaningVi": "bà; bà nội; bà ngoại"
+      },
+      {
+        "kanji": "準備",
+        "hiragana": "じゅんび",
+        "meaningVi": "sự chuẩn bị"
+      },
+      {
+        "kanji": "意味",
+        "hiragana": "いみ",
+        "meaningVi": "ý nghĩa"
+      },
+      {
+        "kanji": "［お］菓子",
+        "hiragana": "［お］かし",
+        "meaningVi": "bánh kẹo"
+      },
+      {
+        "kanji": "全部",
+        "hiragana": "ぜんぶ",
+        "meaningVi": "tất cả; toàn bộ"
+      },
+      {
+        "kanji": "自分で",
+        "hiragana": "じぶんで",
+        "meaningVi": "tự mình"
+      },
+      {
+        "kanji": "ほかに",
+        "hiragana": "ほかに",
+        "meaningVi": "ngoài ra; bên cạnh đó"
+      },
+      {
+        "kanji": "ワゴン車",
+        "hiragana": "ワゴンしゃ",
+        "meaningVi": "xe bán tải nhỏ; xe gia đình nhiều chỗ"
+      },
+      {
+        "kanji": "お弁当",
+        "hiragana": "おべんとう",
+        "meaningVi": "cơm hộp"
+      },
+      {
+        "kanji": "母の日",
+        "hiragana": "ははのひ",
+        "meaningVi": "Ngày của Mẹ"
+      }
+    ]
+  },
+  {
+    "lesson": 25,
+    "cards": [
+      {
+        "kanji": "考えます",
+        "hiragana": "かんがえます",
+        "meaningVi": "nghĩ; suy nghĩ"
+      },
+      {
+        "kanji": "着きます［駅に～］",
+        "hiragana": "つきます［えきに～］",
+        "meaningVi": "đến [ga]"
+      },
+      {
+        "kanji": "留学します",
+        "hiragana": "りゅうがくします",
+        "meaningVi": "du học"
+      },
+      {
+        "kanji": "取ります［年を～］",
+        "hiragana": "とります［としを～］",
+        "meaningVi": "có tuổi; già đi"
+      },
+      {
+        "kanji": "田舎",
+        "hiragana": "いなか",
+        "meaningVi": "quê; nông thôn"
+      },
+      {
+        "kanji": "大使館",
+        "hiragana": "たいしかん",
+        "meaningVi": "đại sứ quán"
+      },
+      {
+        "kanji": "グループ",
+        "hiragana": "グループ",
+        "meaningVi": "nhóm"
+      },
+      {
+        "kanji": "",
+        "hiragana": "チャンス",
+        "meaningVi": "cơ hội"
+      },
+      {
+        "kanji": "億",
+        "hiragana": "おく",
+        "meaningVi": "trăm triệu"
+      },
+      {
+        "kanji": "もし［～たら］",
+        "hiragana": "もし［～たら］",
+        "meaningVi": "nếu [~ thì]"
+      },
+      {
+        "kanji": "いくら［～ても］",
+        "hiragana": "いくら［～ても］",
+        "meaningVi": "cho dù [~] bao nhiêu đi nữa"
+      },
+      {
+        "kanji": "転勤",
+        "hiragana": "てんきん",
+        "meaningVi": "việc chuyển công tác"
+      },
+      {
+        "kanji": "こと",
+        "hiragana": "こと",
+        "meaningVi": "việc; điều"
+      },
+      {
+        "kanji": "一杯飲みましょう",
+        "hiragana": "いっぱいのましょう",
+        "meaningVi": "chúng ta cùng uống một ly nhé"
+      },
+      {
+        "kanji": "［いろいろ］お世話になりました",
+        "hiragana": "［いろいろ］おせわになりました",
+        "meaningVi": "tôi đã nhận được [nhiều] sự giúp đỡ của anh/chị"
+      },
+      {
+        "kanji": "頑張ります",
+        "hiragana": "がんばります",
+        "meaningVi": "cố gắng"
+      },
+      {
+        "kanji": "どうぞお元気で",
+        "hiragana": "どうぞおげんきで",
+        "meaningVi": "chúc anh/chị mạnh khỏe (lời chúc khi chia tay lâu ngày)"
+      }
+    ]
+  }
+]

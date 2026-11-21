@@ -2,15 +2,19 @@ import { useEffect, useState } from "react";
 import {
   ArrowRight,
   ArrowUpRight,
+  ChevronLeft,
+  ChevronRight,
   Facebook,
   Instagram,
   Leaf,
   Menu,
+  RotateCcw,
   Search,
   Sprout,
   X,
 } from "lucide-react";
 import animalsData from "./animals.json";
+import kanjiVocabularyData from "./kanjiVocabulary.json";
 import productsData from "./products.json";
 import { translations, type Language } from "./translations";
 
@@ -30,7 +34,10 @@ type Animal = {
 const animals: Animal[] = animalsData;
 
 function animalSlug(name: string) {
-  return name.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
+  return name
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-|-$/g, "");
 }
 
 function animalFromPath(pathname: string) {
@@ -70,8 +77,18 @@ function App() {
     (typeof productsData)[number] | null
   >(null);
   const [showProducts, setShowProducts] = useState(false);
+  const [kanjiLessonNumber, setKanjiLessonNumber] = useState(1);
+  const [kanjiCardIndex, setKanjiCardIndex] = useState(0);
+  const [showKanjiAnswer, setShowKanjiAnswer] = useState(false);
+  const isLearnKanji = pathname === "/learn-kanji";
   const detailAnimal = animalFromPath(pathname);
   const currentAnimal = animals[5];
+  const currentKanjiLesson = kanjiVocabularyData.find(
+    (lesson) => lesson.lesson === kanjiLessonNumber,
+  );
+  const currentKanjiCards = currentKanjiLesson?.cards ?? [];
+  const currentKanjiCard = currentKanjiCards[kanjiCardIndex];
+  const currentCardHasKanji = currentKanjiCard.kanji.trim().length > 0;
 
   const text = translations[language];
 
@@ -123,9 +140,7 @@ function App() {
 
     if ((id === "about" || id === "gallery") && target) {
       window.scrollTo({
-        top:
-          target.getBoundingClientRect().top +
-          window.scrollY,
+        top: target.getBoundingClientRect().top + window.scrollY,
         behavior: "smooth",
       });
       return;
@@ -138,6 +153,14 @@ function App() {
   };
 
   const navigateTo = (id: string) => {
+    if (isLearnKanji) {
+      navigatePath("/");
+      setDetailProduct(null);
+      setShowProducts(false);
+      window.setTimeout(() => scrollTo(id), 0);
+      return;
+    }
+
     if (detailProduct) {
       setDetailProduct(null);
       setShowProducts(false);
@@ -166,6 +189,30 @@ function App() {
     setDetailProduct(null);
     setShowProducts(true);
     window.scrollTo({ top: 0, behavior: "smooth" });
+  };
+
+  const openLearnKanji = () => {
+    setMenuOpen(false);
+    setDetailProduct(null);
+    setShowProducts(false);
+    setShowKanjiAnswer(false);
+    navigatePath("/learn-kanji");
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  };
+
+  const moveKanjiCard = (direction: -1 | 1) => {
+    setKanjiCardIndex(
+      (currentIndex) =>
+        (currentIndex + direction + currentKanjiCards.length) %
+        currentKanjiCards.length,
+    );
+    setShowKanjiAnswer(false);
+  };
+
+  const selectKanjiLesson = (lessonNumber: number) => {
+    setKanjiLessonNumber(lessonNumber);
+    setKanjiCardIndex(0);
+    setShowKanjiAnswer(false);
   };
 
   const openProduct = (product: (typeof productsData)[number]) => {
@@ -230,11 +277,124 @@ function App() {
             </button>
             <button onClick={openProducts}>{text.navProduct}</button>
             <button onClick={() => navigateTo("about")}>{text.navAbout}</button>
+            <button onClick={openLearnKanji}>{text.navLearn}</button>
           </nav>
         </div>
       </header>
 
-      {detailProduct ? (
+      {isLearnKanji ? (
+        <section className="learn-kanji-section page-shell section-pad">
+          <div className="learn-kanji-heading">
+            <p className="eyebrow">{text.learnEyebrow}</p>
+            <h1>{text.learnTitle}</h1>
+            <p className="learn-kanji-description">{text.learnDescription}</p>
+          </div>
+
+          <div className="kanji-study">
+            <label className="kanji-lesson-select">
+              <select
+                value={kanjiLessonNumber}
+                onChange={(event) =>
+                  selectKanjiLesson(Number(event.target.value))
+                }
+              >
+                {kanjiVocabularyData.map((lesson) => (
+                  <option key={lesson.lesson} value={lesson.lesson}>
+                    {text.learnLessonOption.replace(
+                      "{lesson}",
+                      String(lesson.lesson).replace(/\d/g, (digit) =>
+                        String.fromCharCode(digit.charCodeAt(0) + 0xfee0),
+                      ),
+                    )}
+                  </option>
+                ))}
+              </select>
+            </label>
+            <div className="kanji-study-topline">
+              <span>
+                {currentCardHasKanji
+                  ? text.learnFrontLabel
+                  : text.learnHiraganaLabel}
+              </span>
+              <span>
+                {String(kanjiCardIndex + 1).padStart(2, "0")} /{" "}
+                {String(currentKanjiCards.length).padStart(2, "0")}
+              </span>
+            </div>
+            <button
+              className={`kanji-flashcard${showKanjiAnswer ? " is-revealed" : ""}`}
+              type="button"
+              onClick={() => setShowKanjiAnswer((showAnswer) => !showAnswer)}
+              aria-pressed={showKanjiAnswer}
+              aria-label={
+                showKanjiAnswer ? text.learnHideAnswer : text.learnShowAnswer
+              }
+            >
+              {showKanjiAnswer ? (
+                <span className="kanji-answer">
+                  {currentCardHasKanji && (
+                    <span className="kanji-reading">
+                      {currentKanjiCard.hiragana}
+                    </span>
+                  )}
+                  <span className="kanji-meaning">
+                    {currentKanjiCard.meaningVi}
+                  </span>
+                </span>
+              ) : (
+                <span className="kanji-front">
+                  {currentCardHasKanji
+                    ? currentKanjiCard.kanji
+                    : currentKanjiCard.hiragana}
+                </span>
+              )}
+              <span className="kanji-card-hint">
+                <RotateCcw size={14} />
+                {showKanjiAnswer
+                  ? currentCardHasKanji
+                    ? text.learnBackLabel
+                    : text.learnVietnameseLabel
+                  : text.learnShowAnswer}
+              </span>
+            </button>
+            <div
+              className="kanji-progress"
+              role="progressbar"
+              aria-valuemin={1}
+              aria-valuemax={currentKanjiCards.length}
+              aria-valuenow={kanjiCardIndex + 1}
+              aria-label={`${kanjiCardIndex + 1} of ${currentKanjiCards.length}`}
+            >
+              <span
+                style={{
+                  width: `${((kanjiCardIndex + 1) / currentKanjiCards.length) * 100}%`,
+                }}
+              />
+            </div>
+            <div className="kanji-card-controls">
+              <button
+                className="button button-outline"
+                type="button"
+                onClick={() => moveKanjiCard(-1)}
+              >
+                <ChevronLeft size={15} />
+                {text.learnPrevious}
+              </button>
+              <button
+                className="button button-dark"
+                type="button"
+                onClick={() => moveKanjiCard(1)}
+              >
+                {text.learnNext}
+                <ChevronRight size={15} />
+              </button>
+            </div>
+            <p className="kanji-encouragement">
+              2年後、日本へ行ってタンチョウの写真を撮るぞ！！！
+            </p>
+          </div>
+        </section>
+      ) : detailProduct ? (
         <section className="product-detail-section page-shell section-pad">
           <button
             className="text-link detail-back"
